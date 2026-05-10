@@ -1,0 +1,5 @@
+{
+  "date": "2026-05-10",
+  "title": "Mer konsekvent gränssnitt, bättre export och hopfällbar rabattsektion",
+  "description": "### 🎉 Nya funktioner\n\n- **Hopfällbar rabattsektion:** Rabattbrev-sektionen kan nu fällas ihop för att minska visuellt stök och göra det enklare att koncentrera sig på kalkylen.\n\n### 🚀 Förbättringar\n\n- **Exportkolumner synkade med tabell:** Exporten använder nu samma kolumner och ordning som i tabellvyn, vilket gör det enklare att få en export som matchar det du ser.\n- **Enhetlig toolbar och knappstil:** Verktygsfält och knappar har fått en mer konsekvent design och hierarki så att funktioner blir lättare att hitta.\n\n### 🐛 Buggfixar\n\n- **Fixat problem med kolumnväljaren:** Åtgärdade ett fel som ibland gjorde att kolumnvisningspanelen inte fungerade eller visades felaktigt, så du kan återigen visa och dölja kolumner utan problem."
+}
