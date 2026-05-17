@@ -1,0 +1,5 @@
+{
+  "date": "2026-05-17",
+  "title": "Bättre åtkomst, stabilare datauppdateringar och anonym användningsstatistik",
+  "description": "### 🎉 Nya funktioner\n\n- **Anonym användningsstatistik:** Vi samlar nu anonymiserad information om hur funktioner används för att snabbare prioritera förbättringar som gör Kalkyldata enklare och effektivare att använda.\n\n### 🚀 Förbättringar\n\n- **Bättre åtkomsthantering:** Förenklad och mer tillförlitlig hantering av användarrättigheter gör att personer med rätt behörighet får konsekvent åtkomst.\n- **Stabilare datauppdateringar:** Migreringar och uppdateringar hanteras nu på ett sätt som minskar risken för avbrott och problem med sparade kalkyler.\n- **Minskad minnesanvändning:** Optimeringar i minneshanteringen gör att stora kalkyler reagerar snabbare och använder mindre resurser.\n\n### 🐛 Buggfixar\n\n- **Åtgärdade åtkomstfel:** Korrigerade rättigheter minskar risken för att vissa användare förlorar åtkomst och upplever oväntade fel."
+}
