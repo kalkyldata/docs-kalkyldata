@@ -1,0 +1,5 @@
+{
+  "date": "2026-05-25",
+  "title": "Bättre sök, tydligare designvarianter och mer stabil bildhantering",
+  "description": "### 🎉 Nya funktioner\n\n- **Designvarianter visas:** Visar nu olika designvarianter direkt i gränssnittet så att du enkelt kan jämföra och välja den layout som passar din kalkyl.\n\n### 🚀 Förbättringar\n\n- **Förbättrad sökinformation:** Uppdaterade hjälpmaterial och beskrivningar som förklarar hur sökfunktionen ger mer relevanta resultat, så att du snabbare hittar rätt kalkyl eller data.\n- **Tydligare bildindikatorer:** Visar en ikon när en bild saknas och en ersättningsbild om en bild inte kan laddas, vilket gör det enklare att se när något saknas i dina kalkyler.\n- **Visuellt förbättrad laddning:** Tänk-texten har fått en diskret shimmer-effekt för bättre visuell feedback när systemet bearbetar information.\n\n### 🐛 Buggfixar\n\n- **Rätt sekretess vid kopiering:** När du skapar en kopia av en kalkyl sätts nu sekretessinställningen korrekt som förväntat, så att du inte behöver justera den manuellt efter kopiering."
+}
