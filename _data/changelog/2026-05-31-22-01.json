@@ -1,0 +1,5 @@
+{
+  "date": "2026-05-31",
+  "title": "Källhänvisningar, justerbara paneler och bättre stängningskontroller",
+  "description": "### 🎉 Nya funktioner\n\n- **Ny kolumn 'Källa':** Visar nu datakällan för varje rad och som en separat cell i objektlistan, så att du snabbt ser var värdena kommer ifrån.\n- **Justera panelstorlek:** Panelerna kan nu ändras i storlek så att du enkelt anpassar vyerna efter arbetsflödet.\n\n### 🚀 Förbättringar\n\n- **Stäng-knapp i kalkyl:** Det finns nu ett synligt stäng-kryss i kalkylvyn som gör det snabbare att stänga en kalkyl.\n- **Mobilanpassning av stäng-kryss:** På mobil döljs sheet-krysset för en renare vy och för att undvika oavsiktliga stängningar.\n\n### 🐛 Buggfixar\n\n- **Rättade rubrikfel:** Åtgärdade problem som gjorde att vissa rubriker visades felaktigt, så att beteckningar nu är konsekventa och tydliga."
+}
