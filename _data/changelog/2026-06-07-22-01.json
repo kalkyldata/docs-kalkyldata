@@ -1,0 +1,5 @@
+{
+  "date": "2026-06-07",
+  "title": "Mer överblick och bättre mobilupplevelse",
+  "description": "### 🎉 Nya funktioner\n\n- **Källa-kolumn:** Visar nu källa för varje rad i tabellerna, så att du snabbt kan se var uppgifterna kommer ifrån och enklare jämföra information.\n\n### 🚀 Förbättringar\n\n- **Ikoner med verktygstips:** Tydliga ikoner med förklarande tips visas när du hovrar eller trycker, vilket gör det snabbare att förstå knappval och status utan att öppna ytterligare menyer.\n\n### 🐛 Buggfixar\n\n- **Mobiltabbar stängs korrekt:** Åtgärdade ett problem som gjorde att flikar på mobil ibland inte stängdes som förväntat, vilket ger en mer stabil och förutsägbar navigering på telefoner."
+}
