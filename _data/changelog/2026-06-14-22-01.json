@@ -1,0 +1,5 @@
+{
+  "date": "2026-06-14",
+  "title": "Bättre rapportöversikt och projektfilter — enklare att hitta rätt data",
+  "description": "### 🎉 Nya funktioner\n- **Rapporter i verktygsfältet:** Nu når du Rapporter direkt från verktygsfältet för snabbare åtkomst.\n- **Projektfilter i rapporter:** Du kan nu filtrera rapporter per projekt för att se bara relevant data.\n- **Villkorsformulär:** Ett nytt formulär för villkor gör det lättare att lägga in och hantera villkor i kalkyler.\n\n### 🚀 Förbättringar\n- **Standardiserade rapportnamn:** Rapporternas titlar är nu konsekventa och tydligare att läsa.\n- **Tydligare resultatvisning:** Namn visas nu i resultatdetaljer vilket gör det enklare att förstå vad varje rad avser.\n- **Filtrerad rapportvisning:** Rapportlistan visar nu tillämpade filter direkt, så du ser snabbare vilken vy du arbetar i.\n\n### 🐛 Buggfixar\n- **Fixat projektfiltrering:** Åtgärdat ett problem som gjorde att filtrering på projekt inte alltid fungerade.\n- **Åtgärdat fel vid saknat projekt:** Löst ett fel som kunde orsaka problem när projekt saknades, vilket gör funktionen stabilare."
+}
