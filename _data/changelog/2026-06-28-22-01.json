@@ -1,0 +1,5 @@
+{
+  "date": "2026-06-28",
+  "title": "Snabbare sök och tydligare träffar i Kalkyldata",
+  "description": "### 🎉 Nya funktioner\n\n- **Snabbsök-dropdown:** Visar nu en snabbmeny med förslag och tidigare sökningar så att du kan hitta artiklar eller kalkyler snabbare utan att behöva skriva hela sökfrågan.\n- **Metadata i sökresultatet:** Sökraderna visar nu viktiga metadata direkt i träfflistan, vilket gör det enklare att se t.ex. typ, datum eller annan relevant information utan att öppna varje post.\n\n### 🚀 Förbättringar\n\n- **Enhetlig visning mellan vyer:** Fälten i olika vyer är nu jämnade och konsekventa, vilket gör det enklare att jämföra och överblicka information när du växlar mellan sidor.\n- **Tydligare träff-stepper:** Navigeringen mellan sökträffar är förbättrad och visar bättre var du befinner dig i resultatlistan, vilket förenklar genomgången av många träffar.\n\n### 🐛 Buggfixar\n\n- **Inline antal och chattfönster:** Löste ett problem som ibland hindrade dig från att ändra antal direkt i listan eller öppna chattfönstret, så redigering och dialog fungerar nu mer pålitligt."
+}
