@@ -1,0 +1,5 @@
+{
+  "date": "2026-07-05",
+  "title": "Tydligare mallar, hjälptexter och förbättrad namnruta",
+  "description": "### 🎉 Nya funktioner\n\n- **Strategiheader i mallar:** Visar en tydlig rubrik i mallarna som sammanfattar vald strategi och vad kalkylen bygger på, så att du snabbt förstår kontexten.\n- **Kontextuella tips:** Visar korta, vägledande tips i relevanta vyer som hjälper dig komma vidare och fylla i rätt information snabbare.\n- **Exempel som platshållare:** Flera inmatningsfält visar nu exempeltext som visar hur information kan fyllas i, vilket gör det enklare att komma igång.\n\n### 🚀 Förbättringar\n\n- **Förbättrad namnruta i kalkyl:** Namnfältet är tydligare och enklare att redigera, så att du snabbare kan ge kalkylen en korrekt beskrivning.\n- **Klarare tomtexter:** Texten som visas när listor eller sektioner är tomma är uppdaterad för att ge tydligare instruktioner om vad du kan göra här.\n\n### 🐛 Buggfixar\n\n- **Återställt problematiskt ändringsförsök:** Återställt en tidigare ändring som kunde påverka hur innehåll visas, vilket återställer stabilitet i vyn."
+}
