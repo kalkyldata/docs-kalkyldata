@@ -1,0 +1,5 @@
+{
+  "date": "2026-07-10",
+  "title": "Snabbare överblick, bättre visningskontroll och förberedelse för delning",
+  "description": "### 🎉 Nya funktioner\n\n- **Förberett delningsstöd:** Förberett en ny funktion för att dela kalkyler och vyer direkt från Kalkyldata, vilket gör det enklare att sprida och samarbeta kring dina kalkyler framöver.\n\n### 🚀 Förbättringar\n\n- **Sekundär grupp och standardvy:** Infört stöd för en sekundär gruppering och möjlighet att spara en standardvy, så att du snabbt återvänder till din föredragna vy och ser rätt struktur direkt.\n\n### 🐛 Buggfixar\n\n- **Göm nollrader fungerar nu:** Åtgärdat ett fel som gjorde att rader med nollvärden ibland visades trots att inställningen för att gömma dem var aktiv, så tabeller nu visar korrekt filtrerad information."
+}
