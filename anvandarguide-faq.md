@@ -1,5 +1,6 @@
 ---
 title: 6. Vanliga frågor
+layout: default
 parent: Användarguide
 nav_order: 6
 ---

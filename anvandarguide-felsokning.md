@@ -1,5 +1,6 @@
 ---
 title: 5. Felsökning
+layout: default
 parent: Användarguide
 nav_order: 5
 ---

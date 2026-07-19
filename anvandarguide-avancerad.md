@@ -1,5 +1,6 @@
 ---
 title: 4. Avancerad användning
+layout: default
 parent: Användarguide
 nav_order: 4
 ---

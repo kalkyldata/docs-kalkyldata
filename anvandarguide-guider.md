@@ -1,5 +1,6 @@
 ---
 title: 3. Guider för vanliga uppgifter
+layout: default
 parent: Användarguide
 nav_order: 3
 ---

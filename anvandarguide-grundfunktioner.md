@@ -1,5 +1,6 @@
 ---
 title: 2. Grundfunktioner
+layout: default
 parent: Användarguide
 nav_order: 2
 ---

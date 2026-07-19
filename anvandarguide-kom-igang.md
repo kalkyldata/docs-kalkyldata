@@ -1,5 +1,6 @@
 ---
 title: 1. Kom igång
+layout: default
 parent: Användarguide
 nav_order: 1
 ---
