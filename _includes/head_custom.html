@@ -1,0 +1,49 @@
+<script>
+(function () {
+  function normalizeText(s) {
+    return (s || "").replace(/\s+/g, " ").trim().toLowerCase();
+  }
+
+  function forceExpandAnvandarguide() {
+    var nav = document.querySelector(".nav-list");
+    if (!nav) return;
+
+    var links = nav.querySelectorAll("a.nav-list-link");
+    var targetLink = null;
+    links.forEach(function (a) {
+      if (normalizeText(a.textContent) === "användarguide") {
+        targetLink = a;
+      }
+    });
+    if (!targetLink) return;
+
+    var item = targetLink.closest(".nav-list-item");
+    if (!item) return;
+
+    item.classList.add("active");
+    item.classList.add("open");
+
+    var expander = item.querySelector(".nav-list-expander");
+    if (expander) {
+      expander.setAttribute("aria-expanded", "true");
+      expander.classList.add("active");
+
+      var childList = item.querySelector("ul.nav-list");
+      var isVisible = childList && childList.offsetParent !== null;
+      if (!isVisible) {
+        expander.click();
+        expander.setAttribute("aria-expanded", "true");
+      }
+    }
+
+    var child = item.querySelector(":scope > ul.nav-list");
+    if (child) {
+      child.style.display = "block";
+    }
+  }
+
+  forceExpandAnvandarguide();
+  document.addEventListener("DOMContentLoaded", forceExpandAnvandarguide);
+  window.addEventListener("load", forceExpandAnvandarguide);
+})();
+</script>
