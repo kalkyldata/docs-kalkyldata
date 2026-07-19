@@ -1,0 +1,5 @@
+{
+  "date": "2026-07-19",
+  "title": "Chattlogg och mer flexibla sök- och varningsinställningar",
+  "description": "### 🎉 Nya funktioner\n\n- **Chattlogg:** Infört en chattlogg i Kalkyldata som sparar och visar tidigare konversationer, så du snabbt kan hitta vad som sagts i tidigare ärenden eller hjälpmoment.\n\n### 🚀 Förbättringar\n\n- **Justeringar av sök och tröskelvärden:** Sökparametrar och tröskelvärden kan nu ändras i inställningarna, vilket ger mer relevanta sökresultat och möjlighet att anpassa varningar efter ert arbetsflöde.\n- **Generella stabilitetsförbättringar:** Flera mindre förbättringar har genomförts för att göra användarupplevelsen mer stabil och responsiv.\n\n### 🐛 Buggfixar\n\n- **Inga användarpåverkande buggfixar denna vecka:** Det finns inga nya buggfixar som märkbart påverkar användarflödet att rapportera den här veckan."
+}
