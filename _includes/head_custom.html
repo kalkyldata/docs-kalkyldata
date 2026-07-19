@@ -1,49 +1,98 @@
 <script>
 (function () {
+  var STORAGE_KEY = "kd-nav-anvandarguide";
+
   function normalizeText(s) {
     return (s || "").replace(/\s+/g, " ").trim().toLowerCase();
   }
 
-  function forceExpandAnvandarguide() {
+  function findGuideNode() {
     var nav = document.querySelector(".nav-list");
-    if (!nav) return;
+    if (!nav) return null;
 
     var links = nav.querySelectorAll("a.nav-list-link");
     var targetLink = null;
+
     links.forEach(function (a) {
       if (normalizeText(a.textContent) === "användarguide") {
         targetLink = a;
       }
     });
-    if (!targetLink) return;
+
+    if (!targetLink) return null;
 
     var item = targetLink.closest(".nav-list-item");
-    if (!item) return;
-
-    item.classList.add("active");
-    item.classList.add("open");
+    if (!item) return null;
 
     var expander = item.querySelector(".nav-list-expander");
-    if (expander) {
-      expander.setAttribute("aria-expanded", "true");
-      expander.classList.add("active");
+    var child = item.querySelector(":scope > ul.nav-list") || item.querySelector("ul.nav-list");
 
-      var childList = item.querySelector("ul.nav-list");
-      var isVisible = childList && childList.offsetParent !== null;
-      if (!isVisible) {
-        expander.click();
-        expander.setAttribute("aria-expanded", "true");
+    return { item: item, expander: expander, child: child };
+  }
+
+  function setExpandedState(node, expanded) {
+    if (!node) return;
+
+    if (expanded) {
+      node.item.classList.add("active", "open");
+      if (node.expander) {
+        node.expander.setAttribute("aria-expanded", "true");
+        node.expander.classList.add("active");
       }
-    }
-
-    var child = item.querySelector(":scope > ul.nav-list");
-    if (child) {
-      child.style.display = "block";
+      if (node.child) node.child.style.display = "block";
+    } else {
+      node.item.classList.remove("open");
+      if (node.expander) {
+        node.expander.setAttribute("aria-expanded", "false");
+        node.expander.classList.remove("active");
+      }
+      if (node.child) node.child.style.display = "";
     }
   }
 
-  forceExpandAnvandarguide();
-  document.addEventListener("DOMContentLoaded", forceExpandAnvandarguide);
-  window.addEventListener("load", forceExpandAnvandarguide);
+  function readPreference() {
+    try {
+      return localStorage.getItem(STORAGE_KEY);
+    } catch (e) {
+      return null;
+    }
+  }
+
+  function writePreference(value) {
+    try {
+      localStorage.setItem(STORAGE_KEY, value);
+    } catch (e) {
+      // ignore
+    }
+  }
+
+  function init() {
+    var node = findGuideNode();
+    if (!node || !node.expander) return;
+
+    // Default: open on first visit if no saved preference
+    var pref = readPreference();
+    if (pref === null) {
+      setExpandedState(node, true);
+      writePreference("open");
+    } else {
+      setExpandedState(node, pref === "open");
+    }
+
+    // Save user choice when toggling
+    node.expander.addEventListener("click", function () {
+      // wait for theme toggle to apply
+      setTimeout(function () {
+        var expanded = node.expander.getAttribute("aria-expanded") === "true";
+        writePreference(expanded ? "open" : "closed");
+      }, 0);
+    });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init);
+  } else {
+    init();
+  }
 })();
 </script>
