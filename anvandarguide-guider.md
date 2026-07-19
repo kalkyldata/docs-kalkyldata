@@ -3,15 +3,11 @@ title: 3. Guider för vanliga uppgifter
 layout: default
 parent: Användarguide
 nav_order: 3
+has_children: true
 ---
 
 # 3. Guider för vanliga uppgifter
 
-Detta avsnitt innehåller konkreta scenarier där du vill uppnå ett tydligt resultat.
+Detta avsnitt samlar uppgiftsbaserade guider som leder dig från mål till färdigt resultat.
 
-## Exempel på guider
-- Så här bjuder du in ett team
-- Så här exporterar du data
-- Så här sätter du upp ett standardflöde
-
-Varje guide ska vara uppgiftsbaserad och enkel att följa från start till mål.
+Välj en guide i undermenyn.
