@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Uppdateringar prislistor
-nav_order: 5
+nav_order: 4
 ---
 
 # Uppdateringar prislistor

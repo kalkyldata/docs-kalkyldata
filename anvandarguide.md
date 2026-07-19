@@ -1,6 +1,6 @@
 ---
 title: Användarguide
-nav_order: 20
+nav_order: 2
 has_children: true
 permalink: /anvandarguide
 ---
