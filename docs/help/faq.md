@@ -2,7 +2,7 @@
 title: Vanliga frågor
 layout: default
 parent: Hjälp & felsökning
-nav_order: 2
+nav_order: 1
 permalink: /hjalp-felsokning/vanliga-fragor/
 description: Svar på vanliga frågor om användning och uppstart.
 category: help

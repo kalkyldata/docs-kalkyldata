@@ -1,26 +1,27 @@
 ---
+title: Vad är nytt?
 layout: default
-title: Changelog
 parent: Nyheter
-nav_order: 2
-permalink: /nyheter/changelog/
-description: Fullständig ändringslogg över uppdateringar.
+nav_order: 1
+permalink: /nyheter/vad-ar-nytt/
+description: Senaste nyheterna och förbättringarna i Kalkyldata.
 category: news
 tags:
-  - changelog
   - nyheter
+  - uppdateringar
 audience: user
 ---
 
-# Uppdateringar och Changelog
-Här kan du se allt nytt som händer i systemet, från stort till smått.
+# Vad är nytt?
+
+Här hittar du de senaste nyheterna och förbättringarna i Kalkyldata.
 
 ---
 
-{% assign changelog_array = site.data.changelog | sort %}
+{% assign news_array = site.data.news | sort %}
 {% assign current_year = "" %}
 
-{% for entry in changelog_array reversed %}
+{% for entry in news_array reversed %}
   {% assign data = entry[1] %}
   {% assign entry_year = data.date | slice: 0, 4 %}
 

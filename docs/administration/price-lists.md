@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Uppdatering av prislistor
+title: Prislistor
 parent: Administration
 nav_order: 2
-permalink: /administration/uppdatering-av-prislistor/
+permalink: /administration/prislistor/
 description: Löpande logg över uppdateringar av prislistor.
 category: guide
 tags:
