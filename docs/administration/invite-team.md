@@ -1,10 +1,9 @@
 ---
 title: Så här bjuder du in ett team
 layout: default
-parent: "3. Guider för vanliga uppgifter"
-grand_parent: "Användarguide"
+parent: Administration
 nav_order: 1
-permalink: /anvandarguide/guider/bjud-in-team
+permalink: /administration/bjud-in-team/
 ---
 
 # Så här bjuder du in ett team

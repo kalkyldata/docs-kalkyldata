@@ -1,8 +1,9 @@
 ---
-title: 4. Avancerad användning
+title: Avancerad användning
 layout: default
-parent: Användarguide
-nav_order: 4
+parent: Referens
+nav_order: 1
+permalink: /referens/avancerad-anvandning/
 ---
 
 # 4. Avancerad användning

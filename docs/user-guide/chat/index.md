@@ -1,9 +1,10 @@
 ---
-title: 3. Guider för vanliga uppgifter
+title: Chatt
 layout: default
 parent: Användarguide
-nav_order: 3
+nav_order: 1
 has_children: true
+permalink: /anvandarguide/chatt/
 ---
 
 # 3. Guider för vanliga uppgifter
