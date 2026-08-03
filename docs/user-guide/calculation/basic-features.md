@@ -1,10 +1,16 @@
 ---
 title: Grundfunktioner
 layout: default
-parent: Kalkyler
+parent: Kalkyl
 grand_parent: Användarguide
 nav_order: 1
-permalink: /anvandarguide/kalkyler/grundfunktioner/
+permalink: /anvandarguide/kalkyl/grundfunktioner/
+description: Översikt av centrala grundfunktioner i kalkylarbetet.
+category: guide
+tags:
+  - kalkyl
+  - grundfunktioner
+audience: user
 ---
 
 # 2. Grundfunktioner

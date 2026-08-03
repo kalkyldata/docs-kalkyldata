@@ -5,6 +5,12 @@ parent: Rapporter
 grand_parent: Användarguide
 nav_order: 1
 permalink: /anvandarguide/rapporter/exportera-data/
+description: Exportera data från rapporter för delning och analys.
+category: guide
+tags:
+  - rapporter
+  - export
+audience: user
 ---
 
 # Så här exporterar du data

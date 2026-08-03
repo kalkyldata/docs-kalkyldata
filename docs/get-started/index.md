@@ -4,6 +4,12 @@ layout: default
 nav_order: 2
 has_children: true
 permalink: /kom-igang/
+description: Steg-för-steg för att komma igång med Kalkyldata.
+category: guide
+tags:
+  - kom igång
+  - onboarding
+audience: user
 ---
 
 # 1. Kom igång

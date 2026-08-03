@@ -4,6 +4,12 @@ title: Nyheter
 nav_order: 6
 has_children: true
 permalink: /nyheter/
+description: Produktnyheter och senaste förändringar.
+category: news
+tags:
+  - nyheter
+  - changelog
+audience: user
 ---
 
 # Uppdateringar och Changelog
