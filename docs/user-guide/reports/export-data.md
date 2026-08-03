@@ -1,10 +1,10 @@
 ---
 title: Så här exporterar du data
 layout: default
-parent: "3. Guider för vanliga uppgifter"
-grand_parent: "Användarguide"
-nav_order: 2
-permalink: /anvandarguide/guider/exportera-data
+parent: Rapporter
+grand_parent: Användarguide
+nav_order: 1
+permalink: /anvandarguide/rapporter/exportera-data/
 ---
 
 # Så här exporterar du data

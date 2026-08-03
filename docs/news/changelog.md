@@ -1,7 +1,9 @@
 ---
 layout: default
 title: Changelog
-nav_order: 6
+parent: Nyheter
+nav_order: 1
+permalink: /nyheter/changelog/
 ---
 
 # Uppdateringar och Changelog

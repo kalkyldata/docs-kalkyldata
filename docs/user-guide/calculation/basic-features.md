@@ -1,8 +1,10 @@
 ---
-title: 2. Grundfunktioner
+title: Grundfunktioner
 layout: default
-parent: Användarguide
-nav_order: 2
+parent: Kalkyler
+grand_parent: Användarguide
+nav_order: 1
+permalink: /anvandarguide/kalkyler/grundfunktioner/
 ---
 
 # 2. Grundfunktioner

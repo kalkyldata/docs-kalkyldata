@@ -1,8 +1,9 @@
 ---
-title: 5. Felsökning
+title: Felsökning
 layout: default
-parent: Användarguide
-nav_order: 5
+parent: Hjälp & felsökning
+nav_order: 1
+permalink: /hjalp-felsokning/felsokning/
 ---
 
 # 5. Felsökning

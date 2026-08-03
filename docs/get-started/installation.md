@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Installation
-nav_order: 3
-has_children: true
+parent: Kom igång
+nav_order: 2
+permalink: /kom-igang/installation/
 ---
 
 # Installation

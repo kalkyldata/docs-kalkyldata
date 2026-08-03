@@ -1,15 +1,17 @@
 ---
 layout: default
-title: Uppdateringar prislistor
-nav_order: 4
+title: Nyheter
+nav_order: 6
+has_children: true
+permalink: /nyheter/
 ---
 
-# Uppdateringar prislistor
-Här kan du följa hur vi löpande håller Kalkyldatas materialpriser uppdaterade. Vi loggar varje gång vi läser in nya prislistor från våra anslutna grossister och leverantörer.
+# Uppdateringar och Changelog
+Här kan du se allt nytt som händer i systemet, från stort till smått.
 
 ---
 
-{% assign changelog_array = site.data.pricelists | sort %}
+{% assign changelog_array = site.data.news | sort %}
 {% assign current_year = "" %}
 
 {% for entry in changelog_array reversed %}

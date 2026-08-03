@@ -1,8 +1,9 @@
 ---
-title: 6. Vanliga frågor
+title: Vanliga frågor
 layout: default
-parent: Användarguide
-nav_order: 6
+parent: Hjälp & felsökning
+nav_order: 2
+permalink: /hjalp-felsokning/vanliga-fragor/
 ---
 
 # 6. Vanliga frågor

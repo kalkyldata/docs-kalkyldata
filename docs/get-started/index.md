@@ -1,8 +1,9 @@
 ---
-title: 1. Kom igång
+title: Kom igång
 layout: default
-parent: Användarguide
-nav_order: 1
+nav_order: 2
+has_children: true
+permalink: /kom-igang/
 ---
 
 # 1. Kom igång

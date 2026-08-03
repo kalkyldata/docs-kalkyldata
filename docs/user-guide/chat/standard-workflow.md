@@ -1,10 +1,10 @@
 ---
 title: Så här sätter du upp ett standardflöde
 layout: default
-parent: "3. Guider för vanliga uppgifter"
-grand_parent: "Användarguide"
-nav_order: 3
-permalink: /anvandarguide/guider/standardflode
+parent: Chatt
+grand_parent: Användarguide
+nav_order: 1
+permalink: /anvandarguide/chatt/standardflode/
 ---
 
 # Så här sätter du upp ett standardflöde
