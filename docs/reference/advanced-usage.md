@@ -4,6 +4,12 @@ layout: default
 parent: Referens
 nav_order: 1
 permalink: /referens/avancerad-anvandning/
+description: Avancerade arbetssätt, konfiguration och integrationer.
+category: reference
+tags:
+  - avancerad användning
+  - integration
+audience: advanced
 ---
 
 # 4. Avancerad användning

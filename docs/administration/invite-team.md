@@ -4,6 +4,12 @@ layout: default
 parent: Administration
 nav_order: 1
 permalink: /administration/bjud-in-team/
+description: Bjud in teammedlemmar och tilldela rätt behörighet.
+category: guide
+tags:
+  - administration
+  - team
+audience: admin
 ---
 
 # Så här bjuder du in ett team

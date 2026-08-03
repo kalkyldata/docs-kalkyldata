@@ -1,13 +1,19 @@
 ---
-title: Chatt
+title: Chat och AI-agenten
 layout: default
 parent: Användarguide
 nav_order: 1
 has_children: true
-permalink: /anvandarguide/chatt/
+permalink: /anvandarguide/chat-och-ai-agenten/
+description: Guider för att arbeta med chatten och AI-agenten.
+category: guide
+tags:
+  - chat
+  - ai-agent
+audience: user
 ---
 
-# 3. Guider för vanliga uppgifter
+# Chat och AI-agenten
 
 Detta avsnitt samlar uppgiftsbaserade guider som leder dig från mål till färdigt resultat.
 

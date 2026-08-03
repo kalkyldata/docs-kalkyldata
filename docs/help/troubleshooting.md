@@ -4,6 +4,11 @@ layout: default
 parent: Hjälp & felsökning
 nav_order: 1
 permalink: /hjalp-felsokning/felsokning/
+description: Vanliga fel, orsaker och lösningar steg för steg.
+category: help
+tags:
+  - felsökning
+audience: user
 ---
 
 # 5. Felsökning

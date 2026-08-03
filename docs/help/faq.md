@@ -4,6 +4,12 @@ layout: default
 parent: Hjälp & felsökning
 nav_order: 2
 permalink: /hjalp-felsokning/vanliga-fragor/
+description: Svar på vanliga frågor om användning och uppstart.
+category: help
+tags:
+  - faq
+  - hjälp
+audience: user
 ---
 
 # 6. Vanliga frågor

@@ -4,6 +4,12 @@ title: Changelog
 parent: Nyheter
 nav_order: 1
 permalink: /nyheter/changelog/
+description: Fullständig ändringslogg över uppdateringar.
+category: news
+tags:
+  - changelog
+  - nyheter
+audience: user
 ---
 
 # Uppdateringar och Changelog

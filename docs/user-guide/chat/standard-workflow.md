@@ -1,10 +1,17 @@
 ---
 title: Så här sätter du upp ett standardflöde
 layout: default
-parent: Chatt
+parent: Chat och AI-agenten
 grand_parent: Användarguide
 nav_order: 1
-permalink: /anvandarguide/chatt/standardflode/
+permalink: /anvandarguide/chat-och-ai-agenten/standardflode/
+description: Sätt upp ett återanvändbart standardflöde i chatten.
+category: guide
+tags:
+  - standardflöde
+  - chat
+  - ai-agent
+audience: user
 ---
 
 # Så här sätter du upp ett standardflöde

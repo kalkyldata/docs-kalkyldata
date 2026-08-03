@@ -4,6 +4,12 @@ title: Uppdatering av prislistor
 parent: Administration
 nav_order: 2
 permalink: /administration/uppdatering-av-prislistor/
+description: Löpande logg över uppdateringar av prislistor.
+category: guide
+tags:
+  - administration
+  - prislistor
+audience: admin
 ---
 
 # Uppdateringar prislistor
