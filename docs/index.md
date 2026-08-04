@@ -25,5 +25,5 @@ Kalkyldata är ett kalkyl- och offertverktyg för elinstallation. Du beskriver j
 - Du arbetar i **en enda vy**: sidopanel med dina kalkyler till vänster, chat i mitten och kalkyltabell till höger.
 - AI-agenten föreslår, du bestämmer — inget hamnar i kalkylen utan att du klickar **Lägg till**.
 - Allt sparas löpande, så du kan avbryta mitt i och fortsätta senare.
-- Materialpriser blir rätt först när du laddat upp dina **rabattbrev**.
+- Materialpriser blir rätt först när du laddat upp dina **rabattbrev**. Läs mer om [hur materialpriserna sätts](/anvandarguide/kalkyl/materialpriser/).
 - Behöver du hjälp i appen kan du fråga AI-agenten direkt i chatten, eller starta en rundtur från profilmenyn.
