@@ -1,46 +1,43 @@
 ---
 layout: default
-title: "Så här navigerar du i guiden"
+title: "Så här hittar du hjälp"
 parent: "Översikt"
 nav_order: 2
 permalink: /oversikt/navigera-guiden/
-description: "Dokumentationens sju huvuddelar och hur du hittar rätt sida snabbast."
+description: "Var du hittar svar på en fråga om Kalkyldata: i guiden, i sökfältet eller direkt av AI-agenten i appen."
 category: "guide"
-tags: ["dokumentation", "navigering", "sök", "guide"]
+tags: ["hjälp", "sök", "ai-agenten", "guide", "support"]
 audience: "user"
 ---
 
-Dokumentationen för Kalkyldata är indelad efter vad du vill uppnå, inte efter appens menyer. Den här sidan visar hur delarna hänger ihop så att du hittar rätt sida direkt.
+När du kör fast i Kalkyldata finns svaret oftast på ett av tre ställen. Den här sidan visar vilket du ska välja.
 
-## Så hittar du rätt
+## Så hittar du svar snabbast
 
-1. Använd **sökfältet** högst upp om du redan vet vad funktionen heter.
-2. Välj **Kom igång** om du är ny användare.
-3. Välj **Användarguide** när du ska utföra en konkret uppgift.
-4. Välj **Referens** när du behöver exakta fält, regler eller integrationsdetaljer.
-5. Fråga **AI-agenten** i chatten — den läser samma dokumentation och länkar till rätt sida.
+1. **Fråga AI-agenten i chatten.** Skriv frågan med egna ord, till exempel `Hur skapar jag en offert?`. Agenten läser samma guide som du och kan dessutom öppna rätt vy åt dig.
+2. **Sök i guiden** med sökfältet högst upp om du vet vad funktionen heter.
+3. **Bläddra i menyn** när du vill läsa igenom ett helt område, till exempel allt om rapporter.
+4. **Starta en rundtur** i appen om du hellre vill bli visad än läsa. Klicka på ditt namn längst ned i sidopanelen och välj **Rundturer**.
 
-## Dokumentationens delar
+## Vilken del av guiden ska jag läsa?
 
-| Del | Innehåll | Målgrupp |
-| --- | --- | --- |
-| **Översikt** | Vad Kalkyldata är, hur guiden är uppbyggd och en snabbstart. | Alla |
-| **Kom igång** | Konto, första kalkylen, teaminbjudan och grundkoncept. | Nya användare |
-| **Användarguide** | Uppgiftsorienterade guider för chat, kalkyl, rapporter och kalkylartiklar. | Alla |
-| **Administration** | Team, prislistor, rabattbrev och inställningar. | Administratörer |
-| **Referens** | Terminologi, beräkningsregler, rapportkonfiguration och n8n-integration. | Avancerade användare |
-| **Nyheter** | Vad som är nytt och teknisk changelog. | Alla |
-| **Hjälp & felsökning** | Vanliga frågor, felmeddelanden och kontaktvägar. | Alla |
+| Om du vill … | Gå till |
+| --- | --- |
+| Förstå vad tjänsten gör | **Översikt** |
+| Komma igång med ditt konto och din första kalkyl | **Kom igång** |
+| Utföra en konkret uppgift, som att skapa en offert | **Användarguide** |
+| Sköta team, prislistor och rabattbrev | **Administration** |
+| Slå upp ett fält, en beräkningsregel eller en term | **Referens** |
+| Se vad som är nytt | **Nyheter** |
+| Lösa ett felmeddelande | **Hjälp & felsökning** |
 
-## Konventioner i texterna
+## Så läser du texterna
 
-- **Fet stil** markerar knappar och menyval du klickar på, till exempel **Spara**.
-- `Kod-typsnitt` markerar exakt text, värden och kortkommandon, till exempel `Ctrl+S`.
-- Numrerade listor beskriver steg i den ordning du ska utföra dem.
-- Tabeller används för fält, syntax och jämförelser.
+- **Fet stil** är något du klickar på, till exempel **Spara**.
+- `Kod-typsnitt` är exakt text du skriver eller ett kortkommando, till exempel `Ctrl+S`.
+- Numrerade listor är steg i den ordning du ska utföra dem.
 
 ## Bra att veta
 
-- Varje sida går att läsa fristående, så viktiga begrepp upprepas kort där de används.
-- Terminologin är konsekvent genom hela guiden: **kalkyl**, **del**, **uppgift**, **kalkylartikel**, **rapport** och **profil**.
-- Länkar i guiden pekar på stabila adresser, så du kan bokmärka en sida utan att länken slutar fungera.
+- Får du inget svar i guiden eller av AI-agenten, se **Hjälp & felsökning** för kontaktvägar.
+- Sidorna går att bokmärka — adresserna ändras inte när guiden byggs ut.
