@@ -3,32 +3,27 @@ layout: default
 title: "Översikt"
 nav_order: 1
 permalink: /oversikt/
-description: "Introduktion till Kalkyldata: vad tjänsten gör, vem den är för och hur dokumentationen är organiserad."
+description: "Introduktion till Kalkyldata: vad tjänsten gör, hur arbetsytan är uppbyggd och hur du kommer igång."
 category: "guide"
-tags: ["översikt", "kalkyldata", "dokumentation", "kom igång"]
+tags: ["översikt", "kalkyldata", "kom igång", "kalkyl", "offert"]
 audience: "user"
 has_children: true
 ---
 
-Kalkyldata är ett kalkyl- och offertverktyg för elinstallation där du bygger kalkyler tillsammans med en AI-agent i en chat. Den här översikten förklarar vad tjänsten gör, vem den är för och var du hittar rätt information i dokumentationen.
+Kalkyldata är ett kalkyl- och offertverktyg för elinstallation. Du beskriver jobbet i en chat, AI-agenten föreslår kalkylartiklar med material och arbetstid, och du gör klart offerten i kalkyltabellen.
 
-## Vad du hittar här
+## Börja här
 
-| Sida | Innehåll |
+| Om du … | Läs |
 | --- | --- |
-| **Vad är Kalkyldata?** | Tjänstens syfte, huvuddelar och vem den är byggd för. |
-| **Så här navigerar du i guiden** | Dokumentationens uppbyggnad och hur du snabbast hittar svar. |
-| **Snabbstart** | Från inloggning till färdig offert på fem steg. |
+| är helt ny och vill förstå grundidén och hur skärmen är uppbyggd | **Vad är Kalkyldata?** |
+| vill komma igång direkt och göra din första offert | **Snabbstart** |
+| letar efter svar på en specifik fråga | **Så här hittar du hjälp** |
 
-## Så använder du dokumentationen
+## Det du behöver veta från start
 
-1. Läs **Vad är Kalkyldata?** om du är ny och vill förstå grundidén.
-2. Gå till **Snabbstart** när du vill komma igång direkt.
-3. Använd sökfältet högst upp när du letar efter en specifik funktion.
-4. Öppna **Referens** när du behöver exakta fält, regler eller integrationsdetaljer.
-
-## Bra att veta
-
-- Dokumentationen är skriven på svenska med svenska domäntermer: **kalkyl**, **del**, **uppgift**, **kalkylartikel**, **rapport** och **profil**.
-- Varje sida är skriven för att kunna läsas fristående, så samma begrepp förklaras kort där det behövs.
-- AI-agenten i appen läser samma dokumentation och kan svara på frågor direkt i chatten.
+- Du arbetar i **en enda vy**: sidopanel med dina kalkyler till vänster, chat i mitten och kalkyltabell till höger.
+- AI-agenten föreslår, du bestämmer — inget hamnar i kalkylen utan att du klickar **Lägg till**.
+- Allt sparas löpande, så du kan avbryta mitt i och fortsätta senare.
+- Materialpriser blir rätt först när du laddat upp dina **rabattbrev**.
+- Behöver du hjälp i appen kan du fråga AI-agenten direkt i chatten, eller starta en rundtur från profilmenyn.
