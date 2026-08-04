@@ -4,45 +4,47 @@ title: "Vad är Kalkyldata?"
 parent: "Översikt"
 nav_order: 1
 permalink: /oversikt/vad-ar-kalkyldata/
-description: "Kalkyldata är ett kalkyl- och offertverktyg för elinstallation där du bygger kalkylen i en chat tillsammans med en AI-agent. Beskriver också hur skärmen är uppbyggd."
+description: "Kalkyldata är ett kalkyl- och offertverktyg för elinstallation där du bygger kalkyler tillsammans med en AI-agent."
 category: "guide"
 tags: ["kalkyldata", "kalkyl", "offert", "ai-agenten", "kalkylartikel", "gränssnitt"]
 audience: "user"
 ---
 
-Kalkyldata är ett kalkyl- och offertverktyg för elinstallation. Du beskriver jobbet i en chat, AI-agenten föreslår kalkylartiklar med material och arbetstid, och du justerar resultatet i kalkyltabellen innan du skapar en offert eller materiallista.
+Kalkyldata är ett kalkyl- och offertverktyg för elinstallation. Du beskriver jobbet i chatten och AI-agenten föreslår kalkylartiklar med uppgifter, material och arbetstid. Du justerar sedan kalkylen innan du skapar en offert eller materiallista.
 
 ## Så fungerar tjänsten
 
-1. Du skriver vad som ska göras i chatten, till exempel `Installera 12 spottar i undertak`.
-2. AI-agenten föreslår kalkylartiklar med uppgifter, material och arbetstid.
-3. Du lägger till artiklarna i kalkylen och justerar antal, pris och arbetstid.
-4. Du grupperar arbetet i **delar**, till exempel `Källare` eller `Plan 2`.
-5. Du skapar en **rapport** — offert eller materiallista — och skriver ut eller sparar den som PDF.
+1. Skriv vad som ska göras i chatten, till exempel `Installera 12 spottar i undertak`.
+2. Granska AI-agentens förslag på kalkylartiklar.
+3. Lägg till kalkylartiklarna i kalkylen och justera antal, material, priser och arbetstid.
+4. Dela upp arbetet i **delar**, till exempel `Källare` eller `Plan 2`.
+5. Skapa en **rapport** som offert eller materiallista och spara den som PDF.
+
+En **kalkylartikel** består av en eller flera **uppgifter**. Varje uppgift beskriver ett arbetsmoment och kan innehålla material, arbetstid eller en kombination av båda.
 
 ## Så ser skärmen ut
 
-Arbetsytan har tre områden. Du behöver aldrig lämna sidan för att bygga en kalkyl.
+Arbetsytan är uppdelad i tre områden. Du kan bygga hela kalkylen utan att lämna sidan.
 
 | Område | Var det ligger | Vad du gör där |
 | --- | --- | --- |
-| **Sidopanelen** | Till vänster | Byter mellan dina kalkyler, startar en ny och söker bland tidigare. Längst ned ligger ditt namn — klicka på det för att nå **Mina kalkylartiklar**, **Rundturer**, **Rabattbrev** och **Min profil**. |
-| **Chatten** | I mitten | Skriver till AI-agenten, ser förslag som kort och lägger till dem i kalkylen. Skrivrutan ligger längst ned. |
-| **Kalkylpanelen** | Till höger | Visar kalkyltabellen med delar, uppgifter, material, arbetstid och priser. Går att minimera när du vill ha mer plats åt chatten. |
+| **Sidopanelen** | Till vänster | Byter mellan kalkyler, startar en ny kalkyl och söker bland tidigare kalkyler. Längst ned finns din profilmeny där du hittar **Mina kalkylartiklar**, **Rundturer**, **Rabattbrev** och **Min profil**. |
+| **Chatten** | I mitten | Beskriver jobbet för AI-agenten, granskar förslag och lägger till kalkylartiklar i kalkylen. Skrivrutan finns längst ned. |
+| **Kalkylpanelen** | Till höger | Visar kalkylen med delar, kalkylartiklar, uppgifter, material, arbetstid och priser. Minimera panelen när du vill ha mer plats för chatten. |
 
-På mobil visas ett område i taget. Du växlar mellan chat och kalkyl med knapparna högst upp, och sidopanelen öppnas som en utfällbar meny.
+På mobil visas ett område i taget. Växla mellan chatten och kalkylen med knapparna högst upp. Sidopanelen öppnas som en utfällbar meny.
 
-Rapporter och kalkylartiklar öppnas som egna sidor: **Rapporter** när du ska skapa offert eller materiallista, och **Kalkylartiklar** när du ska skapa eller redigera egna mallar.
+**Rapporter** och **Mina kalkylartiklar** öppnas som egna sidor. Använd **Rapporter** när du ska skapa offert,  materiallista eller annan utskrift. Använd **Mina kalkylartiklar** när du ska skapa eller redigera egna kalkylartiklar.
 
 ## Vem tjänsten är för
 
-- **Kalkylatorer och installatörer** som räknar på elinstallationer och vill slippa manuellt letande i prislistor.
-- **Arbetsledare** som behöver en offert eller materiallista snabbt.
-- **Företag** som vill bygga en egen bank av kalkylartiklar som hela teamet återanvänder.
+- **Kalkylatorer och installatörer** som räknar på elinstallationer och vill skapa kalkyler snabbare.
+- **Arbetsledare** som behöver ta fram offerter eller materiallistor.
+- **Företag** som vill skapa egna kalkylartiklar som hela teamet kan återanvända.
 
 ## Bra att veta
 
-- AI-agenten föreslår och kan öppna vyer åt dig, men den lägger aldrig till något i kalkylen utan att du bekräftar.
+- AI-agenten kan föreslå kalkylartiklar och öppna vyer åt dig, men den lägger aldrig till något i kalkylen utan att du bekräftar.
 - Materialpriser hämtas från prislistor och de rabattbrev du laddar upp. Systemet jämför leverantörerna och väljer det billigaste nettopriset. Läs mer om [hur materialpriserna sätts](/anvandarguide/kalkyl/materialpriser/).
-- Du kan skapa egan kalkylartiklar, typ som mallar eller rececpt, du kan välja att publicera dem privat (bara för dig att se och använda) eller offentligt (för alla att se och använda).
-- Allt arbete sparas löpande automatiskt, så du kan stänga fönstret och fortsätta senare.
+- Du kan skapa egna kalkylartiklar som mallar för återkommande arbeten. Välj om de ska vara **privata** (bara du kan använda dem) eller **publika** (andra användare kan hitta och använda dem).
+- Allt arbete sparas automatiskt löpande. Du kan stänga fönstret och fortsätta senare.
