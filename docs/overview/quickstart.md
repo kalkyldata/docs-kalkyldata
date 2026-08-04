@@ -4,7 +4,7 @@ title: "Snabbstart"
 parent: "Översikt"
 nav_order: 3
 permalink: /oversikt/snabbstart/
-description: "Kom från inloggning till färdig offert i Kalkyldata på fem steg, och lär dig när du ska använda snabbsök respektive fråga AI-agenten."
+description: "Kom från inloggning till färdig offert i Kalkyldata på sex steg, och lär dig när du ska använda snabbsök respektive fråga AI-agenten."
 category: "guide"
 tags: ["snabbstart", "kalkyl", "offert", "chat", "snabbsök", "ai-agenten"]
 audience: "user"
@@ -15,10 +15,11 @@ Den här snabbstarten tar dig från inloggning till en färdig offert i Kalkylda
 ## Så gör du din första kalkyl
 
 1. Logga in och klicka i chattrutan längst ned.
-2. Skriv vad som ska göras, till exempel `Installera 12 spottar i undertak`, och tryck **Retur**.
-3. Granska kalkylartiklarna som AI-agenten föreslår och klicka **Lägg till** på dem du vill ha.
-4. Öppna kalkylpanelen till höger och justera antal, arbetstid och pris direkt i tabellen.
-5. Klicka **Skapa rapport**, välj **Offert**, och skriv ut eller spara som PDF.
+2. Som första meddelande skriver vad du vill att kalkylen skall heta.
+3. Skriv vad som ska göras, till exempel `Installera 12 spottar i undertak`, och tryck **Retur**.
+4. Granska kalkylartiklarna som AI-agenten föreslår och klicka **Lägg till** på dem du vill ha.
+5. Öppna kalkylpanelen till höger och justera antal, arbetstid och pris direkt i tabellen.
+6. Klicka **Skapa rapport**, välj **Offert**, och skriv ut eller spara som PDF.
 
 Kalkylen sparas löpande, så du kan stänga fönstret och fortsätta senare.
 
