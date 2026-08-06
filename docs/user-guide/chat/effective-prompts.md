@@ -62,7 +62,6 @@ Installera 18 infällda spotlights i gipsundertak i konferensrummet.
 
 - Börja med huvuduppgiften och lägg sedan till detaljer om det behövs.
 - Vid större projekt blir resultatet oftast bättre om du delar upp arbetet i flera frågor, till exempel ett rum eller en del i taget.
-- Du kan när som helst be AI-agenten ändra något, till exempel `Ändra antalet uttag till 16` eller `Flytta kalkylartiklarna till delen Kontor`.
 - AI-agenten kan även öppna olika delar av programmet, till exempel **Projektinformation**, **Rapporter** eller **Mina kalkylartiklar**.
 
 ## När använder jag snabbsök istället?
