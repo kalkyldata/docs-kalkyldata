@@ -1,27 +1,49 @@
 ---
-title: Så här använder du inline-knappar
 layout: default
-parent: Chat och AI-agenten
-grand_parent: Användarguide
+title: "Inline-knappar i chatten"
+parent: "Chat och AI-agenten"
+grand_parent: "Användarguide"
 nav_order: 4
-permalink: /anvandarguide/chat-och-ai-agenten/inline-knappar/
-description: Använd inline-knappar i chatten för snabba åtgärder.
-category: guide
-tags:
-  - chat
-  - inline-knappar
-  - ai-agent
-audience: user
+permalink: /anvandarguide/chat/inline-knappar/
+description: "Lär dig hur AI-agentens knappar fungerar och hur de hjälper dig att arbeta snabbare i Kalkyldata."
+category: "guide"
+tags: ["chat", "ai-agent", "knappar", "kalkyl"]
+audience: "user"
 ---
 
-# Så här använder du inline-knappar
+AI-agenten kan visa knappar direkt i sina svar. Med knapparna kan du öppna rätt vy eller utföra en åtgärd utan att behöva leta i menyerna.
 
-I chattsvaren visas ofta inline-knappar som låter dig agera direkt utan att skriva ett nytt kommando.
+## Så använder du dem
 
-## Typer av inline-knappar
-- **Lägg till** – lägger direkt till ett förslag i kalkylen.
-- **Visa detaljer** – öppnar mer information om en artikel.
-- **Avvisa** – ignorerar förslaget och fortsätter dialogen.
+1. Läs AI-agentens svar i chatten.
+2. Klicka på den knapp du vill använda.
+3. Vyn öppnas eller åtgärden utförs direkt.
+4. Fortsätt sedan arbeta i chatten eller i den öppnade vyn.
 
-## Exempel
-AI-agenten föreslår "Lägg till 20 m kabel 2,5 mm²". Du klickar på **Lägg till** och artikeln hamnar direkt i aktiv del – utan att skriva något mer.
+## Vanliga knappar
+
+| Knapp | Funktion |
+| --- | --- |
+| **Visa kalkyl** | Öppnar kalkylen. |
+| **Öppna projektinformation** | Visar projektets uppgifter. |
+| **Skapa rapport** | Öppnar rapporter där du kan skapa exempelvis offert eller materiallista. |
+| **Lägg till i kalkyl** | Lägger till de föreslagna kalkylartiklarna i kalkylen. |
+| **Visa kalkylartikel** | Öppnar en kalkylartikel och visar dess uppgifter. |
+| **Redigera kalkylartikel** | Öppnar kalkylartikeln för redigering. |
+| **Skapa del** | Skapar en ny del i kalkylen. |
+| **Starta rundtur** | Startar en guidad genomgång av programmet. |
+| **Importera JSON** | Öppnar dialogen för att importera en kalkyl. |
+| **Exportera JSON** | Exporterar kalkylen som en JSON-fil. |
+
+## Bra att veta
+
+- AI-agenten visar bara knappar som är relevanta för det aktuella svaret.
+- Du behöver alltid klicka på en knapp för att åtgärden ska utföras.
+- Om en knapp inte visas kan du be AI-agenten utföra samma åtgärd genom att skriva ett kommando, till exempel `Visa kalkylen`, `Öppna projektinformation` eller `Skapa rapport`.
+- Nya knappar kan tillkomma när fler funktioner läggs till i Kalkyldata.
+
+## När använder jag knappar istället för att skriva?
+
+Inline-knappar passar bäst när AI-agenten redan föreslagit en åtgärd eller en kalkylartikel.
+
+Om du vill göra något annat än det som föreslås är det oftast snabbare att skriva en ny fråga eller instruktion i chatten.
