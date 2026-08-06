@@ -16,10 +16,11 @@ Din första kalkyl börjar med en mening i chattrutan. Du beskriver vad som ska 
 
 1. Logga in. Chattrutan ligger längst ned i mitten av skärmen.
 2. Skriv vad kalkylen gäller, till exempel `Nyinstallation belysning kontor plan 2`, och tryck **Retur**. Det första meddelandet sätter kalkylens namn.
-3. Beskriv sedan ett arbetsmoment i taget, till exempel `Installera 12 spottar i undertak`.
-4. Granska förslagen och klicka **Lägg till** på de kalkylartiklar du vill ha med.
-5. Öppna kalkylpanelen till höger och justera antal, arbetstid och pris direkt i tabellen.
-6. Klicka **Skapa rapport**, välj **Offert**, och skriv ut eller spara som PDF.
+3. Öppna Projektinfo och fyll i projekttyp, segment, beställartyp och en kort beskrivning. Då vet AI-agenten om det är nybyggnad eller renovering, villa eller kontor, och förslagen blir betydligt mer relevanta och genomtänkta.
+4. Beskriv sedan ett arbetsmoment i taget, till exempel `Installera 12 spottar i undertak`.
+5. Granska förslagen och klicka **Lägg till** på de kalkylartiklar du vill ha med.
+6. Öppna kalkylpanelen till höger och justera antal, arbetstid och pris direkt i tabellen.
+7. Klicka **Skapa rapport**, välj **Offert**, och skriv ut eller spara som PDF.
 
 Kalkylen sparas löpande. Du behöver inte trycka spara.
 
