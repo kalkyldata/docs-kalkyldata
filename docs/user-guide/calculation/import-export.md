@@ -23,7 +23,7 @@ Du kan exportera hela kalkylen från menyn. Om kolumnen **Export** är synlig ka
 
 Exportfilen får automatiskt ett namn med kalkylens namn och dagens datum, till exempel:
 
-`kalkyl-kok-2026-08-07.json`
+`kalkyl-garage-2026-08-07.json`
 
 ## Importera kalkyldata
 
