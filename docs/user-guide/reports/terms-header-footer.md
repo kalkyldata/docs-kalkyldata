@@ -1,58 +1,67 @@
 ---
 
 layout: default
-title: "Villkor, sidhuvud och sidfot"
+title: "Validering och felsökning av rapporter"
 parent: "Rapporter"
 grand_parent: "Användarguide"
-nav_order: 3
-permalink: /anvandarguide/rapporter/villkor-sidhuvud-sidfot/
-description: "Fyll i kunduppgifter, giltighetstid, standardavtal och reservationer samt lägg till egna texter i rapportens sidhuvud och sidfot."
+nav_order: 5
+permalink: /anvandarguide/rapporter/validering/
+description: "Förstå varningar och fel i rapportens valideringspanel och kontrollera rapporten innan du skickar offerten."
 category: "guide"
-tags: ["villkor", "offert", "kunduppgifter", "standardavtal", "sidhuvud", "sidfot"]
+tags: ["validering", "varning", "fel", "rapport", "offert", "felsökning"]
 audience: "user"
 ---
 
-# Villkor, sidhuvud och sidfot
+# Validering och felsökning av rapporter
 
-Använd fliken **Kund & villkor** för att fylla i kunduppgifter, giltighetstid och villkor för rapporten. Här kan du också lägga till egen text i rapportens sidhuvud och sidfot.
+Valideringspanelen visar anmärkningar som Kalkyldata hittar i rapportens inställningar och prisberäkning. **Fel** visar sådant som behöver kontrolleras eller rättas. **Varningar** uppmärksammar sådant som kan påverka resultatet och bör kontrolleras innan du skickar rapporten.
 
-## Så fyller du i kunduppgifter och villkor
+## Så hanterar du en anmärkning
 
-1. Öppna rapporten.
-2. Klicka på **Inställningar**.
-3. Välj fliken **Kund & villkor**.
-4. Fyll i kunduppgifterna, till exempel namn, kontaktperson, adress och referens.
-5. Ange ett datum i **Giltig till**.
-6. Välj **Standardavtal** om projektet följer ett avtal, till exempel `AB04`, `ABT06`, `ABS18` eller `AAH-2010`.
-7. Lägg till reservationer, en reservation per rad.
-8. Skriv eventuell egen text i **Sidhuvud** eller **Sidfot**.
+1. Öppna rapporten och läs anmärkningarna i valideringspanelen.
+2. Identifiera vilken inställning eller rad som anmärkningen gäller.
+3. Öppna **Inställningar** om anmärkningen gäller rapportens inställningar.
+4. Rätta värdet eller kontrollera den berörda raden.
+5. Kontrollera att anmärkningen försvinner.
+6. Spara rapporten när du har kontrollerat resultatet.
 
-Ändringarna visas direkt i rapportens förhandsvisning.
+## Fel
 
-## Sidhuvud och sidfot
+Fel betyder att något i rapportens inställningar eller beräkning behöver rättas. Kontrollera värdet som anges i anmärkningen och ändra det innan du använder rapporten.
 
-Du kan lägga till egen text före och efter rapportens innehåll.
+Exempel på fel kan vara:
 
-* **Sidhuvud** visas överst i rapporten, före prisraderna. Använd det till en inledning eller information om förutsättningarna för priset.
-* **Sidfot** visas sist i rapporten. Använd den till förtydliganden, betalningsvillkor eller en avslutande hälsning.
+* Ett ogiltigt timpris.
+* Ett materialpåslag som ger ett ogiltigt resultat.
+* En felaktig rabattsats.
+* En arbetstidsjustering som ger ett ogiltigt resultat.
+* En prisstrategi som saknar en inställning som krävs för att kunna beräkna priset.
+* En restidsregel med ogiltiga värden.
 
-Varje fält rymmer högst `2000` tecken. En teckenräknare visar hur mycket text du har kvar.
+## Varningar
 
-Texten visas som vanlig text. Formatering, länkar och kod tas bort automatiskt.
+Varningar betyder att Kalkyldata har hittat något som du bör kontrollera. En varning behöver inte betyda att rapporten är fel, men den kan påverka hur priserna beräknas eller vad som visas i rapporten.
 
-## Reservationer
+Exempel på varningar kan vara:
 
-Reservationer visas som punkter i rapportens villkorsavsnitt. Lägg till en reservation per rad.
+* Profilen saknar timpris.
+* Kalkylen innehåller inga rader som kan prissättas.
+* En leverantörsrabatt används inte av någon rad i kalkylen.
+* En inställning i prisstrategin påverkar vilka prisregler som används.
+* En leverantör eller regel förekommer flera gånger i en prisstrategi.
+* En radjustering hänvisar till en rad som inte längre finns.
 
-Exempel:
+Kontrollera alltid varningen mot rapportens innehåll innan du skickar offerten.
 
-```text
-Priset förutsätter fri framkomlighet till arbetsplatsen.
-Befintlig elcentral antas vara i godkänt skick.
-```
+## Pris saknas för en kalkylartikel
+
+Om Kalkyldata inte hittar ett pris för en kalkylartikel hos de valda leverantörerna får du en varning. Kontrollera då raden och priset innan du skickar rapporten.
+
+Om du behöver använda ett annat pris kan du ange det med en radjustering i rapporten.
 
 ## Bra att veta
 
-* Kunduppgifterna följer med när du väljer **Skapa ny version** av en sparad rapport.
-* Det valda standardavtalet visas som en egen rad i rapportens villkorsavsnitt.
-* **Interna anteckningar** är separata från sidfoten. De visas bara när du aktiverar **Visa interna anteckningar** under fliken **Visning**.
+* Valideringsanmärkningar blockerar inte utskrift eller sparande av rapporten.
+* **Radjusteringar** gäller bara rapporten och ändrar inte kalkylen.
+* Kontrollera alltid varningar som kan påverka priset innan du skickar en offert.
+* Läs mer om hur priserna beräknas i [Prisstrategier och profiler](/anvandarguide/rapporter/prisstrategier-och-profiler/).
