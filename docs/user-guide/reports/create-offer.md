@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Skapa en offert"
 parent: "Rapporter"
@@ -10,7 +9,7 @@ description: "Skapa en offert eller materiallista från kalkylen: välj mall, pr
 category: "guide"
 tags: ["offert", "rapport", "materiallista", "kalkyl"]
 audience: "user"
-----------------
+---
 
 Du skapar en offert från en färdig kalkyl. Kalkyldata prissätter raderna med vald prisprofil och visar resultatet i en rapportmall som du kan spara, skriva ut eller spara som PDF.
 
