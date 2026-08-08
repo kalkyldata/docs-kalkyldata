@@ -1,29 +1,76 @@
 ---
-title: Skapa en offert
+
 layout: default
-parent: Rapporter
-grand_parent: Användarguide
+title: "Skapa en offert"
+parent: "Rapporter"
+grand_parent: "Användarguide"
 nav_order: 1
 permalink: /anvandarguide/rapporter/skapa-offert/
-description: Skapa och anpassa en offert baserad på din kalkyl.
-category: guide
-tags:
-  - rapporter
-  - offert
-audience: user
----
+description: "Skapa en offert eller materiallista från kalkylen: välj mall, prisprofil, visning och spara rapporten."
+category: "guide"
+tags: ["offert", "rapport", "materiallista", "kalkyl"]
+audience: "user"
+----------------
 
-# Skapa en offert
+Du skapar en offert från en färdig kalkyl. Kalkyldata prissätter raderna med vald prisprofil och visar resultatet i en rapportmall som du kan spara, skriva ut eller spara som PDF.
 
-Generera en professionell offert direkt från din kalkyl.
+## Så skapar du en offert
 
-## Steg
-1. Öppna kalkylen du vill offerera.
-2. Klicka på **Rapporter** > **Ny offert**.
-3. Välj vilka delar som ska ingå i offerten.
-4. Ange prismodell och eventuell rabatt.
-5. Förhandsgranska offerten.
-6. Klicka på **Spara** eller **Generera PDF**.
+1. Öppna kalkylpanelen.
 
-## Resultat
-En färdig offert som du kan skicka till kunden.
+2. Kontrollera att arbetstider och materialpriser stämmer.
+
+3. Klicka på menyn **Kalkyl-åtgärder** med tre punkter.
+
+4. Välj **Skapa rapport…** under rubriken **Rapport**.
+
+5. Välj en rapportmall i toolbaren.
+
+   Du kan välja **Kundoffert**, **Kundoffert (material/arbete uppdelat)** eller **Materiallista**.
+
+6. Välj en **prisprofil** i toolbaren.
+
+   Prisprofilen styr timpris, påslag, moms och ROT.
+
+7. Klicka på **Inställningar**.
+
+8. Justera **Pris & ROT**, **Visning** samt **Kund & villkor** efter behov.
+
+9. Skriv ett rapportnamn.
+
+10. Klicka på **Spara**.
+
+Rapportnamnet fylls automatiskt i från kalkylens namn och den valda mallen. Om du skriver ett eget namn behåller Kalkyldata det namnet.
+
+## Justera enskilda rader
+
+Du kan justera enskilda rader direkt i rapportens förhandsvisning.
+
+1. Klicka på en rad i förhandsvisningen.
+2. Justera raden efter behov.
+
+Du kan:
+
+* sätta ett fast radpris
+* sätta ett fast materialpris
+* sätta ett fast arbetspris
+* utesluta raden från rapporten
+* byta priskälla för materialet på just den raden, till exempel till en annan grossist
+
+Justeringarna gäller bara rapporten. Kalkylens uppgifter ändras inte.
+
+## Spara, skriva ut och skapa ny version
+
+När rapporten är klar kan du spara eller skriva ut den.
+
+* **Spara** lägger rapporten under **Rapporter** med datum och version.
+* **Skriv ut** öppnar utskriftsdialogen. Där kan du även välja **Spara som PDF**.
+* **Skapa ny version** i en sparad rapport öppnar en ny rapport med samma mall, prisprofil, villkor och justeringar.
+
+Du kan även använda kortkommandot `Ctrl+S` på Windows/Linux eller `⌘+S` på Mac för att spara.
+
+## Bra att veta
+
+* Ett utkast sparas automatiskt. Om du lämnar sidan med osparade ändringar får du en fråga först.
+* Rapporten innehåller en ögonblicksbild av priserna. Uppdaterade materialpriser i kalkylen visas först i en ny rapport.
+* Varningar och fel visas i valideringspanelen. Läs [Validering och felsökning](/anvandarguide/rapporter/validering/).
