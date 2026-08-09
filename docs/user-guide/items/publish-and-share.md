@@ -39,18 +39,6 @@ Du kan ta bort dina egna kalkylartiklar från **Mina kalkylartiklar**.
 
 Kalkyler där kalkylartikeln redan har använts påverkas inte. Kalkylen innehåller en egen kopia av kalkylartikelns uppgifter.
 
-## Rapportera fel i en standardartikel
-
-Standardartiklar från Kalkyldata kan inte redigeras. Om du hittar ett fel kan du rapportera det så att artikeln kan korrigeras centralt.
-
-1. Klicka på **flaggikonen** (**Rapportera**) på artikelraden.
-2. Välj en orsak och beskriv felet.
-3. Skicka rapporten.
-
-Exempel på fel är felaktig arbetstid, materialnummer eller benämning.
-
-Om du behöver anpassa artikeln direkt kan du i stället [forka kalkylartikeln](/anvandarguide/kalkylartiklar/forka/) och göra ändringarna i din egen kopia.
-
 ## Bra att veta
 
 * Publika kalkylartiklar kan hittas och användas av andra inloggade användare.
