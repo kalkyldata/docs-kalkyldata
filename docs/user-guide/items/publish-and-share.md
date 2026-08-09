@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Publicera och dela"
 parent: "Kalkylartiklar"
@@ -57,4 +56,3 @@ Om du behöver anpassa artikeln direkt kan du i stället [forka kalkylartikeln](
 * Publika kalkylartiklar kan hittas och användas av andra inloggade användare.
 * Andra användare kan forka en publik kalkylartikel. Deras ändringar påverkar inte din kalkylartikel.
 * **Källa** på en standardartikel visar artikelns källfil.
-* AI-agenten kan föreslå och öppna kalkylartiklar, men den publicerar, ändrar eller tar bort dina kalkylartiklar åt dig.
