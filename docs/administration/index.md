@@ -2,6 +2,7 @@
 layout: default
 title: "Administration"
 parent: "Översikt"
+has_children: true
 nav_order: 4
 permalink: /administration/
 description: "Hantera dina kontouppgifter, prisprofiler och rabattbrev som används i Kalkyldata."
