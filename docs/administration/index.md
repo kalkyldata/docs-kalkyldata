@@ -1,9 +1,8 @@
 ---
-layout: default
 title: "Administration"
-parent: "Översikt"
-has_children: true
+layout: default
 nav_order: 4
+has_children: true
 permalink: /administration/
 description: "Hantera dina kontouppgifter, prisprofiler och rabattbrev som används i Kalkyldata."
 category: "guide"
