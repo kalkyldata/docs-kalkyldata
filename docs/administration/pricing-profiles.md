@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Hantera prisprofiler"
 parent: "Administration"
@@ -9,7 +8,7 @@ description: "Skapa, kopiera, redigera och ta bort prisprofiler som styr prisern
 category: "guide"
 tags: ["prisprofil", "prisprofiler", "rapport", "timpris", "materialpåslag", "ROT"]
 audience: "user"
-----------------
+---
 
 En **prisprofil** samlar de prisregler du vill använda när du skapar en rapport. Profilen kan innehålla timpriser, materialpåslag, moms, ROT-avdrag och vilken priskälla som ska användas.
 
