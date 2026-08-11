@@ -1,9 +1,8 @@
 ---
-
 layout: default
 title: "Beräkningsregler"
 parent: "Referens"
-nav_order: 4
+nav_order: 3
 permalink: /referens/berakningsregler/
 description: "Så räknar Kalkyldata fram tid, material och summor från uppgifter till kalkylartiklar, delar och hela kalkylen."
 category: "reference"
@@ -13,7 +12,7 @@ audience: "user"
 
 Kalkyldata räknar fram tid och material på **uppgiftsnivå**. Värdena summeras sedan upp till **kalkylartikeln**, **delen** och slutligen hela **kalkylen**.
 
-Det viktigaste att känna till är att **Antal** och **Mat.mängd** har olika betydelser. **Antal** anger hur många gånger uppgiften utförs, medan **Mat.mängd** anger hur mycket material som går åt varje gång.
+Det viktigaste att känna till är att **Antal** och **Mat.mängd** har olika betydelser. **Antal** anger hur många gånger uppgiften utförs, medan **Mat.mängd** anger hur mycket material som används per utförande.
 
 ## Så hänger beräkningen ihop
 
@@ -52,20 +51,21 @@ Tot tid = 12 × 0,15
         = 1,80 h
 ```
 
-**Enhet** anger vad `Antal` avser, till exempel `st` eller `m`.
+**Enhet** anger vad **Antal** avser, till exempel `st` eller `m`.
 
 **Tid/st** är arbetstiden för en enhet. **Tot tid** är den sammanlagda arbetstiden för uppgiften och räknas fram automatiskt.
 
+För arbetstypen **SV-ATL** hämtas **Tid/st** normalt från tidsdatabasen när en arbetskod finns. För **Övrig tid** fyller du själv i **Tid/st**.
+
 ### Material
 
-Materialberäkningen använder fyra värden:
+Materialberäkningen använder tre värden:
 
 * **Antal** — hur många gånger uppgiften utförs
 * **Mat.mängd** — hur mycket material som används per utförande
-* **Pris/st** — priset för en materialenhet
-* **Tot material** — den beräknade materialkostnaden
+* **Pris/st** — priset för den materialenhet som priset avser
 
-Beräkningen är:
+Resultatet visas i **Tot material**.
 
 ```text
 Tot material = Antal × Mat.mängd × Pris/st
@@ -75,44 +75,41 @@ Exempel:
 
 ```text
 Antal:      12 st
-Mat.mängd:   1 st
+Mat.mängd:   1
 Pris/st:    42,50 kr
 
 Tot material = 12 × 1 × 42,50
              = 510,00 kr
 ```
 
-### Mat.mängd och materialets pris-enhet
+### Mat.mängd och Pris/st
 
-**Mat.mängd** anger materialåtgången per utförande. **Pris/st** anger priset för den materialenhet som används i beräkningen.
+Kolumnen **Pris/st** heter så i kalkyltabellen, men betyder i praktiken pris per materialenhet i prislistan. Materialienheten kan till exempel vara en styck, meter eller förpackning.
 
-Om ett material säljs i en förpackning om `50 st` och en uppgift använder `4 st`, räknas materialåtgången om till den pris-enhet som **Pris/st** avser.
+**Mat.mängd** ska anges i samma materialenhet som **Pris/st** avser.
 
-Om en förpackning kostar `100,00 kr` blir beräkningen:
+Om priset avser en hel förpackning med `50 st` och du använder fyra kabelklammer anger du därför:
 
 ```text
-Mat.mängd: 4 st
-Pris/st:   100,00 kr per 50 st
-
-4 / 50 = 0,08
-0,08 × 100,00 kr = 8,00 kr
+Mat.mängd: 4 / 50 = 0,08
+Pris/st:   100,00 kr per förpackning
 ```
 
-Materialkostnaden för ett utförande blir alltså `8,00 kr`.
+Om uppgiften utförs en gång blir materialkostnaden:
+
+```text
+1 × 0,08 × 100,00 = 8,00 kr
+```
 
 Om uppgiften utförs tre gånger:
 
 ```text
-Antal: 3
-Mat.mängd: 4 st
-
-3 × 4 = 12 st
-12 / 50 = 0,24 förpackning
-
-0,24 × 100,00 kr = 24,00 kr
+3 × 0,08 × 100,00 = 24,00 kr
 ```
 
-Det är därför viktigt att skilja på **Antal** och **Mat.mängd**:
+Kalkyldata räknar alltså inte själv om `4 st` till `0,08 förpackning`. **Mat.mängd** ska redan vara angiven i den materialenhet som **Pris/st** använder.
+
+Det är viktigt att skilja på **Antal** och **Mat.mängd**:
 
 | Kolumn           | Betyder                                     |
 | ---------------- | ------------------------------------------- |
@@ -120,8 +117,6 @@ Det är därför viktigt att skilja på **Antal** och **Mat.mängd**:
 | **Mat.mängd**    | Hur mycket material som används varje gång  |
 | **Pris/st**      | Pris för den materialenhet som priset avser |
 | **Tot material** | Materialkostnaden för hela uppgiften        |
-
-Kolumnreferensen beskriver **Mat.mängd** som materialåtgång per uppgift och **Tot material** som materialmängd × pris per styck × antal.
 
 ## Kalkylartikeln
 
@@ -138,7 +133,7 @@ Tot tid:      0,50 h
 Tot material: 100,00 kr
 ```
 
-Om kalkylartikelns **Antal** är `4` blir:
+Om kalkylartikelns **Antal** är `4` blir resultatet:
 
 ```text
 Tot tid:      0,50 × 4 = 2,00 h
@@ -147,10 +142,10 @@ Tot material: 100 × 4   = 400,00 kr
 
 På kalkylartikeln visas resultatet som **Tot tid (h)** och **Tot material**.
 
-Det innebär att det finns två olika **Antal** i kalkylen:
+Det finns alltså två olika **Antal** i kalkylen:
 
-* **Antal på uppgiften** multiplicerar just den uppgiftens tid och material.
-* **Antal på kalkylartikeln** multiplicerar hela kalkylartikelns resultat.
+* **Antal** på uppgiften multiplicerar den enskilda uppgiftens tid och material.
+* **Antal** på kalkylartikeln multiplicerar hela kalkylartikelns resultat.
 
 ## Delen
 
@@ -184,22 +179,28 @@ När du ändrar **Antal**, **Tid/st**, **Mat.mängd** eller **Pris/st** uppdater
 
 ## Materialpris
 
-För material med E-nummer kan **Pris/st** fyllas i automatiskt. Kalkyldata använder leverantörernas prislistor och dina rabattbrev för att räkna fram nettopriset och väljer det lägsta tillgängliga nettopriset.
+För material av typen **SV-ENR** med E-nummer kan **Pris/st** fyllas i automatiskt. Kalkyldata jämför tillgängliga nettopriser och väljer normalt det lägsta.
 
-Du kan läsa mer om hur **Pris/st** sätts i [Så här sätts materialpriserna](/anvandarguide/kalkyl/materialpriser/).
+Du kan därefter välja en annan **Grossist** för den enskilda uppgiften.
+
+För **Övrigt material** anger du själv materialets benämning och pris.
+
+Läs mer om hur **Pris/st** sätts på [Så här sätts materialpriserna](/anvandarguide/kalkyl/materialpriser/).
 
 ## Hela beräkningsflödet
 
-Ett materialvärde går genom kalkylen i följande ordning:
+Materialet följer detta flöde genom kalkylen:
 
 ```text
-Antal
+Antal på uppgiften
   ×
 Mat.mängd
   ×
 Pris/st
   ↓
-Tot material
+Uppgiftens Tot material
+  ×
+Antal på kalkylartikeln
   ↓
 Kalkylartikelns Tot material
   ↓
@@ -211,11 +212,13 @@ Kalkylens Material
 Arbetstiden följer motsvarande flöde:
 
 ```text
-Antal
+Antal på uppgiften
   ×
 Tid/st
   ↓
-Tot tid
+Uppgiftens Tot tid
+  ×
+Antal på kalkylartikeln
   ↓
 Kalkylartikelns Tot tid (h)
   ↓
@@ -224,12 +227,12 @@ Delens Tid (h)
 Kalkylens Arbetstid
 ```
 
-Det gör att du kan följa varje materialsumma och varje tidsumma från den enskilda uppgiften hela vägen till kalkylens totalsumma.
+Du kan alltså följa varje materialkostnad och arbetstid från den enskilda uppgiften hela vägen till kalkylens totalsumma.
 
 ## Bra att veta
 
-* **Tot tid** och **Tot material** är beräknade värden. Du ändrar i stället de värden som ligger till grund för beräkningen.
+* **Tot tid** och **Tot material** är beräknade värden. Ändra i stället de värden som ligger till grund för beräkningen.
 * **Antal** på en uppgift och **Antal** på en kalkylartikel har olika funktioner. Uppgiftens **Antal** påverkar uppgiften; kalkylartikelns **Antal** multiplicerar hela kalkylartikeln.
-* **Mat.mängd** avser materialåtgång per utförande. **Antal** anger hur många utföranden som ska räknas.
-* **Pris/st** ska läsas tillsammans med den materialenhet som priset avser. Ett förpackningspris kan därför behöva räknas om när bara en del av förpackningen används.
+* **Mat.mängd** avser materialåtgång per utförande och ska anges i samma materialenhet som **Pris/st** avser.
+* **Pris/st** ska läsas tillsammans med den materialenhet som priset avser. Om priset gäller en förpackning behöver **Mat.mängd** anges som en andel av förpackningen.
 * Ändringar av **Antal**, **Tid/st**, **Mat.mängd** eller **Pris/st** påverkar summeringarna på högre nivåer.
