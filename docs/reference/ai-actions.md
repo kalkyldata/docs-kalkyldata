@@ -1,3 +1,15 @@
+---
+layout: default
+title: "Vad AI-agenten kan göra"
+parent: "Referens"
+nav_order: 4
+permalink: /referens/ai-atgarder/
+description: "Lista över de åtgärder AI-agenten kan utföra i Kalkyldata: öppna vyer, visa kalkylartiklar, skapa delar, starta rundturer och föreslå innehåll."
+category: "reference"
+tags: ["ai-agent", "åtgärder", "actions", "chat", "navigering"]
+audience: "user"
+---
+
 ## Vad AI-agenten kan göra
 
 AI-agenten hjälper dig att arbeta snabbare i Kalkyldata. Den kan föreslå kalkylartiklar utifrån det du beskriver, öppna rätt vyer och hjälpa dig att strukturera kalkylen.
