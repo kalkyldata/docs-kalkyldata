@@ -2,7 +2,6 @@
 
 layout: default
 title: "Referens"
-parent: "Översikt"
 nav_order: 4
 has_children: true
 permalink: /referens/
