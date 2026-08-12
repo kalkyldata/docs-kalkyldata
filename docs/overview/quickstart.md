@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Snabbstart"
-parent: "Översikt"
+parent: "Kalkyldata"
 nav_order: 3
 permalink: /oversikt/snabbstart/
 description: "Kom från inloggning till färdig offert i Kalkyldata på sex steg, och lär dig när du ska använda snabbsök respektive fråga AI-agenten."
