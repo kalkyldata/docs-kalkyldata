@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Så här hittar du hjälp"
-parent: "Översikt"
+parent: "Kalkyldata"
 nav_order: 2
 permalink: /oversikt/navigera-guiden/
 description: "Var du hittar svar på en fråga om Kalkyldata: i guiden, i sökfältet eller direkt av AI-agenten i appen."
