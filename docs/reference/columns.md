@@ -1,15 +1,14 @@
 ---
-
 layout: default
 title: "Kolumnreferens"
 parent: "Kalkyl"
 nav_order: 8
-permalink: /anvandarguide/kalkyl/kolumnreferens/
+permalink: /anvandarguide/referens/kolumnreferens/
 description: "Förklaring av alla kolumner i kalkyltabellen och kalkylartikelkorten, inklusive innehåll, redigerbarhet och standardvisning."
 category: "guide"
 tags: ["kolumner", "kalkyl", "kalkylartikel", "uppgift", "tabell"]
 audience: "user"
-----------------
+---
 
 # Kolumnreferens
 
