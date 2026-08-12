@@ -59,4 +59,4 @@ Du kan arbeta med kalkylen i samma vy som chatten och slipper växla mellan sepa
 * AI-agenten föreslår, du bestämmer. Inget läggs till i kalkylen utan att du bekräftar.
 * Kalkylen sparas löpande, så du kan avbryta och fortsätta senare.
 * Materialpriser blir korrekta för ditt företag när du har laddat upp dina **rabattbrev**. Läs mer om [hur materialpriserna sätts](/anvandarguide/kalkyl/materialpriser/).
-* Behöver du hjälp kan du fråga **AI-agenten** direkt i chatten eller starta en rundtur från profilmenyn.
+* Behöver du hjälp kan du fråga **AI-agenten** direkt i chatten eller starta en rundtur från profilmenyn..
