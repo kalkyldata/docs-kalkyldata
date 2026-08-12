@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Vad är Kalkyldata?"
-parent: "Översikt"
+parent: "Kalkyldata"
 nav_order: 1
 permalink: /oversikt/vad-ar-kalkyldata/
 description: "Kalkyldata är ett kalkyl- och offertverktyg för elinstallation där du bygger kalkyler tillsammans med en AI-agent."
