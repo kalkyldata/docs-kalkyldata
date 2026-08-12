@@ -1,174 +1,127 @@
-# just-the-docs-template
+# Kalkyldata – dokumentation
 
-This is a *bare-minimum* template to create a [Jekyll] site that:
+Det här repot innehåller dokumentationen för **Kalkyldata**, ett webbaserat kalkyl- och offertverktyg för elinstallationer.
 
-- uses the [Just the Docs] theme;
-- can be built and published on [GitHub Pages];
-- can be built and previewed locally, and published on other platforms.
+Kalkyldata hjälper dig att bygga kalkyler genom att beskriva jobbet i en chatt. **AI-agenten** föreslår kalkylartiklar med uppgifter, material och arbetstid. Du kan sedan granska och justera kalkylen innan du skapar en offert, materiallista eller annan rapport.
 
-More specifically, the created site:
+## Dokumentationen
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem;
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages.
+Den publicerade dokumentationen finns på:
 
-To get started with creating a site, simply:
+**[kalkyldata.github.io/docs-kalkyldata/]([https://docs.kalkyldata.se/](https://kalkyldata.github.io/docs-kalkyldata/))**
 
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
+Dokumentationen innehåller bland annat:
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](#hosting-your-docs-from-an-existing-project-repo).
+* guider för att komma igång och använda Kalkyldata
+* information om kalkyler, delar, kalkylartiklar och uppgifter
+* guider för materialpriser och rabattbrev
+* sökning och filtrering
+* offerter, rapporter och PDF
+* import och export av kalkyldata
+* prisstrategier och profiler
+* frågor och svar
+* nyheter och förändringar i tjänsten
 
-After completing the creation of your new site on GitHub, update it as needed:
+Dokumentationen är skriven för användare av Kalkyldata och är utformad för att även kunna användas som kunskapsunderlag av AI-agenten.
 
-## Replace the content of the template pages
+## Om Kalkyldata
 
-Update the following files to your own content:
+Kalkyldata är utvecklat för elbranschen och fokuserar på att göra kalkylering och offertarbete snabbare och enklare.
 
-- `index.md` (your new home page)
-- `README.md` (information for those who access your site repo on GitHub)
+En kalkyl byggs upp i flera nivåer:
 
-## Changing the version of the theme and/or Jekyll
+```text
+Projekt
+└── Del
+    └── Kalkylartikel
+        └── Uppgift
+```
 
-Simply edit the relevant line(s) in the `Gemfile`.
+En **kalkylartikel** är en återanvändbar mall som innehåller en eller flera **uppgifter**. En uppgift beskriver ett arbetsmoment och kan innehålla material, arbetstid eller båda.
 
-## Adding a plugin
+Materialpriser för standardartiklar hämtas från prisdata och kan jämföras mellan leverantörer utifrån användarens rabattbrev.
 
-The Just the Docs theme automatically includes the [`jekyll-seo-tag`] plugin.
+## Det här repot
 
-To add an extra plugin, you need to add it in the `Gemfile` *and* in `_config.yml`. For example, to add [`jekyll-default-layout`]:
+Det här är **dokumentationsrepot för Kalkyldata**. Det innehåller inte själva Kalkyldata-applikationens källkod.
 
-- Add the following to your site's `Gemfile`:
+Dokumentationen är byggd med:
 
-  ```ruby
-  gem "jekyll-default-layout"
-  ```
+* [Jekyll](https://jekyllrb.com/)
+* [Just the Docs](https://just-the-docs.github.io/just-the-docs/)
+* GitHub Pages
+* GitHub Actions
 
-- And add the following to your site's `_config.yml`:
+Markdown-filerna innehåller både själva dokumentationstexten och metadata som används för navigation, sökning och strukturering av innehållet.
 
-  ```yaml
-  plugins:
-    - jekyll-default-layout
-  ```
+## Struktur
 
-Note: If you are using a Jekyll version less than 3.5.0, use the `gems` key instead of `plugins`.
+Dokumentationen är organiserad efter vad användaren behöver göra och förstå.
 
-## Publishing your site on GitHub Pages
+Typiska delar är:
 
-1.  If your created site is `YOUR-USERNAME/YOUR-SITE-NAME`, update `_config.yml` to:
+```text
+Översikt
+├── Vad är Kalkyldata?
+└── ...
 
-    ```yaml
-    title: YOUR TITLE
-    description: YOUR DESCRIPTION
-    theme: just-the-docs
+Guider
+├── Kom igång
+├── Kalkyl
+├── Rapporter
+└── ...
 
-    url: https://YOUR-USERNAME.github.io/YOUR-SITE-NAME
+Referens
+└── ...
+```
 
-    aux_links: # remove if you don't want this link to appear on your pages
-      Template Repository: https://github.com/YOUR-USERNAME/YOUR-SITE-NAME
-    ```
+Varje sida är en separat Markdown-fil med YAML-frontmatter som styr bland annat titel, navigation, URL, kategori och målgrupp.
 
-2.  Push your updated `_config.yml` to your site on GitHub.
+## Utveckling och lokal förhandsvisning
 
-3.  In your newly created repo on GitHub:
-    - go to the `Settings` tab -> `Pages` -> `Build and deployment`, then select `Source`: `GitHub Actions`.
-    - if there were any failed Actions, go to the `Actions` tab and click on `Re-run jobs`.
+Om du arbetar med dokumentationen lokalt behöver du ha Jekyll och Bundler installerat.
 
-## Building and previewing your site locally
+Installera projektets beroenden:
 
-Assuming [Jekyll] and [Bundler] are installed on your computer:
+```bash
+bundle install
+```
 
-1.  Change your working directory to the root directory of your site.
+Starta sedan en lokal utvecklingsserver:
 
-2.  Run `bundle install`.
+```bash
+bundle exec jekyll serve
+```
 
-3.  Run `bundle exec jekyll serve` to build your site and preview it at `localhost:4000`.
+Dokumentationen blir då tillgänglig lokalt på:
 
-    The built site is stored in the directory `_site`.
+```text
+http://localhost:4000
+```
 
-## Publishing your built site on a different platform
+Den genererade webbplatsen hamnar i katalogen `_site`.
 
-Just upload all the files in the directory `_site`.
+## Publicering
 
-## Customization
+Dokumentationen publiceras automatiskt via **GitHub Actions** till GitHub Pages.
 
-You're free to customize sites that you create with this template, however you like!
+När ändringar pushas till den publicerade branchen byggs dokumentationen och den nya versionen publiceras automatiskt.
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+## Bidrag och ändringar
 
-## Hosting your docs from an existing project repo
+Bidrag till dokumentationen är välkomna. Du kan föreslå förbättringar, rätta fel, förtydliga instruktioner eller lägga till information som saknas.
 
-You might want to maintain your docs in an existing project repo. Instead of creating a new repo using the [just-the-docs template](https://github.com/just-the-docs/just-the-docs-template), you can copy the template files into your existing repo and configure the template's Github Actions workflow to build from a `docs` directory. You can clone the template to your local machine or download the `.zip` file to access the files.
+### Så bidrar du
 
-### Copy the template files
+1. Skapa en fork av repot.
+2. Gör dina ändringar i en separat branch.
+3. Skicka en pull request med en kort beskrivning av vad du har ändrat och varför.
 
-1.  Create a `.github/workflows` directory at your project root if your repo doesn't already have one. Copy the `pages.yml` file into this directory. GitHub Actions searches this directory for workflow files.
+För mindre ändringar, som stavfel eller uppenbara rättelser, går det bra att skicka en pull request direkt utan att först öppna en issue.
 
-2.  Create a `docs` directory at your project root and copy all remaining template files into this directory.
+Dokumentationen följer Kalkyldatas etablerade terminologi och skrivs med användaren i fokus. Vid större ändringar kan innehållet därför behöva justeras för att passa dokumentationens struktur och begrepp.
 
-### Modify the GitHub Actions workflow
 
-The GitHub Actions workflow that builds and deploys your site to Github Pages is defined by the `pages.yml` file. You'll need to edit this file to that so that your build and deploy steps look to your `docs` directory, rather than the project root.
+---
 
-1.  Set the default `working-directory` param for the build job.
-
-    ```yaml
-    build:
-      runs-on: ubuntu-latest
-      defaults:
-        run:
-          working-directory: docs
-    ```
-
-2.  Set the `working-directory` param for the Setup Ruby step.
-
-    ```yaml
-    - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '3.3'
-          bundler-cache: true
-          cache-version: 0
-          working-directory: '${{ github.workspace }}/docs'
-    ```
-
-3.  Set the path param for the Upload artifact step:
-
-    ```yaml
-    - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: docs/_site/
-    ```
-
-4.  Modify the trigger so that only changes within the `docs` directory start the workflow. Otherwise, every change to your project (even those that don't affect the docs) would trigger a new site build and deploy.
-
-    ```yaml
-    on:
-      push:
-        branches:
-          - "main"
-        paths:
-          - "docs/**"
-    ```
-
-## Licensing and Attribution
-
-This repository is licensed under the [MIT License]. You are generally free to reuse or extend upon this code as you see fit; just include the original copy of the license (which is preserved when you "make a template"). While it's not necessary, we'd love to hear from you if you do use this template, and how we can improve it for future use!
-
-The deployment GitHub Actions workflow is heavily based on GitHub's mixed-party [starter workflows]. A copy of their MIT License is available in [actions/starter-workflows].
-
-----
-
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
-
-[Jekyll]: https://jekyllrb.com
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[Bundler]: https://bundler.io
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
-[`jekyll-default-layout`]: https://github.com/benbalter/jekyll-default-layout
-[`jekyll-seo-tag`]: https://jekyll.github.io/jekyll-seo-tag
-[MIT License]: https://en.wikipedia.org/wiki/MIT_License
-[starter workflows]: https://github.com/actions/starter-workflows/blob/main/pages/jekyll.yml
-[actions/starter-workflows]: https://github.com/actions/starter-workflows/blob/main/LICENSE
+*Kalkyldata är ett kalkyl- och offertverktyg för elinstallationer.*
