@@ -72,6 +72,6 @@ En bra felrapport gör det lättare att förstå och återskapa problemet. Ta g�
 
 ## Vad händer efter rapporten?
 
-Rapporter och feedback samlas in för att hjälpa till att hitta fel och förbättra Kalkyldata. Du får normalt en bekräftelse på att vi mottagit ditt meddelande.
+Feedback från användare hjälper oss att hitta fel, förbättra AI-agentens svar och utveckla Kalkyldata utifrån hur tjänsten faktiskt används. Du får normalt en bekräftelse på att vi mottagit din feedback eller rapport.
 
 Om ett ärende kräver svar återkommer vi via e-postadressen som är kopplad till ditt konto. Förbättringsförslag kan användas i det fortsatta utvecklingsarbetet utan att du får ett individuellt svar.
