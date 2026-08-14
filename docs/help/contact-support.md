@@ -45,17 +45,18 @@ Om AI-agenten ger ett svar eller förslag som är bra, dåligt eller felaktigt k
 * **Tummen ner** — visar att svaret inte blev rätt. Du kan också beskriva vad som var fel.
 
 Feedbacken kopplas till den aktuella frågan och AI-agentens svar. Använd därför tummen ner när du vill rapportera ett specifikt problem med ett AI-svar.
+**Din feedback hjälper oss att förbättra AI-agenten.** Tummen upp visar vad som fungerar bra och tummen ner hjälper oss att hitta svar och förslag som behöver bli bättre. Även kort feedback, som "fel material" eller "för mycket arbetstid", kan vara värdefull.
 
 ## Rapportera en felaktig kalkylartikel
 
 Om du hittar fel i en kalkylartikel, till exempel fel arbetstid, material eller benämning, kan du rapportera kalkylartikeln direkt.
 
-1. Öppna **Mina kalkylartiklar** eller hitta kalkylartikeln i chatten.
-2. Klicka på flaggikonen på kalkylartikelns rad.
+1. Öppna Mina kalkylartiklar, hitta kalkylartikeln i chatten eller i kalkyltabellen.
+2. Klicka på flaggikonen på kalkylartikelns rad - kolumn **Rapport.**
 3. Beskriv vad som är fel.
 4. Skicka rapporten.
 
-När du har rapporterat samma kalkylartikel blir knappen nedtonad så att du inte skickar samma rapport flera gånger.
+När du har rapporterat kalkylartikeln blir knappen nedtonad så att du inte skickar samma rapport flera gånger.
 
 ## Vad ska du skriva i en felrapport?
 
@@ -71,6 +72,6 @@ En bra felrapport gör det lättare att förstå och återskapa problemet. Ta g�
 
 ## Vad händer efter rapporten?
 
-Rapporter och feedback samlas in för att hjälpa till att hitta fel och förbättra Kalkyldata.
+Rapporter och feedback samlas in för att hjälpa till att hitta fel och förbättra Kalkyldata. Du får normalt en bekräftelse på att vi mottagit ditt meddelande.
 
 Om ett ärende kräver svar återkommer vi via e-postadressen som är kopplad till ditt konto. Förbättringsförslag kan användas i det fortsatta utvecklingsarbetet utan att du får ett individuellt svar.
