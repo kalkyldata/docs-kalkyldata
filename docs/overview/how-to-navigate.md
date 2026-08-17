@@ -10,7 +10,7 @@ tags: ["hjälp", "sök", "ai-agenten", "guide", "support"]
 audience: "user"
 ---
 
-När du kör fast i Kalkyldata finns svaret oftast på ett av tre ställen. Den här sidan visar vilket du ska välja.
+När du kör fast i Kalkyldata finns svaret oftast på ett av fyra ställen. Den här sidan visar vilket du ska välja.
 
 ## Så hittar du svar snabbast
 
