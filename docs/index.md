@@ -1,6 +1,6 @@
 ---
 
-title: "Kalkyldata1"
+title: "Kalkyldata"
 layout: default
 nav_order: 0.5
 permalink: /
