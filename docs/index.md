@@ -2,7 +2,7 @@
 
 title: "Kalkyldata1"
 layout: default
-nav_order: 1
+nav_order: 0.5
 permalink: /
 description: "Kalkylprogram och offertverktyg för elektriker och elentreprenörer. Skapa kalkyler för elinstallationer med AI-stöd, materialpriser och arbetstid."
 category: "guide"
