@@ -26,22 +26,22 @@ Du behöver inte kunna JSON för att använda Kalkyldata. För de flesta använd
 | Du skapar många varianter av samma artikel | Skriv JSON och importera |
 | Du vill kopiera en befintlig artikel och ändra exempelvis artikelnummer eller benämning | Använd JSON |
 | Du vill versionshantera och granska ändringar | Använd JSON och GitHub |
-| Du vill att artikeln ska finnas för alla användare | Bidra via GitHub-repot |
+| Du vill att artikeln ska finnas i det gemensamma artikelbiblioteket | Bidra via GitHub-repot |
 | Du vill flytta kalkyldata mellan kalkyler | Använd export och import i appen med `kdx/1` |
 
 ## Två vägar in i systemet
 
-Det finns två huvudsakliga sätt att använda en JSON-baserad kalkylartikel.
+JSON kan användas på två olika sätt beroende på vad du vill göra.
 
-### 1. Import i appen
+### 1. Importera JSON i appen
 
-Du kan importera JSON direkt i Kalkyldata när du arbetar med kalkyldata eller skapar egna kalkylartiklar.
+När du importerar JSON till en kalkyl läggs innehållet in i den aktuella kalkylen.
 
-En importerad kalkylartikel kan användas i din egen kalkyl eller sparas bland **Mina kalkylartiklar**. Egna kalkylartiklar är privata och blir inte automatiskt synliga för andra användare.
+Du kan också använda JSON när du skapar en egen kalkylartikel under **Mina kalkylartiklar**. Den sparade kalkylartikeln hanteras sedan som en vanlig egen kalkylartikel och kan användas i dina kalkyler.
 
-Det här är rätt väg när du vill skapa artiklar för eget bruk utan att publicera dem i det gemensamma artikelbiblioteket.
+Kalkylartiklar under **Mina kalkylartiklar** kan vara privata eller publiceras så att andra användare kan hitta och använda dem. Det är alltså inte själva JSON-importen som avgör om en kalkylartikel är privat eller publik, utan artikelns synlighetsinställning.
 
-### 2. Bidrag via GitHub
+### 2. Bidra via GitHub
 
 Vill du bidra med en kalkylartikel till Kalkyldatas gemensamma artikelbibliotek kan du lägga JSON-filen i artikelrepot via GitHub.
 
@@ -51,7 +51,7 @@ Läs mer på [Bidra till artikelbiblioteket via GitHub](/avancerat/github-bidrag
 
 ## Det du skriver och det systemet fyller i
 
-Du beskriver själva kalkylartikelns innehåll i JSON:
+I JSON-filen beskriver du kalkylartikelns innehåll:
 
 - **Benämning och beskrivning** förklarar vad artikeln avser.
 - **Sökord och kategori** hjälper användaren att hitta artikeln.
@@ -59,23 +59,41 @@ Du beskriver själva kalkylartikelns innehåll i JSON:
 - **Arbetskoder** anger vilket arbete som ska slås upp när `tsk_work_type` är `SV-ATL`.
 - **Artikelnummer** anger vilket material som ska slås upp när `tsk_material_type` är `SV-ENR`.
 - **Antal och mängder** anger hur mycket arbete och material som ingår.
+- **Tid, materialbenämning och pris** kan anges som värden i JSON-filen och fungerar som underlag om ett uppslag inte ger någon träff.
 
-Kalkyldata fyller eller beräknar sedan information utifrån dessa uppgifter:
+Kalkyldata använder sedan uppgifterna för att komplettera kalkylartikeln:
 
 - **Arbetstid** slås upp från arbetskoden när `tsk_work_type` är `SV-ATL`.
 - **Materialpris, materialbenämning och leverantör** slås upp från artikelnumret när `tsk_material_type` är `SV-ENR`, med dina rabattbrev inräknade.
 - **Sökord, kategori och beskrivning** kan kompletteras automatiskt när en artikel publiceras i det gemensamma biblioteket.
-- **Total tid och materialkostnad** räknas fram av systemet och ska inte skrivas in som summeringar i JSON-filen.
+- **Total tid och materialkostnad** räknas fram av systemet.
 
-### Skriv inte in värden som systemet ska slå upp
+## Uppslag och reservvärden
 
-För rader som använder `SV-ATL` ska du normalt inte skriva in en egen tid. Ange arbetskoden och låt Kalkyldata slå upp tiden.
+Det är ofta en bra idé att ange både en uppslagskod och ett värde i JSON-filen.
 
-På samma sätt ska du normalt inte ange ett eget pris eller en egen materialbenämning på en rad som använder `SV-ENR`. Ange artikelnumret och låt Kalkyldata göra prisuppslaget.
+När `tsk_work_type` är `SV-ATL` försöker Kalkyldata slå upp `tsk_work_code` i arbetstidslistan. Om koden hittas används uppgifterna från uppslaget. Om koden inte hittas kan de värden som redan finns angivna i kalkylartikeln användas som reserv.
 
-Det är viktigt eftersom uppslagen kan ändras när underliggande arbets- eller prisdata uppdateras.
+Samma princip gäller material. När `tsk_material_type` är `SV-ENR` försöker Kalkyldata slå upp `tsk_material_number` i prislistan. Om artikelnumret hittas används det aktuella uppslaget. Om det inte finns någon träff kan de angivna värdena i kalkylartikeln användas som reserv.
 
-Om du i stället vill ange tid eller material manuellt använder du `Övrig tid` respektive `Övrigt material`.
+Det gör kalkylartikeln mer robust. Den kan fortfarande innehålla en användbar tid eller materialkostnad även om en arbetskod eller ett artikelnummer saknas i det aktuella uppslaget.
+
+Det är därför inte fel att ange exempelvis:
+
+```json
+{
+  "tsk_work_type": "SV-ATL",
+  "tsk_work_code": "206501112",
+  "tsk_work_task_duration": 0.06,
+  "tsk_work_description": "Montage VP-RÖR",
+  "tsk_material_type": "SV-ENR",
+  "tsk_material_number": "1416753",
+  "tsk_material_name": "VP-RÖR 20MM 750N HF, 3M",
+  "tsk_material_user_price": 55.0
+}
+```
+
+Om arbetskoden eller artikelnumret ger en träff kan Kalkyldata ersätta reservvärdena med aktuella uppgifter från uppslaget.
 
 ## En JSON-fil är inte samma sak som `kdx/1`
 
