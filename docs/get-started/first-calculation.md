@@ -10,6 +10,8 @@ tags: ["kalkyl", "chat", "ai-agenten", "kalkylartikel", "del", "offert"]
 audience: "user"
 ---
 
+# Din första kalkyl
+
 Din första kalkyl börjar med en mening i chattrutan. Du beskriver vad som ska göras, och AI-agenten föreslår kalkylartiklar med material och arbetstid som du kan lägga till.
 
 ## Så gör du din första kalkyl
