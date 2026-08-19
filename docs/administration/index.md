@@ -10,6 +10,8 @@ tags: ["administration", "konto", "prisprofiler", "rabattbrev"]
 audience: "user"
 ---
 
+# Administration
+
 Under **Administration** hittar du inställningar som du använder när du arbetar med kalkyler och rapporter: dina kontouppgifter, prisprofiler och rabattbrev.
 
 ## Sidor i den här delen
