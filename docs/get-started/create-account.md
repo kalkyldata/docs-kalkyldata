@@ -10,6 +10,8 @@ tags: ["konto", "registrering", "inloggning", "lösenord"]
 audience: "user"
 ---
 
+# Skapa konto
+
 Du behöver ett konto för att skapa och spara kalkyler, rapporter och egna kalkylartiklar.
 
 ## Så skapar du ett konto
