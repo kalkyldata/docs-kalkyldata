@@ -10,6 +10,8 @@ tags: ["prisprofil", "prisprofiler", "rapport", "timpris", "materialpåslag", "R
 audience: "user"
 ---
 
+# Hantera prisprofiler
+
 En **prisprofil** samlar de prisregler du vill använda när du skapar en rapport. Profilen kan innehålla timpriser, materialpåslag, moms, ROT-avdrag och vilken priskälla som ska användas.
 
 När du skapar en rapport väljer du en prisprofil. Kalkyldata använder då profilens inställningar när priserna beräknas.
