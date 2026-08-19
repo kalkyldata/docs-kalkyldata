@@ -11,6 +11,8 @@ audience: "user"
 has_children: true
 ---
 
+# Rapporter
+
 En **rapport** presenterar kalkylen som ett kund- eller arbetsdokument. Du väljer rapportmall, prisprofil och vilka uppgifter som ska visas. Ändringar i rapporten påverkar inte kalkylen.
 
 ## Sidor i den här delen
