@@ -1,16 +1,16 @@
 ---
 layout: default
 title: "Terminologi"
-parent: "Översikt"
+parent: "Referens"
 nav_order: 2
-permalink: /oversikt/terminologi/
+permalink: /reference/terminologi/
 description: "Ordlista över de begrepp som används i Kalkyldatas gränssnitt och dokumentation."
 category: "reference"
 tags: ["terminologi", "kalkyl", "kalkylartikel", "uppgift", "rapport", "ai-agenten"]
 audience: "user"
 ---
 
-## Om terminologin
+# Terminologi
 
 Den här ordlistan förklarar de viktigaste begreppen i Kalkyldata. Samma begrepp används i gränssnittet, användarguiderna och AI-agentens svar.
 
