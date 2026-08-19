@@ -11,6 +11,8 @@ tags: ["chat", "ai-agent", "status", "verktyg"]
 audience: "user"
 ---
 
+# Verktygsindikering
+
 När AI-agenten arbetar visas en statusrad under ditt meddelande. Den visar att AI-agenten fortfarande bearbetar din fråga och kan även beskriva vad den gör just nu.
 
 För att besvara dina frågor använder AI-agenten olika verktyg. Beroende på vad du ber om kan den till exempel söka efter kalkylartiklar, läsa information i din kalkyl, hämta materialpriser eller öppna olika delar av programmet.
