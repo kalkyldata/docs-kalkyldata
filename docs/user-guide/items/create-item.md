@@ -12,6 +12,8 @@ tags: ["kalkylartikel", "skapa", "utkast", "publicera", "uppgifter"]
 audience: "user"
 ---
 
+# Skapa egna kalkylartiklar
+
 Skapa en egen **kalkylartikel** när du vill återanvända samma kombination av arbetsmoment och material. Du kan bygga artikeln från grunden, hämta uppgifter från en befintlig kalkylartikel eller importera kalkyldata från en JSON-fil.
 
 ## Så skapar du en kalkylartikel
