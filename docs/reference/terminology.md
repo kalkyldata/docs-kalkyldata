@@ -3,7 +3,7 @@ layout: default
 title: "Terminologi"
 parent: "Referens"
 nav_order: 2
-permalink: /reference/terminologi/
+permalink: /referens/terminologi/
 description: "Ordlista över de begrepp som används i Kalkyldatas gränssnitt och dokumentation."
 category: "reference"
 tags: ["terminologi", "kalkyl", "kalkylartikel", "uppgift", "rapport", "ai-agenten"]
