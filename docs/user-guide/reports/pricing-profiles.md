@@ -11,6 +11,8 @@ tags: ["prisprofil", "prisstrategi", "timpris", "påslag", "moms", "ROT", "listp
 audience: "user"
 ---
 
+# Prisstrategier och profiler
+
 En **prisprofil** samlar reglerna som styr hur Kalkyldata räknar fram kundpriset från kalkylens arbetstid och materialkostnader. Profilen kan styra bland annat timpris, påslag, moms, ROT och vilket materialpris som används i rapporten.
 
 Du kan ha flera prisprofiler för olika kundtyper, avtal eller sätt att prissätta arbeten.
