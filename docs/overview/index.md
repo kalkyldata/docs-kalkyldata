@@ -9,6 +9,7 @@ tags: ["översikt", "kalkyldata", "kom igång", "kalkyl", "offert"]
 audience: "user"
 has_children: true
 ---
+# Översikt
 
 Kalkyldata är ett kalkyl- och offertverktyg för elinstallation. Du beskriver jobbet i en chat, AI-agenten föreslår kalkylartiklar med material och arbetstid, och du gör klart offerten i kalkyltabellen.
 
