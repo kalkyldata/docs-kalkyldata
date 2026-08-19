@@ -12,6 +12,8 @@ tags: ["favorit", "kalkylartikel", "ai-förslag"]
 audience: "user"
 ---
 
+# Favoriter
+
 En **favorit** är en kalkylartikel som du har favoritmarkerat. Favoriter gör det enklare att hitta kalkylartiklar du använder ofta och ger dem en liten fördel när AI-agenten söker efter kalkylartiklar åt dig.
 
 ## Så favoritmarkerar du en kalkylartikel
