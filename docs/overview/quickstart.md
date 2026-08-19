@@ -10,6 +10,8 @@ tags: ["snabbstart", "kalkyl", "offert", "chat", "snabbsök", "ai-agenten"]
 audience: "user"
 ---
 
+# Snabbstart
+
 Den här snabbstarten tar dig från inloggning till en färdig offert i Kalkyldata. Räkna med tio minuter första gången.
 
 ## Så gör du din första kalkyl
