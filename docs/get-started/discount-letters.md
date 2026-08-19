@@ -10,6 +10,8 @@ tags: ["rabattbrev", "materialpris", "leverantör", "nettopris"]
 audience: "user"
 ---
 
+# Ladda upp rabattbrev
+
 Ett **rabattbrev** är den överenskommelse du har med en grossist om rabatt per varugrupp. När du laddat upp dina rabattbrev räknar Kalkyldata om listpriserna till dina nettopriser och väljer det billigaste alternativet per artikel.
 
 ## Så laddar du upp ett rabattbrev
