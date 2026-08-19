@@ -12,6 +12,8 @@ tags: ["forka", "kalkylartikel", "anpassa", "kopia"]
 audience: "user"
 ---
 
+# Forka och anpassa
+
 Att **forka** betyder att du skapar en egen kopia av en befintlig kalkylartikel. Använd **Forka** när en kalkylartikel nästan passar, men du vill anpassa uppgifter, tider eller material efter ditt eget arbetssätt.
 
 ## Så forkar du en kalkylartikel
