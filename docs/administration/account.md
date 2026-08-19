@@ -10,6 +10,8 @@ tags: ["konto", "profil", "lösenord", "nyhetsbrev", "inställningar"]
 audience: "user"
 ---
 
+# Konto och inställningar
+
 På sidan **Profil** ändrar du dina kontouppgifter, byter lösenord, väljer vilka utskick du vill ha och kan ta bort ditt konto.
 
 ## Så öppnar du profilen
