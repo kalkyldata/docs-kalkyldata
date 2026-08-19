@@ -10,6 +10,8 @@ tags: ["beräkningsregler", "Tid/st", "Tot tid", "Mat.mängd", "Pris/st", "Tot m
 audience: "user"
 ---
 
+# Beräkningsregler
+
 Kalkyldata räknar fram tid och material på **uppgiftsnivå**. Värdena summeras sedan upp till **kalkylartikeln**, **delen** och slutligen hela **kalkylen**.
 
 Det viktigaste att känna till är att **Antal** och **Mat.mängd** har olika betydelser. **Antal** anger hur många gånger uppgiften utförs, medan **Mat.mängd** anger hur mycket material som används per utförande.
