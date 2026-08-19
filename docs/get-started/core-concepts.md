@@ -10,6 +10,8 @@ tags: ["grundbegrepp", "del", "uppgift", "kalkylartikel"]
 audience: "user"
 ---
 
+# Grundbegrepp: del, uppgift och kalkylartikel
+
 Kalkyldata bygger på några få grundbegrepp. När du förstår hur de hänger ihop blir det enklare att använda både chatten, kalkylpanelen och rapporterna.
 
 ## Begreppen i korthet
