@@ -11,6 +11,8 @@ tags: ["chat", "ai-agent", "frågor", "kalkyl"]
 audience: "user"
 ---
 
+# Skriv effektiva frågor
+
 AI-agenten bygger kalkyler utifrån det du skriver i chatten. Ju tydligare du beskriver arbetet, desto bättre blir förslaget och desto mindre behöver du justera innan du lägger till kalkylartiklarna.
 
 ## Så använder du det
