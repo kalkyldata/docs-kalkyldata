@@ -11,6 +11,8 @@ tags: ["snabbsök", "chat", "kalkylartikel", "sök"]
 audience: "user"
 ---
 
+# Snabbsök i chatten
+
 Snabbsök hjälper dig att snabbt hitta kalkylartiklar direkt i chattrutan. Funktionen passar bäst när du redan vet vilken kalkylartikel du vill lägga till och inte behöver be AI-agenten skapa ett förslag.
 
 ## Så använder du det
