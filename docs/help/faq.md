@@ -11,6 +11,8 @@ tags: ["vanliga frågor", "faq", "kalkyl", "priser", "rapport", "ai-agent"]
 audience: "user"
 ---
 
+# Vanliga frågor
+
 Här hittar du korta svar på vanliga frågor om Kalkyldata. Varje svar ger dig det viktigaste direkt och länkar vidare när du behöver mer information.
 
 ## Kalkyl och delar
