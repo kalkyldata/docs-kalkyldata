@@ -1,76 +1,63 @@
 ---
 layout: default
-title: "Import och export av kalkyldata"
+title: "Kommentarer"
 parent: "Kalkyl"
-nav_order: 8
-permalink: /anvandarguide/kalkyl/import-export/
-description: "Exportera och importera kalkyldata för att återanvända eller flytta uppgifter, kalkylartiklar, delar och hela kalkyler."
+nav_order: 7
+permalink: /anvandarguide/kalkyl/kommentarer/
+description: "Lägg till och hantera interna kommentarer på delar och kalkylartiklar medan du arbetar med kalkylen."
 category: "guide"
-tags: ["import", "export", "json", "kalkyl"]
+tags: ["kommentarer", "anteckningar", "kalkyl"]
 audience: "user"
 ---
 
-Du kan exportera och importera kalkyldata i JSON-format. Det gör det enkelt att återanvända uppgifter, kalkylartiklar, delar eller hela kalkyler mellan olika projekt eller användare av Kalkyldata.
+# Kommentarer
 
-## Exportera kalkyldata
+Kommentarer hjälper dig att spara frågor, beslut och andra interna anteckningar direkt i kalkylen. Du kan lägga kommentarer på både **delar** och **kalkylartiklar**.
 
-1. Öppna kalkylpanelen.
-2. Klicka på de tre vertikala punkterna (**⋮**) längst upp till höger i kalkyltabellen.
-3. Se under rubriken **IMPORTERA OCH EXPORTERA**.
-4. Välj **Ladda ner som JSON** eller **Kopiera JSON till urklipp**.
+Använd kommentarer när information behöver följa med kalkylen under arbetet, till exempel när något ska kontrolleras, beslutas eller följas upp senare.
 
-Du kan exportera hela kalkylen från menyn. Om kolumnen **Export** är synlig kan du även exportera en enskild uppgift, kalkylartikel eller del direkt från tabellen.
-
-Exportfilen får automatiskt ett namn med kalkylens namn och dagens datum, till exempel:
-
-`kalkyl-garage-2026-08-07.json`
-
-## Importera kalkyldata
+## Lägg till en kommentar
 
 1. Öppna kalkylpanelen.
-2. Klicka på de tre vertikala punkterna (**⋮**) längst upp till höger i kalkyltabellen.
-3. Se under rubriken **IMPORTERA OCH EXPORTERA**.
-4. Välj **Importera kalkyldata**.
-5. Ladda upp en JSON-fil eller klistra in JSON-text.
-6. Kontrollera vilket innehåll som hittades.
-7. Välj var innehållet ska importeras.
-8. Klicka **Importera**.
+2. Visa kolumnen **Komm.** för delar eller **Kommentarer** för kalkylartiklar via **Kolumner**.
+3. Klicka på pratbubblan på den del eller kalkylartikel du vill kommentera.
+4. Skriv kommentaren.
+5. Klicka på **Lägg till**.
 
-Du kan importera:
+Exempel:
 
-- en uppgift,
-- en kalkylartikel,
-- en del,
-- en hel kalkyl.
+- `Kontrollera kabelväg på plats`
+- `Kunden vill ha svart materiel`
+- `Inväntar besked från beställaren`
 
-När du importerar en hel kalkyl kan du välja:
+Skriv gärna kommentaren så att det framgår **vad som ska göras eller följas upp**. Det gör den mer användbar för dig själv och andra som arbetar med kalkylen.
 
-- **Slå ihop** – lägger till den importerade kalkylen i den aktuella.
-- **Ersätt** – ersätter den aktuella kalkylen helt.
+## Läsa och ta bort kommentarer
 
-{: .warning }
-> Kontrollera alltid att du har valt rätt alternativ innan du använder **Ersätt**. Den aktuella kalkylen ersätts av den importerade.
+Klicka på pratbubblan för att visa kommentarerna som hör till delen eller kalkylartikeln.
 
-## Välj rätt importmål
+Systemnoteringar och dina egna kommentarer visas separat när båda typerna finns.
 
-| Du importerar | Importeras till | Resultat |
-| --- | --- | --- |
-| Uppgift | En kalkylartikel | Uppgiften läggs till i kalkylartikeln. |
-| Kalkylartikel | En del eller **Ny del** | Kalkylartikeln läggs till i den valda delen. |
-| Del | Den aktuella kalkylen | Delen läggs till som en ny del. |
-| Kalkyl | **Slå ihop** eller **Ersätt** | Kalkylerna slås ihop eller ersätts. |
+Du kan ta bort en egen kommentar via kommentarens meny.
 
-## Begränsningar
+## Kommentarer är interna arbetsanteckningar
 
-- Endast JSON-filer kan importeras.
-- En fil får vara högst `1 MB`.
-- Ogiltiga eller ofullständiga filer stoppas innan något importeras.
-- Totalsummor beräknas om automatiskt efter import.
+Kommentarer är till för arbetet med kalkylen och ska inte betraktas som kundtext.
+
+Om en kommentar innehåller information som kunden ska se bör du i stället använda det fält eller den funktion som är avsedd för kundens rapport eller offert.
+
+Undvik också att skriva känsliga personuppgifter i kommentarer.
+
+## Kommentarer i kalkylartiklar
+
+Kommentarer på en kalkylartikel följer kalkylartikeln och kan användas för att dokumentera exempelvis förutsättningar, beslut eller underlag för hur artikeln är uppbyggd.
+
+Det kan vara särskilt användbart när flera personer arbetar med samma kalkyl eller när en kalkylartikel behöver granskas i efterhand.
 
 ## Bra att veta
 
-- Exporten innehåller kalkylens innehåll och kommentarer.
-- Kolumnval, filter och sortering exporteras inte.
-- Efter en import kan materialpriser behöva uppdateras. Kör **Prisuppdatering** om du vill använda aktuella prislistor och rabattbrev.
-- Säkerhetskopiera gärna innan du använder **Ersätt**, detta så att du kan återställa kalkylen vid behov.
-- JSON-filer kan innehålla kund- och projektuppgifter. Dela dem bara med personer som ska ha tillgång till informationen.
+- Du kan lägga kommentarer på både **delar** och **kalkylartiklar**.
+- Kommentarer kan innehålla flera rader.
+- Kommentarer är avsedda som interna arbetsanteckningar.
+- Systemnoteringar och egna kommentarer hålls isär.
+- Undvik känsliga personuppgifter i kommentarer.
