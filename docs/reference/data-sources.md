@@ -71,7 +71,7 @@ Vill du ange arbetstiden helt själv använder du **Övrig tid**.
 
 En arbetskod för SV-ATL i Kalkyldata består av fem delar som anger var arbetsmomentet finns i ackordstidslistans struktur.
 
-Exempel Arbetstyp **SV-ATL** och arbetskod **`208502101`**
+Exempel för arbetstyp **SV-ATL** och arbetskod **`208502101`**
 
 * `20` – **Lista**
 * `8` – **Del**
