@@ -10,6 +10,8 @@ tags: ["kalkyldata", "kalkyl", "offert", "ai-agenten", "kalkylartikel", "gränss
 audience: "user"
 ---
 
+# Vad är Kalkyldata?
+
 Kalkyldata är ett kalkyl- och offertverktyg för elinstallation. Du beskriver jobbet i chatten och AI-agenten föreslår kalkylartiklar med uppgifter, material och arbetstid. Du justerar sedan kalkylen innan du skapar en offert eller materiallista.
 
 ## Så fungerar tjänsten
