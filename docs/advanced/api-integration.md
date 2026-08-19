@@ -10,6 +10,8 @@ tags: ["api", "integration", "webhook", "automation"]
 audience: "advanced"
 ---
 
+# API och integrationer
+
 Kalkyldata kan integreras med andra system så att data kan överföras automatiskt utan manuellt arbete. Integrationer kan till exempel användas för att skicka kalkyldata till ett affärssystem, ta emot kalkylartiklar eller koppla Kalkyldata till egna arbetsflöden.
 
 **API-åtkomst tillhandahålls efter förfrågan.** Det finns inget självbetjäningsflöde för att skapa API-nycklar i appen. Kontakta oss och beskriv vad du vill uppnå, så bedömer vi vilken lösning som passar.
