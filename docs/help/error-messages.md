@@ -10,6 +10,8 @@ tags: ["felmeddelande", "varning", "validering", "import", "felsökning"]
 audience: "user"
 ---
 
+# Felmeddelanden och åtgärder
+
 Kalkyldata skiljer på **fel** som stoppar dig och **varningar** som uppmärksammar dig på något som kan behöva åtgärdas. En varning hindrar inte att du sparar eller skriver ut en rapport.
 
 ## Fel i rapportvalideringen
