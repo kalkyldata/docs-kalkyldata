@@ -11,6 +11,8 @@ tags: ["chat", "ai-agent", "knappar", "kalkyl"]
 audience: "user"
 ---
 
+# Inline-knappar i chatten
+
 AI-agenten kan visa knappar direkt i sina svar. Med knapparna kan du öppna rätt vy eller utföra en åtgärd utan att behöva leta i menyerna.
 
 ## Så använder du dem
