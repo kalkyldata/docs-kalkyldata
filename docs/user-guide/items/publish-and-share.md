@@ -11,6 +11,8 @@ tags: ["publicera", "synlighet", "dela", "redigera", "rapportera"]
 audience: "user"
 ---
 
+# Publicera och dela
+
 **Synlighet** styr vilka användare som kan hitta och använda din kalkylartikel. Du väljer synlighet när du publicerar artikeln och kan ändra den senare.
 
 ## Välj synlighet
