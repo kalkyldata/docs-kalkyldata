@@ -11,6 +11,8 @@ tags: ["referens", "kolumner", "terminologi", "söksyntax", "beräkningsregler",
 audience: "user"
 ---
 
+# Referens
+
 Referensdelen hjälper dig att slå upp enskilda begrepp och funktioner när du arbetar i Kalkyldata. Här hittar du förklaringar och regler som du kan behöva utan att följa ett steg-för-steg-flöde.
 
 Vill du veta hur du utför en uppgift, till exempel skapar en del eller bygger en rapport, använder du [Användarguiden](/anvandarguide/).
