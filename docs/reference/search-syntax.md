@@ -10,6 +10,8 @@ tags: ["snabbsök", "sök", "syntax", "filter", "kalkylartikel"]
 audience: "user"
 ---
 
+# Söksyntax
+
 Snabbsök i chatten och sökfältet i kalkylen använder samma skrivsätt. Med citattecken, minustecken och fältfilter kan du snabbt begränsa sökningen och hitta rätt kalkylartikel eller rad.
 
 ## Grundregler för snabbsök
