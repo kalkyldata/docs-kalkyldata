@@ -10,6 +10,8 @@ audience: "user"
 has_children: true
 ---
 
+# Hjälp och felsökning
+
 Här hittar du hjälp när något inte fungerar som du förväntar dig i Kalkyldata. Börja med de vanliga frågorna eller gå vidare till felmeddelanden och support om du behöver mer hjälp.
 
 ## Sidor i den här delen
