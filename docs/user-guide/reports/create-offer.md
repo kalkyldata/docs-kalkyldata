@@ -11,6 +11,8 @@ tags: ["offert", "rapport", "materiallista", "kalkyl"]
 audience: "user"
 ---
 
+# Skapa en offert
+
 Du skapar en offert från en färdig kalkyl. Kalkyldata prissätter raderna med vald prisprofil och visar resultatet i en rapportmall som du kan spara, skriva ut eller spara som PDF.
 
 ## Så skapar du en offert
