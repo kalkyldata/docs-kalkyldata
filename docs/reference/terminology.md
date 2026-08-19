@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Terminologi"
 parent: "Översikt"
@@ -9,7 +8,7 @@ description: "Ordlista över de begrepp som används i Kalkyldatas gränssnitt o
 category: "reference"
 tags: ["terminologi", "kalkyl", "kalkylartikel", "uppgift", "rapport", "ai-agenten"]
 audience: "user"
-----------------
+---
 
 ## Om terminologin
 
