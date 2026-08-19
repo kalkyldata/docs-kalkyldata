@@ -12,6 +12,8 @@ audience: "user"
 has_children: true
 ---
 
+# Kalkylartiklar
+
 En **kalkylartikel** är en färdig mall för ett arbete som du kan lägga in i en kalkyl. Den innehåller en eller flera **uppgifter** med arbetsmoment, arbetstid och material.
 
 Du kan använda Kalkyldatas standardartiklar, skapa egna kalkylartiklar eller forka en befintlig artikel och anpassa den efter ditt arbetssätt.
