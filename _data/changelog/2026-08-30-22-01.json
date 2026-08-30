@@ -1,0 +1,5 @@
+{
+  "date": "2026-08-30",
+  "title": "Bättre prisstyrning och förbättrad sökfunktion",
+  "description": "### 🎉 Nya funktioner\n- **Ny prisoptimeringsmotor:** Föreslår automatiskt optimala priser utifrån dina prisregler och mål, så du kan öka marginalen utan manuella justeringar.\n- **Fler prisregler:** Stöd för fler typer av prisregler i prisinställningarna som ger större flexibilitet när du prissätter produkter och tjänster.\n- **Fler exempel för import/export:** Lagt till flera JSON-exempel som visar hur du formaterar kalkyldata vid import och export, vilket gör det enklare att använda egna filer.\n\n### 🚀 Förbättringar\n- **Förbättrad sökbarhet för objekt:** Sökning och filtrering av artiklar och objekt ger snabbare och mer relevanta träffar, vilket gör det lättare att hitta rätt data.\n\n### 🐛 Buggfixar\n- **Inga användarpåverkande buggfixar:** Det finns inga användarpåverkande buggar som åtgärdats den här veckan."
+}
