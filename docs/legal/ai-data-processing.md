@@ -83,5 +83,3 @@ För de juridiska villkoren, se **[Användarvillkor](../anvandarvillkor/)**.
 Det fullständiga dokumentet om AI och databehandling finns här:
 
 **[Läs fullständig information om AI och databehandling](https://raw.githubusercontent.com/kalkyldata/docs-kalkyldata/refs/heads/main/docs/legal/AI%20och%20databehandling%20i%20Kalkyldata.txt)**
-
-> Länken ersätts med adressen till det fullständiga dokumentet när det publiceras.
