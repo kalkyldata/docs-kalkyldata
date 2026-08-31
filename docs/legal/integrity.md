@@ -69,8 +69,6 @@ Den fullständiga integritetspolicyn finns här:
 
 **[Läs fullständig integritetspolicy](https://raw.githubusercontent.com/kalkyldata/docs-kalkyldata/refs/heads/main/docs/legal/integrity.md)**
 
-> Länken ersätts med adressen till det fullständiga juridiska dokumentet när det publiceras.
-
 ## Kontakt
 
 Om du har frågor om hur Kalkyldata behandlar personuppgifter är du välkommen att kontakta oss.
