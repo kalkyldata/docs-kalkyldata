@@ -10,6 +10,8 @@ audience: "user"
 has_children: true
 ---
 
+# Villkor och integritet
+
 Här hittar du information om vad som gäller när du använder Kalkyldata och hur tjänsten hanterar din information.
 
 ## Användarvillkor
