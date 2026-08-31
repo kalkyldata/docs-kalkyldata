@@ -67,7 +67,7 @@ Du har rättigheter enligt GDPR, exempelvis rätt att begära information om vil
 
 Den fullständiga integritetspolicyn finns här:
 
-**[Läs fullständig integritetspolicy](#)**
+**[Läs fullständig integritetspolicy](https://raw.githubusercontent.com/kalkyldata/docs-kalkyldata/refs/heads/main/docs/legal/integrity.md)**
 
 > Länken ersätts med adressen till det fullständiga juridiska dokumentet när det publiceras.
 
