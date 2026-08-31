@@ -1,0 +1,342 @@
+# Användarvillkor för Kalkyldata
+
+**Senast uppdaterade:** 2026-08-31
+
+Dessa användarvillkor gäller när du använder Kalkyldata.
+
+Kalkyldata är ett webbaserat kalkyl- och offertverktyg för elinstallationer och elentreprenader. Du kan bland annat bygga kalkyler, använda kalkylartiklar, beräkna material och arbetstid, skapa rapporter och få hjälp av AI-agenten.
+
+Genom att skapa ett konto eller använda Kalkyldata accepterar du dessa användarvillkor.
+
+## 1. Om Kalkyldata
+
+Kalkyldata tillhandahålls av:
+
+**Kalkyldata**
+E-post: support@kalkyldata.se
+
+Kalkyldata är ett digitalt hjälpmedel för kalkylering och offertarbete. Tjänsten hjälper dig att strukturera arbeten, material och arbetstider och att ta fram underlag för exempelvis offerter och materiallistor.
+
+Tjänstens funktioner kan ändras över tid. Kalkyldata kan lägga till, ändra eller ta bort funktioner när tjänsten utvecklas.
+
+## 2. Konto
+
+Du behöver ett konto för att använda de delar av Kalkyldata som kräver inloggning.
+
+Du ansvarar för att:
+
+* lämna korrekta uppgifter när du skapar ditt konto,
+* hålla dina uppgifter aktuella,
+* skydda dina inloggningsuppgifter,
+* inte låta andra personer använda ditt personliga konto.
+
+Om du använder Kalkyldata för ett företag ansvarar du för att de personer som använder tjänsten har rätt att göra det.
+
+Kontakta Kalkyldata om du misstänker att någon annan har fått tillgång till ditt konto.
+
+## 3. Hur du får använda Kalkyldata
+
+Du får använda Kalkyldata för lagliga ändamål och för tjänstens avsedda användning.
+
+Du får inte:
+
+* använda tjänsten för olaglig verksamhet,
+* försöka få tillgång till andra användares konton eller information,
+* kringgå säkerhetsfunktioner eller åtkomstbegränsningar,
+* störa tjänsten eller försöka försämra dess funktion,
+* använda automatiserade metoder för att samla in information från tjänsten utan tillstånd,
+* sprida skadlig kod eller annat skadligt innehåll,
+* använda tjänsten på ett sätt som kan skada Kalkyldata, andra användare eller tjänstens infrastruktur.
+
+Kalkyldata kan begränsa eller stänga av ett konto om användningen strider mot dessa villkor eller innebär en säkerhetsrisk.
+
+## 4. Kalkyler och innehåll du skapar
+
+Du behåller rättigheterna till det innehåll du själv skapar i Kalkyldata, i den utsträckning du har rätt till innehållet.
+
+Det kan exempelvis vara:
+
+* kalkyler,
+* delar,
+* kalkylartiklar,
+* uppgifter,
+* kommentarer,
+* projektinformation,
+* rapportunderlag.
+
+Du ansvarar för innehållet du lägger in i Kalkyldata.
+
+Det innebär bland annat att du ansvarar för att du har rätt att använda informationen och att den inte gör intrång i någon annans rättigheter.
+
+Du ansvarar också för att information du lägger in i Kalkyldata inte innehåller uppgifter som du inte har rätt att behandla eller dela.
+
+## 5. Privata och publika kalkylartiklar
+
+Du kan skapa egna kalkylartiklar och välja om de ska vara **privata** eller **publika**.
+
+En privat kalkylartikel är endast tillgänglig för dig.
+
+En publik kalkylartikel kan hittas och användas av andra användare av Kalkyldata.
+
+När du gör en kalkylartikel publik ger du Kalkyldata rätt att lagra, visa, söka efter, bearbeta och tillgängliggöra kalkylartikeln för andra användare som en del av tjänsten.
+
+Du behåller samtidigt dina rättigheter till innehållet.
+
+Du ansvarar för att du har rätt att göra en kalkylartikel publik.
+
+Gör inte en kalkylartikel publik om den innehåller exempelvis kunduppgifter, företagshemligheter eller annan information som inte ska delas med andra.
+
+Kalkyldata kan ta bort en publik kalkylartikel om den strider mot dessa villkor, lag eller någon annans rättigheter.
+
+## 6. Kopierade kalkylartiklar
+
+Kalkyldata kan låta dig kopiera en publik kalkylartikel till ett eget utkast.
+
+När du kopierar en publik kalkylartikel skapas en egen version som du kan arbeta vidare med.
+
+Den kopierade kalkylartikeln är fristående från originalet. Ändringar i din version ändrar inte den ursprungliga kalkylartikeln.
+
+Du ansvarar för att kontrollera innehållet innan du använder kalkylartikeln i en kalkyl eller offert.
+
+## 7. AI-agenten
+
+Kalkyldata innehåller en AI-agent som hjälper dig att arbeta med kalkyler och använda tjänsten.
+
+AI-agenten kan bland annat:
+
+* tolka det du skriver,
+* föreslå kalkylartiklar,
+* föreslå material och arbetstid,
+* hjälpa dig att hitta information,
+* svara på frågor om Kalkyldata,
+* hjälpa dig att navigera i tjänsten.
+
+AI-agenten är ett hjälpmedel. AI-genererade svar och förslag kan innehålla fel.
+
+AI-agenten kan exempelvis föreslå en kalkylartikel som inte passar det aktuella arbetet, en felaktig mängd eller en arbetstid som behöver justeras.
+
+Du ansvarar därför för att kontrollera AI-agentens svar och förslag innan du använder dem i en kalkyl, offert, beställning eller annat beslut.
+
+AI-agenten ersätter inte din yrkesmässiga bedömning eller kontroll.
+
+AI-agenten lägger inte automatiskt till föreslagna kalkylartiklar i kalkylen. Du behöver själv bekräfta vad som ska läggas till.
+
+## 8. Materialpriser
+
+Kalkyldata kan använda prislistor och rabattbrev från grossister för att beräkna materialpriser.
+
+För standardiserade materialartiklar kan Kalkyldata använda E-nummer för att hitta artikel- och prisuppgifter.
+
+Kalkyldata kan jämföra priser mellan leverantörer och ta hänsyn till de rabattbrev som du har laddat upp.
+
+Materialpriser kan förändras när prislistor och rabattbrev uppdateras.
+
+Kalkyldata strävar efter att visa korrekta prisuppgifter men kan inte garantera att varje pris, artikeluppgift, leverantör eller rabattuppgift alltid är aktuell eller korrekt.
+
+Du ansvarar för att kontrollera materialpriser innan du använder dem som grund för exempelvis en offert eller beställning.
+
+## 9. Arbetstider och kalkylunderlag
+
+Kalkyldata kan använda branschrelaterade arbetstider och arbetskoder som underlag för kalkyler.
+
+Arbetstiderna är kalkylunderlag och ska inte betraktas som en garanti för hur lång tid ett arbete faktiskt tar.
+
+Den faktiska arbetstiden kan påverkas av exempelvis arbetsplatsens förutsättningar, installationens utformning, material, arbetsmetod och andra omständigheter.
+
+Du ansvarar för att bedöma om arbetstiden är rimlig för det aktuella arbetet.
+
+## 10. Kalkyler, offerter och rapporter
+
+Kalkyldata kan hjälpa dig att beräkna arbetstid och materialkostnad och skapa rapporter som exempelvis offerter och materiallistor.
+
+Du ansvarar för att kontrollera innehållet innan du använder eller skickar en rapport.
+
+Kontrollera särskilt:
+
+* kunduppgifter,
+* omfattning,
+* kalkylartiklar,
+* uppgifter,
+* antal,
+* material,
+* priser,
+* arbetstider,
+* beräkningar,
+* summeringar,
+* övriga villkor.
+
+Kalkyldata ansvarar inte för att en offert eller annan rapport automatiskt innehåller alla uppgifter som behövs för ett visst projekt eller avtal.
+
+## 11. Automatisk lagring
+
+Kalkyldata sparar ditt arbete löpande så att du kan fortsätta arbeta med en kalkyl senare.
+
+När ett konto avslutas sparas användarens data i **30 dagar**.
+
+Efter 30 dagar raderas användarens data permanent och kan inte återställas genom Kalkyldata.
+
+Du ansvarar därför för att exportera eller på annat sätt spara information som du vill behålla innan kontot avslutas och 30-dagarsperioden löper ut.
+
+Information som har skickats till Kalkyldata genom exempelvis support eller e-post kan omfattas av andra lagringsregler.
+
+## 12. Tjänstens tillgänglighet
+
+Kalkyldata strävar efter att tjänsten ska vara tillgänglig och fungera på ett tillförlitligt sätt.
+
+Tillfälliga avbrott kan förekomma på grund av exempelvis:
+
+* planerat underhåll,
+* tekniska problem,
+* nätverksproblem,
+* problem hos externa leverantörer,
+* säkerhetsincidenter,
+* andra omständigheter utanför Kalkyldatas kontroll.
+
+Kalkyldata garanterar inte att tjänsten alltid är tillgänglig eller helt fri från fel.
+
+## 13. Externa tjänster
+
+Kalkyldata använder externa tjänster för att kunna tillhandahålla delar av tjänsten.
+
+Det kan exempelvis vara tjänster för:
+
+* drift och hosting,
+* databaser och lagring,
+* AI,
+* autentisering,
+* e-post,
+* andra tekniska funktioner.
+
+Externa tjänster kan förändras när Kalkyldata utvecklas.
+
+Personuppgiftsbehandling som sker genom externa tjänster beskrivs närmare i Kalkyldatas **Integritetspolicy**.
+
+## 14. AI-tjänster och externa AI-modeller
+
+AI-agenten använder externa AI-tjänster, bland annat tjänster från OpenAI och Anthropic.
+
+För att AI-agenten ska kunna utföra en begäran kan information från din fråga och din kalkyl skickas till den AI-tjänst som används.
+
+Beroende på funktionen kan det innebära att delar av eller hela kalkylen skickas för behandling.
+
+Kalkyldata kan använda information från användningen av AI-funktionerna för att utveckla och förbättra Kalkyldata, exempelvis för att förbättra AI-agentens funktioner och svar.
+
+Information om hur personuppgifter behandlas i samband med AI finns i Kalkyldatas **Integritetspolicy**.
+
+## 15. Immateriella rättigheter
+
+Kalkyldata och dess innehåll, inklusive programvara, design, varumärke, struktur och funktioner, tillhör Kalkyldata eller dess licensgivare.
+
+Du får använda Kalkyldata enligt dessa användarvillkor under den tid du har rätt att använda tjänsten.
+
+Du får inte kopiera, sälja, distribuera, vidarelicensiera eller på annat sätt utnyttja Kalkyldatas programvara eller tjänst utanför den användning som dessa villkor tillåter.
+
+## 16. Användning av ditt innehåll
+
+För att Kalkyldata ska kunna tillhandahålla tjänsten behöver Kalkyldata få rätt att lagra, behandla och visa det innehåll du lägger in.
+
+Denna rätt gäller endast i den omfattning som behövs för att tillhandahålla, driva, säkra och utveckla tjänsten enligt dessa villkor.
+
+När du gör en kalkylartikel publik får Kalkyldata dessutom göra kalkylartikeln tillgänglig för andra användare enligt avsnittet om publika kalkylartiklar.
+
+Du behåller dina rättigheter till ditt innehåll.
+
+## 17. Priser och framtida betaltjänster
+
+Kalkyldata är för närvarande kostnadsfritt.
+
+Kalkyldata kan i framtiden införa betalda abonnemang, betalda funktioner eller andra kostnader.
+
+Om en funktion eller tjänst blir kostnadsbelagd ska priset och de villkor som gäller för betalningen framgå innan du börjar använda den betalda tjänsten.
+
+Att Kalkyldata är kostnadsfritt idag innebär inte att tjänsten måste förbli kostnadsfri.
+
+## 18. Avsluta konto
+
+Du kan avsluta ditt konto enligt de funktioner som finns i Kalkyldata.
+
+När kontot avslutas gäller en lagringsperiod på 30 dagar. Därefter raderas användarens data permanent och kan inte återställas.
+
+Kalkyldata kan begränsa eller avsluta ett konto om du väsentligt bryter mot dessa användarvillkor, använder tjänsten olagligt eller innebär en säkerhetsrisk för tjänsten eller andra användare.
+
+## 19. Ansvar för information och beslut
+
+Kalkyldata är ett hjälpmedel för kalkylering och offertarbete.
+
+Du ansvarar för de beslut du fattar med hjälp av information från Kalkyldata.
+
+Det gäller bland annat beslut som grundar sig på:
+
+* AI-agentens svar,
+* kalkylartiklar,
+* arbetstider,
+* materialuppgifter,
+* materialpriser,
+* leverantörsuppgifter,
+* beräkningar,
+* rapporter och offerter.
+
+Du ansvarar för att informationen är rimlig och korrekt för det aktuella projektet innan du använder den.
+
+Kalkyldata garanterar inte att ett kalkylresultat, en arbetstid, ett materialval, ett pris eller ett AI-genererat förslag är korrekt för ett visst projekt.
+
+## 20. Ansvarsbegränsning
+
+Kalkyldata tillhandahålls som ett digitalt hjälpmedel och inte som en garanti för ett visst ekonomiskt eller tekniskt resultat.
+
+I den utsträckning det är tillåtet enligt lag ansvarar Kalkyldata inte för indirekta skador, utebliven vinst, förlorade affärsmöjligheter eller andra följdskador som uppstår genom användningen av tjänsten.
+
+Kalkyldata ansvarar inte heller för skador som beror på att användaren har förlitat sig på information som inte har kontrollerats, exempelvis AI-genererade förslag, priser, arbetstider eller materialuppgifter.
+
+Denna ansvarsbegränsning gäller endast i den utsträckning den är tillåten enligt tillämplig lag.
+
+## 21. Ändringar av tjänsten
+
+Kalkyldata utvecklas löpande.
+
+Kalkyldata kan därför ändra, ersätta eller ta bort funktioner i tjänsten.
+
+Om en förändring innebär en väsentlig försämring av en betald tjänst kommer användaren att informeras när detta krävs enligt lag eller avtal.
+
+## 22. Ändringar av användarvillkoren
+
+Kalkyldata kan uppdatera dessa användarvillkor när tjänsten eller verksamheten förändras.
+
+Den aktuella versionen finns alltid tillgänglig på Kalkyldatas webbplats.
+
+Vid väsentliga ändringar informeras användaren på lämpligt sätt innan de nya villkoren börjar gälla när detta krävs enligt lag.
+
+## 23. Personuppgifter
+
+Kalkyldata behandlar personuppgifter enligt Kalkyldatas **Integritetspolicy**.
+
+Integritetspolicyn beskriver bland annat:
+
+* vilka personuppgifter som behandlas,
+* varför personuppgifter behandlas,
+* hur länge uppgifter sparas,
+* hur AI-tjänster används,
+* vilka externa tjänster som används,
+* vilka rättigheter du har.
+
+## 24. Cookies
+
+Kalkyldata kan använda cookies och liknande tekniker.
+
+Information om vilka cookies som används, varför de används och hur du kan hantera dem finns i Kalkyldatas **Cookiepolicy**.
+
+## 25. Tillämplig lag och tvister
+
+Dessa användarvillkor ska tillämpas och tolkas enligt svensk rätt.
+
+Om en tvist uppstår ska Kalkyldata och användaren i första hand försöka lösa frågan genom dialog.
+
+Tvingande rättigheter som gäller för konsumenter påverkas inte av dessa villkor.
+
+## 26. Kontakt
+
+Om du har frågor om Kalkyldata eller dessa användarvillkor kan du kontakta:
+
+**Kalkyldata**
+
+E-post: support@kalkyldata.se
