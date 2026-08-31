@@ -1,0 +1,168 @@
+# AI och databehandling i Kalkyldata
+
+**Senast uppdaterad:** 2026-08-31
+
+Kalkyldata innehåller en AI-agent som kan hjälpa dig att arbeta med kalkyler och använda tjänsten. AI-agenten kan bland annat hjälpa dig att hitta kalkylartiklar, föreslå material och arbetstider och svara på frågor om Kalkyldata.
+
+Det här dokumentet förklarar vad som händer med information när du använder AI-agenten.
+
+## 1. Vilka AI-tjänster använder Kalkyldata?
+
+Kalkyldata använder externa AI-tjänster för att tillhandahålla AI-funktionerna.
+
+Bland annat används:
+
+* **OpenAI**
+* **Anthropic (Claude)**
+
+Vilka AI-modeller som används kan förändras över tid när Kalkyldata utvecklas.
+
+## 2. Vad skickas till AI-agenten?
+
+När du skriver en fråga till AI-agenten behöver den få tillgång till den information som krävs för att kunna svara.
+
+Det kan exempelvis vara:
+
+* din fråga,
+* information om den aktuella kalkylen,
+* kalkylens delar,
+* kalkylartiklar,
+* material,
+* arbetstider,
+* andra uppgifter som behövs för att förstå din fråga.
+
+Beroende på vad du ber AI-agenten att göra kan **hela eller delar av den aktuella kalkylen skickas till den AI-tjänst som används**.
+
+AI-agenten får inte automatiskt tillgång till all information i Kalkyldata. Informationen som skickas beror på vilken uppgift AI-agenten ska utföra.
+
+## 3. Varför skickas informationen till en AI-tjänst?
+
+Informationen skickas för att AI-tjänsten ska kunna behandla din fråga och generera ett svar.
+
+Exempel:
+
+Om du frågar:
+
+> "Vilken kabel behöver jag till den här installationen?"
+
+kan AI-agenten behöva information från den aktuella kalkylen för att förstå sammanhanget och ge ett relevant svar.
+
+Om du däremot frågar:
+
+> "Hur skapar jag en ny kalkyl?"
+
+kan frågan i första hand besvaras med information om hur Kalkyldata fungerar.
+
+Vilken information som skickas avgörs av AI-agentens uppgift och det aktuella arbetsflödet.
+
+## 4. Används mina kalkyler för att träna AI?
+
+**Nej, Kalkyldata använder inte dina kalkyler för att träna en generell AI-modell som sedan används av andra.**
+
+Kalkyldata kan däremot använda information från användningen av AI-funktionerna för att **utveckla och förbättra Kalkyldata**.
+
+Det kan exempelvis innebära att vi analyserar användningen för att:
+
+* upptäcka problem,
+* förbättra AI-agentens funktioner,
+* förbättra kvaliteten på svar och förslag,
+* utveckla nya funktioner,
+* förbättra användarupplevelsen.
+
+Det är alltså skillnad mellan att förbättra **Kalkyldata** och att använda dina uppgifter för att träna en generell AI-modell.
+
+## 5. Kan hela min kalkyl skickas till AI?
+
+Ja.
+
+Vissa funktioner kan behöva tillgång till mer information för att kunna utföra uppgiften. I sådana fall kan hela den aktuella kalkylen skickas till den AI-tjänst som används.
+
+Det innebär att du bör vara försiktig med att lägga in information i en kalkyl som du inte vill ska behandlas av en extern AI-tjänst när du använder AI-funktionerna.
+
+Kalkyldata är inte avsett för att hantera känsliga personuppgifter genom AI-agenten.
+
+## 6. Vad händer med kunduppgifter i en kalkyl?
+
+Om en kalkyl innehåller exempelvis kundnamn, adress eller andra personuppgifter kan dessa uppgifter i vissa fall följa med när relevant information från kalkylen skickas till AI-agenten.
+
+Du ansvarar därför för att du har rätt att behandla och använda uppgifterna på det sätt som krävs för den aktuella funktionen.
+
+Lägg inte in känsliga personuppgifter eller annan information i en kalkyl om den inte behövs för kalkylarbetet.
+
+Mer information om personuppgiftsbehandling finns i **Integritetspolicyn**.
+
+## 7. Sparas AI-konversationer?
+
+AI-agenten behandlar information för att kunna svara på dina frågor.
+
+Hur länge information från AI-konversationer sparas kan bero på hur den aktuella funktionen och tekniska lösningen är konfigurerad.
+
+Användardata i Kalkyldata omfattas av Kalkyldatas ordinarie regler för radering. När ett konto avslutas sparas användarens data i 30 dagar och raderas därefter permanent.
+
+Information som skickats till Kalkyldata genom exempelvis support eller e-post kan omfattas av andra lagringsregler.
+
+## 8. Använder OpenAI eller Anthropic mina kalkyler?
+
+När du använder en AI-funktion kan information från din fråga och din kalkyl skickas till den externa AI-tjänst som används för att generera svaret.
+
+Kalkyldata styr vilka AI-tjänster som används och hur de integreras i tjänsten.
+
+Kalkyldata strävar efter att behandlingen ska begränsas till den information som behövs för den aktuella funktionen.
+
+Information om vilka externa leverantörer som används och hur personuppgifter behandlas finns i **Integritetspolicyn**.
+
+## 9. AI-agentens svar kan vara fel
+
+AI-agenten är ett hjälpmedel och kan göra fel.
+
+Det gäller exempelvis:
+
+* materialförslag,
+* kalkylartiklar,
+* mängder,
+* arbetstider,
+* priser,
+* tolkningar av kalkyler,
+* tekniska svar.
+
+Du ska därför alltid kontrollera AI-agentens svar innan du använder dem som underlag för en kalkyl, offert, beställning eller annat beslut.
+
+AI-agenten ersätter inte din egen yrkeskunskap och bedömning.
+
+## 10. AI-agenten ändrar inte automatiskt din kalkyl
+
+AI-agenten kan föreslå kalkylartiklar, material eller andra ändringar.
+
+Förslag ska normalt bekräftas av dig innan de används i kalkylen.
+
+Du har därför möjlighet att kontrollera AI-agentens förslag innan de blir en del av ditt kalkylunderlag.
+
+## 11. Hur arbetar Kalkyldata med AI?
+
+Kalkyldata utvecklar AI-funktionerna löpande.
+
+Målet är att AI-agenten ska kunna hjälpa dig med sådant som annars kräver tid att söka fram eller strukturera manuellt.
+
+AI-agenten ska framför allt fungera som ett **hjälpmedel i kalkylarbetet**, inte som en ersättning för din egen kontroll och yrkesmässiga bedömning.
+
+Vi kan förändra vilka AI-modeller och leverantörer som används när tjänsten utvecklas.
+
+## 12. Personuppgifter och AI
+
+När AI-agenten behandlar personuppgifter gäller även Kalkyldatas **Integritetspolicy**.
+
+Integritetspolicyn beskriver bland annat:
+
+* vilka personuppgifter som behandlas,
+* varför de behandlas,
+* vilka externa leverantörer som används,
+* hur uppgifter skyddas,
+* hur länge uppgifter sparas,
+* vilka rättigheter du har.
+
+## 13. Frågor om AI och data
+
+Om du har frågor om hur AI-agenten behandlar information eller hur dina personuppgifter hanteras kan du kontakta Kalkyldata.
+
+**Kalkyldata**
+E-post: support@kalkyldata.se
