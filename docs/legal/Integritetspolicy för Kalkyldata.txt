@@ -1,0 +1,288 @@
+# Integritetspolicy för Kalkyldata
+
+**Senast uppdaterad:** 2026-08-31
+
+Den här integritetspolicyn beskriver hur Kalkyldata behandlar personuppgifter när du använder tjänsten.
+
+Kalkyldata är en webbaserad tjänst för kalkylering och offertarbete inom elinstallation och elentreprenad. Tjänsten innehåller bland annat funktioner för kalkylering, materialpriser, kalkylartiklar, rapporter och AI-baserad hjälp.
+
+Kalkyldata strävar efter att behandla personuppgifter på ett lagligt, korrekt och transparent sätt och att inte behandla fler personuppgifter än vad som behövs för tjänstens funktion och de ändamål som beskrivs här.
+
+## 1. Personuppgiftsansvarig
+
+Personuppgiftsansvarig för de behandlingar där Kalkyldata själv bestämmer ändamål och medel för behandlingen är:
+
+**Kalkyldata**
+E-post: **support@kalkyldata.se**
+
+Om du har frågor om hur Kalkyldata behandlar personuppgifter är du välkommen att kontakta oss via ovanstående kontaktuppgift.
+
+## 2. Vilka personuppgifter behandlar vi?
+
+Vilka personuppgifter som behandlas beror på hur du använder Kalkyldata.
+
+### Uppgifter om ditt konto
+
+När du skapar och använder ett konto kan Kalkyldata behandla exempelvis:
+
+* namn,
+* e-postadress,
+* användarnamn,
+* företagsnamn,
+* kontoinställningar,
+* uppgifter om ditt abonnemang när betalda tjänster införs.
+
+### Information som du själv lägger in
+
+Kalkyldata låter dig skapa och lagra kalkyler, kalkylartiklar, kommentarer, rapporter och annan information.
+
+Informationen kan innehålla personuppgifter som du själv väljer att lägga in, exempelvis:
+
+* kundnamn,
+* kontaktuppgifter,
+* företagsnamn,
+* projektinformation,
+* ort eller adress,
+* beskrivningar,
+* kommentarer,
+* annan information som du lägger in i tjänsten.
+
+Du bör inte lägga in känsliga personuppgifter eller andra personuppgifter som inte behövs för kalkylarbetet.
+
+### Tekniska uppgifter
+
+För att driva, skydda och felsöka tjänsten kan Kalkyldata behandla teknisk information, exempelvis:
+
+* IP-adress,
+* information om webbläsare och enhet,
+* tekniska loggar,
+* tidpunkter för användning,
+* information om fel och tekniska händelser.
+
+Vilka tekniska uppgifter som sparas kan bero på den aktuella tekniska lösningen.
+
+## 3. Varför behandlar vi personuppgifter?
+
+Kalkyldata behandlar personuppgifter för att kunna:
+
+* skapa och administrera användarkonton,
+* tillhandahålla tjänstens funktioner,
+* spara och visa kalkyler och annat användarinnehåll,
+* tillhandahålla kalkylartiklar och katalogfunktioner,
+* skapa rapporter och offerter,
+* tillhandahålla AI-agenten,
+* ge användarsupport,
+* upptäcka och hantera tekniska problem,
+* skydda tjänsten mot missbruk och säkerhetshot,
+* utveckla och förbättra Kalkyldata,
+* administrera tjänsten,
+* kommunicera med användare,
+* uppfylla rättsliga skyldigheter.
+
+Kalkyldata behandlar inte personuppgifter för ändamål som är oförenliga med de ändamål som beskrivs i denna policy utan att informera om den nya behandlingen när det krävs enligt lag.
+
+## 4. Rättslig grund
+
+Kalkyldata använder olika rättsliga grunder beroende på vilken behandling som genomförs.
+
+### Avtal
+
+Personuppgifter kan behandlas när det är nödvändigt för att tillhandahålla Kalkyldata enligt avtalet med användaren.
+
+Det kan exempelvis gälla:
+
+* användarkonto,
+* inloggning,
+* lagring av kalkyler,
+* tjänstens funktioner,
+* support kopplad till tjänsten.
+
+### Rättslig skyldighet
+
+Personuppgifter kan behandlas när Kalkyldata behöver göra det för att uppfylla en rättslig skyldighet.
+
+### Berättigat intresse
+
+Kalkyldata kan behandla personuppgifter med stöd av berättigat intresse när behandlingen är nödvändig för ett berättigat ändamål och detta intresse väger tyngre än den registrerades intressen eller grundläggande rättigheter.
+
+Det kan exempelvis gälla:
+
+* säkerhet,
+* felsökning,
+* förebyggande av missbruk,
+* teknisk drift,
+* utveckling och förbättring av tjänsten,
+* administration.
+
+### Samtycke
+
+När en behandling kräver samtycke används samtycke som rättslig grund.
+
+Du kan när som helst återkalla ett samtycke. Ett återkallat samtycke påverkar inte lagligheten av den behandling som genomförts innan samtycket återkallades.
+
+## 5. Kalkyler och personuppgifter om dina kunder
+
+Kalkyldata används av företag och yrkespersoner som kan lägga in information om sina egna kunder och projekt.
+
+När du lägger in personuppgifter om andra personer i Kalkyldata ansvarar du för att behandlingen har en laglig grund och att de registrerade får den information som krävs enligt GDPR.
+
+Kalkyldata behandlar då uppgifterna för att kunna tillhandahålla tjänsten.
+
+I vissa situationer kan Kalkyldata därmed behandla personuppgifter på uppdrag av ett företag. Om behandlingen innebär att Kalkyldata är personuppgiftsbiträde ska behandlingen regleras enligt de krav som gäller för personuppgiftsbiträden och, när det krävs, genom ett personuppgiftsbiträdesavtal.
+
+Kalkyldata strävar efter att utforma tjänsten så att behandlingen av personuppgifter är tydlig och begränsad till vad som behövs för tjänsten.
+
+## 6. AI-agenten
+
+Kalkyldata använder AI för att hjälpa användaren att arbeta med kalkyler och få svar på frågor om tjänsten.
+
+AI-funktionerna tillhandahålls med hjälp av externa AI-tjänster. Kalkyldata använder bland annat tjänster från **OpenAI** och **Anthropic (Claude)**.
+
+När du använder AI-agenten kan information som behövs för att behandla din begäran skickas till den AI-tjänst som används.
+
+Beroende på vilken funktion du använder kan det innebära att:
+
+* din fråga skickas till AI-tjänsten,
+* relevant information från din kalkyl skickas,
+* delar av kalkylen skickas,
+* hela den aktuella kalkylen skickas.
+
+Vilken information som skickas beror på den aktuella funktionen och AI-agentens uppgift.
+
+Kalkyldata kan använda information från användningen av AI-funktionerna för att utveckla och förbättra Kalkyldata. Det kan exempelvis handla om att identifiera fel, förbättra AI-agentens svar, utveckla funktioner och förbättra användarupplevelsen.
+
+Kalkyldata använder inte denna information för att skapa en generell AI-modell som är tillgänglig för andra användare.
+
+Kalkyldata kontrollerar och konfigurerar de AI-tjänster som används för att tillhandahålla tjänsten. Vilka AI-modeller och leverantörer som används kan förändras över tid.
+
+AI-agentens svar kan innehålla fel. Du ansvarar därför för att kontrollera AI-genererade svar och förslag innan du använder dem i kalkyler, offerter, beställningar eller andra beslut.
+
+## 7. AI och känsliga uppgifter
+
+AI-agenten är inte avsedd för behandling av känsliga personuppgifter.
+
+Du bör därför inte lägga in känsliga personuppgifter eller andra uppgifter som inte behövs för att AI-agenten ska kunna utföra din begäran.
+
+Om du använder AI-agenten för en kalkyl som innehåller personuppgifter ansvarar du för att du har rätt att lämna informationen till Kalkyldata och använda AI-funktionen för det aktuella ändamålet.
+
+## 8. Externa tjänsteleverantörer
+
+Kalkyldata använder externa tekniska tjänster för att driva och tillhandahålla tjänsten.
+
+Bland annat används:
+
+| Leverantör    | Användning                                |
+| ------------- | ----------------------------------------- |
+| **Supabase**  | Databas, lagring och tjänsteinfrastruktur |
+| **Render**    | Drift och hosting                         |
+| **OpenAI**    | AI-funktioner                             |
+| **Anthropic** | AI-funktioner                             |
+
+Externa leverantörer kan behandla personuppgifter för Kalkyldatas räkning eller på annat sätt få tillgång till information som behövs för att tillhandahålla deras tjänster.
+
+Kalkyldata vidtar lämpliga åtgärder för att behandlingen ska ske i enlighet med tillämpliga dataskyddsregler.
+
+Vilka leverantörer som används kan förändras när tjänsten utvecklas.
+
+## 9. Överföring utanför EU/EES
+
+Vissa leverantörer som Kalkyldata använder kan behandla personuppgifter utanför EU/EES.
+
+Om personuppgifter överförs till ett land utanför EU/EES säkerställer Kalkyldata att överföringen sker med stöd av en laglig överföringsmekanism och de skyddsåtgärder som krävs enligt GDPR.
+
+Information om aktuella leverantörer och överföringsmekanismer kan uppdateras när Kalkyldatas tekniska lösning förändras.
+
+## 10. Hur länge sparas personuppgifter?
+
+Kalkyldata sparar personuppgifter så länge de behövs för det ändamål de samlades in för eller så länge det krävs enligt lag.
+
+### När kontot avslutas
+
+När ett användarkonto avslutas sparas användarens data i **30 dagar**.
+
+Efter 30 dagar raderas användarens data permanent.
+
+Efter den permanenta raderingen kan data inte återställas genom Kalkyldata.
+
+Du ansvarar därför för att exportera eller på annat sätt spara information som du behöver behålla innan kontot avslutas och 30-dagarsperioden löper ut.
+
+### Support och annan kommunikation
+
+Information som skickas till Kalkyldata genom exempelvis e-post eller supportärenden kan behöva sparas längre än 30 dagar.
+
+Det kan exempelvis behövas för att:
+
+* hantera supportärendet,
+* följa upp tekniska problem,
+* dokumentera kommunikation,
+* uppfylla rättsliga skyldigheter,
+* fastställa, göra gällande eller försvara rättsliga anspråk.
+
+Sådan information raderas när den inte längre behövs för ändamålet eller när annan laglig lagringstid löper ut.
+
+## 11. Säkerhet
+
+Kalkyldata använder tekniska och organisatoriska säkerhetsåtgärder för att skydda personuppgifter och annan information mot exempelvis:
+
+* obehörig åtkomst,
+* förlust,
+* förändring,
+* otillåten användning,
+* annan olaglig behandling.
+
+Ingen internetbaserad tjänst kan dock garanteras vara helt fri från tekniska problem eller säkerhetsincidenter.
+
+## 12. Personuppgiftsincidenter
+
+Om Kalkyldata upptäcker en personuppgiftsincident hanteras incidenten enligt tillämpliga regler.
+
+Kalkyldata vidtar åtgärder för att begränsa konsekvenserna och minska risken för att incidenten upprepas.
+
+Om Kalkyldata behandlar personuppgifter som personuppgiftsbiträde informeras den personuppgiftsansvariga enligt gällande regler och eventuellt personuppgiftsbiträdesavtal.
+
+## 13. Dina rättigheter
+
+Du har enligt GDPR vissa rättigheter när det gäller dina personuppgifter.
+
+Beroende på situationen kan du ha rätt att:
+
+* få information om vilka personuppgifter Kalkyldata behandlar om dig,
+* begära rättelse av felaktiga uppgifter,
+* begära radering av personuppgifter,
+* begära begränsning av behandlingen,
+* invända mot viss behandling,
+* få ut personuppgifter i ett strukturerat och maskinläsbart format,
+* återkalla ett samtycke.
+
+Rättigheterna gäller inte alltid utan begränsningar. Vilka rättigheter som kan användas beror bland annat på vilken behandling som sker och vilken rättslig grund som används.
+
+Om du vill använda någon av dina rättigheter kontaktar du Kalkyldata via kontaktuppgifterna i denna policy.
+
+## 14. Klagomål
+
+Om du anser att Kalkyldata behandlar dina personuppgifter på ett sätt som strider mot GDPR har du rätt att lämna ett klagomål till Integritetsskyddsmyndigheten (IMY).
+
+Du hittar mer information om dina rättigheter och hur du lämnar ett klagomål på IMY:s webbplats.
+
+## 15. Cookies
+
+Kalkyldata kan använda cookies och liknande tekniker för att tjänsten ska fungera och för att exempelvis hantera inloggning och inställningar.
+
+Om Kalkyldata använder cookies för statistik, analys eller andra ändamål som kräver samtycke kommer detta att hanteras enligt gällande regler.
+
+Mer information finns i Kalkyldatas **Cookiepolicy**.
+
+## 16. Ändringar av integritetspolicyn
+
+Kalkyldata kan uppdatera denna integritetspolicy när tjänsten, våra tekniska lösningar eller vår personuppgiftsbehandling förändras.
+
+Den aktuella versionen finns alltid tillgänglig på Kalkyldatas webbplats.
+
+Vid väsentliga förändringar informerar Kalkyldata användarna på lämpligt sätt när detta krävs enligt lag.
+
+## 17. Kontakt
+
+Om du har frågor om denna integritetspolicy, hur Kalkyldata behandlar personuppgifter eller vill använda dina rättigheter kan du kontakta:
+
+**Kalkyldata**
+E-post: support@kalkyldata.se
