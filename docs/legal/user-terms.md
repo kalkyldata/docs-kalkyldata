@@ -52,8 +52,6 @@ De fullständiga användarvillkoren finns här:
 
 **[Läs fullständiga användarvillkor](https://raw.githubusercontent.com/kalkyldata/docs-kalkyldata/refs/heads/main/docs/legal/Anv%C3%A4ndarvillkor%20f%C3%B6r%20Kalkyldata.txt)**
 
-> Länken ersätts med adressen till det fullständiga juridiska dokumentet när det publiceras.
-
 ## Frågor?
 
 Om du är osäker på vad som gäller för din användning av Kalkyldata, kontakta supporten innan du använder tjänsten på ett sätt som kan påverka andra personer eller företag.
