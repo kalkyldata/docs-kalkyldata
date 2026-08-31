@@ -1,12 +1,18 @@
-# Användarvillkor för Kalkyldata
+Användarvillkor för Kalkyldata
+Senast uppdaterade: 2026-08-31
 
-**Senast uppdaterade:** 2026-08-31
+Dessa användarvillkor gäller när du använder Kalkyldata, ett webbaserat kalkyl- och offertverktyg för elinstallationer och elentreprenader. Tjänsten låter dig bygga kalkyler, använda kalkylartiklar, beräkna material och arbetstid, skapa rapporter samt få hjälp av AI-agenten. Genom att skapa ett konto eller använda Kalkyldata accepterar du dessa villkor i sin helhet.
 
-Dessa användarvillkor gäller när du använder Kalkyldata.
+Kompletterande policyer och villkor.
+För att ge dig en fullständig bild av hur Kalkyldata fungerar kompletteras dessa användarvillkor av ytterligare dokument som reglerar specifika områden. Dessa ska läsas tillsammans med villkoren när de är relevanta för din användning:
 
-Kalkyldata är ett webbaserat kalkyl- och offertverktyg för elinstallationer och elentreprenader. Du kan bland annat bygga kalkyler, använda kalkylartiklar, beräkna material och arbetstid, skapa rapporter och få hjälp av AI-agenten.
+**Integritetspolicy** – beskriver hur vi behandlar dina personuppgifter.
 
-Genom att skapa ett konto eller använda Kalkyldata accepterar du dessa användarvillkor.
+**Cookiepolicy** – redogör för användningen av cookies, lokal lagring och liknande tekniker.
+
+**AI och databehandling** – förklarar hur information hanteras när du använder Kalkyldatas AI-funktioner.
+
+Om det skulle uppstå en konflikt mellan dessa allmänna användarvillkor och en mer specifik policy, gäller den specifika policyn för det berörda området.
 
 ## 1. Om Kalkyldata
 
