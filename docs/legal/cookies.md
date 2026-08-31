@@ -63,6 +63,6 @@ Om du gör det kan vissa funktioner i Kalkyldata påverkas. Du kan exempelvis be
 
 Den fullständiga cookiepolicyn finns här:
 
-**[Läs fullständig cookiepolicy](#)**
+**[Läs fullständig cookiepolicy](https://raw.githubusercontent.com/kalkyldata/docs-kalkyldata/refs/heads/main/docs/legal/Cookiepolicy%20f%C3%B6r%20Kalkyldata.txt)**
 
 > Länken ersätts med adressen till det fullständiga juridiska dokumentet när det publiceras.
