@@ -3,16 +3,16 @@ layout: default
 title: "För avancerade användare"
 nav_order: 6
 permalink: /avancerat/
-description: "Arbeta med kalkylartiklar i JSON, förstå kdx/1 och bidra till Kalkyldatas artikelbibliotek."
+description: "Arbeta med Kalkyldatas JSON-format, kdx/1, ersättningsregler och andra avancerade funktioner."
 category: "reference"
-tags: ["json", "kalkylartikel", "uppgift", "github", "kdx"]
+tags: ["json", "kalkylartikel", "uppgift", "kdx", "ersättningsregler", "prisoptimering"]
 audience: "advanced"
 has_children: true
 ---
 
 # För avancerade användare
 
-Den här delen är för dig som vill arbeta direkt med Kalkyldatas dataformat, skapa många kalkylartiklar eller bidra till artikelbiblioteket. Du behöver inte använda något av detta för att skapa kalkyler i gränssnittet.
+Den här delen är för dig som vill arbeta direkt med Kalkyldatas dataformat, skapa många kalkylartiklar, använda ersättningsregler eller bidra till artikelbiblioteket. Du behöver inte använda dessa funktioner för att skapa vanliga kalkyler i gränssnittet.
 
 ## Sidor i den här delen
 
@@ -22,16 +22,17 @@ Den här delen är för dig som vill arbeta direkt med Kalkyldatas dataformat, s
 * [Utbytesformatet kdx/1](/avancerat/kdx-format/) — formatet som används vid import och export av kalkyldata.
 * [Bidra till artikelbiblioteket via GitHub](/avancerat/github-bidrag/) — mappstruktur, filnamn och hur kalkylartiklar blir sökbara.
 * [Validera och felsök din JSON](/avancerat/validera-json/) — kontrollpunkter och vanliga fel.
+* [Ersättningsregler](/avancerat/ersattningsregler/) — skapa regler som styr vilka materialartiklar som får ersätta varandra vid prisoptimering.
 * [API och integrationer](/avancerat/api/) — koppla Kalkyldata till andra system via webhooks. API tillhandahålls efter förfrågan.
 
 ## Två JSON-format
 
-Kalkyldata använder två JSON-format med olika syften. En **artikelfil** beskriver en återanvändbar kalkylartikel, medan `kdx/1` används för att importera och exportera kalkyldata från appen.
+Kalkyldata använder två JSON-format med olika syften. En **artikelfil** beskriver en återanvändbar kalkylartikel, medan `kdx/1` används för att importera och exportera kalkyldata.
 
-| Format     | Används till                        | Innehåller                                                              |
-| ---------- | ----------------------------------- | ----------------------------------------------------------------------- |
-| Artikelfil | Kalkylartiklar i artikelbiblioteket | Ett `itm_*`-objekt med en eller flera `itm_tasks`                       |
-| `kdx/1`    | Import och export av kalkyldata     | Kalkylens domänfält tillsammans med `_kdx` som anger format och version |
+| Format     | Används till                        | Innehåller                                                               |
+| ---------- | ----------------------------------- | ------------------------------------------------------------------------ |
+| Artikelfil | Kalkylartiklar i artikelbiblioteket | Ett `itm_*`-objekt med en eller flera `itm_tasks`                        |
+| `kdx/1`    | Import och export av kalkyldata     | Kalkylens domänfält tillsammans med `_kdx`, som anger format och version |
 
 ### Artikelfil
 
@@ -39,15 +40,15 @@ En artikelfil beskriver en återanvändbar **kalkylartikel**. Kalkylartikeln inn
 
 Artikelfiler används bland annat när du bygger kalkylartiklar med JSON eller bidrar med kalkylartiklar till artikelbiblioteket.
 
-En kalkylartikel använder `itm_*`-fält. Uppgifterna i `itm_tasks` använder `tsk_*`-fält. Prefixen gör att fälten tydligt visar vilken nivå de tillhör.
+En kalkylartikel använder `itm_*`-fält. Uppgifterna i `itm_tasks` använder `tsk_*`-fält. Prefixen visar vilken nivå varje fält tillhör.
 
 ### `kdx/1`
 
 `kdx/1` är Kalkyldatas utbytesformat för import och export. Formatet kan användas för en **uppgift**, **kalkylartikel**, **del** eller en hel **kalkyl**.
 
-Formatet använder samma domänfält som Kalkyldata internt. En `_kdx`-sektion på JSON-objektets toppnivå anger att filen använder kdx-formatet och vilken version den har.
+Formatet använder samma domänfält som Kalkyldata använder internt. En `_kdx`-sektion på JSON-objektets toppnivå anger att filen använder kdx-formatet och vilken version den har.
 
-Det betyder att du inte behöver översätta fältnamn när du arbetar med `kdx/1`. Exempelvis används `itm_name` för kalkylartikelns namn och `tsk_material_number` för uppgiftens E-nummer.
+Det betyder att du inte behöver översätta fältnamn när du arbetar med `kdx/1`. Exempelvis används `itm_name` för kalkylartikelns namn och `tsk_material_number` för uppgiftens artikelnummer.
 
 ## När ska du använda JSON?
 
@@ -111,4 +112,4 @@ Materialkostnaden beräknas på motsvarande sätt utifrån uppgiftens antal, mat
 * `SV-ATL` används för standardiserade arbetstidsuppslag. `Övrig tid` används när arbetstiden ska anges manuellt.
 * `SV-ENR` används för material med prisuppslag. `Övrigt material` används när materialet hanteras manuellt.
 * `kdx/1` innehåller inte interna UUID:n för kalkyl, del, kalkylartikel eller uppgift. Dessa skapas på nytt vid import.
-* Här används tekniska fältnamn som `itm_*` och `tsk_*` medvetet. I vanlig användartext ska motsvarande svenska begrepp användas: **kalkylartikel** och **uppgift**.
+* Här används tekniska fältnamn som `itm_*` och `tsk_*` medvetet. I vanlig användartext används i stället **kalkylartikel** och **uppgift**.
