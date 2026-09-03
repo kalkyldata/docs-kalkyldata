@@ -12,8 +12,9 @@ audience: "advanced"
 
 # Bidra till artikelbiblioteket via GitHub
 
-Kalkyldatas gemensamma artikelbibliotek består av JSON-filer i ett GitHub-repo. Varje fil beskriver en **kalkylartikel** med en eller flera **uppgifter**.
-Du hittar arkivet här: https://github.com/kalkyldata/items 
+Kalkyldatas gemensamma bibliotek av kalkylartiklar består av JSON-filer i ett GitHub-repo. Varje fil beskriver en **kalkylartikel** med en eller flera **uppgifter**.
+
+[Du hittar arkivet här: https://github.com/kalkyldata/items  ](https://github.com/kalkyldata/items )
 
 När en fil läggs till eller ändras kan det automatiska flödet läsa in ändringen, låta AI gå igenom kalkylartikeln och publicera den i katalogen. När kalkylartikeln är publicerad kan användare hitta den i snabbsök och AI-agenten kan föreslå den.
 
