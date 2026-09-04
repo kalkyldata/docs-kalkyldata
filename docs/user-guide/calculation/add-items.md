@@ -43,7 +43,7 @@ AI-agenten använder din fråga och informationen i [projektinfo](/anvandarguide
 
 ## Lägg till direkt i kalkylpanelen
 
-Du kan även skapa en tom kalkylartikel direkt i kalkylpanelen. Det används främst när du behöver lägga till specialmaterial eller skapa ett arbetsmoment som inte redan finns som kalkylartikel.
+Du kan även skapa en tom kalkylartikel direkt i kalkylpanelen. Det används främst när du behöver lägga till specialmaterial, leverantörsofferter, underentreprenörer eller eller skapa ett arbetsmoment som inte redan finns som kalkylartikel.
 
 1. Öppna kalkylpanelen.
 2. Expandera den del där kalkylartikeln ska ligga.
@@ -89,7 +89,7 @@ Expandera kalkylartikeln för att kontrollera att:
 | --- | --- |
 | **Snabbsök** | När du redan vet vilken kalkylartikel du vill lägga till. |
 | **AI-agentens förslag** | När du vill att AI-agenten ska föreslå lämpliga kalkylartiklar utifrån arbetsbeskrivningen. |
-| **Direkt i kalkylpanelen** | När du behöver lägga till specialmaterial, offerter, UE (underentreprenörer) eller skapa ett eget arbetsmoment. |
+| **Direkt i kalkylpanelen** | När du behöver lägga till specialmaterial, offerter, UE eller skapa ett eget arbetsmoment. |
 
 ## Bra att veta
 
