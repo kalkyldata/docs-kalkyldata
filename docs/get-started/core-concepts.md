@@ -18,10 +18,10 @@ Kalkyldata bygger på några få grundbegrepp. När du förstår hur de hänger 
 
 | Begrepp | Beskrivning |
 | --- | --- |
-| **Kalkyl** | Hela projektet eller jobbet du räknar på. Varje kalkyl har en egen konversation med AI-agenten. |
-| **Del** | En gruppering av kalkylartiklar, till exempel `Källare`, `Plan 2` eller `Utomhus`. |
-| **Kalkylartikel** | Ett arbetsmoment som innehåller en eller flera uppgifter med material och arbetstid. |
-| **Uppgift** | Den minsta delen i en kalkylartikel. En uppgift beskriver ett arbetsmoment och kan innehålla material, arbetstid eller båda. |
+| **Kalkyl** <!-- AI_KEYWORDS: projekt, jobb, arbete, uppdrag --> | Hela projektet eller jobbet du räknar på. Varje kalkyl har en egen konversation med AI-agenten. |
+| **Del** <!-- AI_KEYWORDS: delprojekt, sektion, område, etapp, byggnadsdel --> | En gruppering av kalkylartiklar, till exempel `Källare`, `Plan 2` eller `Utomhus`. |
+| **Kalkylartikel** <!-- AI_KEYWORDS: recept, arbetsmoment, artikel, moment, kod, receptkod --> | Ett arbetsmoment som innehåller en eller flera uppgifter med material och arbetstid. |
+| **Uppgift** <!-- AI_KEYWORDS: arbetsuppgift, moment, rad, arbetsrad, aktivitet --> | Den minsta delen i en kalkylartikel. En uppgift beskriver ett arbetsmoment och kan innehålla material, arbetstid eller båda. |
 
 ## Så hänger begreppen ihop
 
