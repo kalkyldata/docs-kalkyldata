@@ -89,7 +89,7 @@ Expandera kalkylartikeln för att kontrollera att:
 | --- | --- |
 | **Snabbsök** | När du redan vet vilken kalkylartikel du vill lägga till. |
 | **AI-agentens förslag** | När du vill att AI-agenten ska föreslå lämpliga kalkylartiklar utifrån arbetsbeskrivningen. |
-| **Direkt i kalkylpanelen** | När du behöver lägga till specialmaterial eller skapa ett eget arbetsmoment. |
+| **Direkt i kalkylpanelen** | När du behöver lägga till specialmaterial, offerter, UE (underentreprenörer) eller skapa ett eget arbetsmoment. |
 
 ## Bra att veta
 
