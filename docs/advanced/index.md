@@ -23,6 +23,7 @@ Den här delen är för dig som vill arbeta direkt med Kalkyldatas dataformat, s
 * [Bidra till artikelbiblioteket via GitHub](/avancerat/github-bidrag/) — mappstruktur, filnamn och hur kalkylartiklar blir sökbara.
 * [Validera och felsök din JSON](/avancerat/validera-json/) — kontrollpunkter och vanliga fel.
 * [Ersättningsregler](/avancerat/ersattningsregler/) — skapa regler som styr vilka materialartiklar som får ersätta varandra vid prisoptimering.
+* [Bidra med ersättningsregler via GitHub](/avancerat/github-bidrag-ersattningsregler/) — så blir en regel en gemensam systemregel, och varför systemregler är skrivskyddade.
 * [API och integrationer](/avancerat/api/) — koppla Kalkyldata till andra system via webhooks. API tillhandahålls efter förfrågan.
 
 ## Två JSON-format
