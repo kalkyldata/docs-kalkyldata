@@ -9,7 +9,7 @@ category: "reference"
 tags: ["prisoptimering", "ersättningsregler", "regler", "json", "SV-ENR", "avancerat"]
 audience: "advanced"
 ---
-
+# Ersättningsregler
 Ersättningsregler låter dig styra vilka material som får ersättas vid prisoptimering och vilka alternativ som är tillåtna. Du kan till exempel hitta billigare alternativ, standardisera material eller förbjuda vissa artiklar.
 
 Prisoptimeringen visar alltid en diff innan något ändras. Du väljer själv vilka föreslagna byten som ska genomföras.
