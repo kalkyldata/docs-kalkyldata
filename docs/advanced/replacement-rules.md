@@ -4,44 +4,67 @@ title: "Ersättningsregler"
 parent: "För avancerade användare"
 nav_order: 7
 permalink: /avancerat/ersattningsregler/
-description: "Skapa egna ersättningsregler som styr vilka materialartiklar som kan ersätta varandra vid prisoptimering."
-category: "advanced"
-tags: ["prisoptimering", "ersättningsregler", "json", "sv-enr", "avancerat"]
+description: "Skapa egna ersättningsregler som styr vilka artiklar prisoptimeringen får byta ut och vilka alternativ som är tillåtna."
+category: "reference"
+tags: ["prisoptimering", "ersättningsregler", "regler", "json", "SV-ENR", "avancerat"]
 audience: "advanced"
 ---
 
-# Ersättningsregler
+Ersättningsregler låter dig styra vilka material som får ersättas vid prisoptimering och vilka alternativ som är tillåtna. Du kan till exempel hitta billigare alternativ, standardisera material eller förbjuda vissa artiklar.
 
-Med ersättningsregler bestämmer du vilka materialartiklar som får ersätta varandra vid prisoptimering. En regel anger vilka artiklar Kalkyldata ska leta efter och vilka artiklar som får användas som ersättare.
+Prisoptimeringen visar alltid en diff innan något ändras. Du väljer själv vilka föreslagna byten som ska genomföras.
 
-Reglerna används av [Prisoptimering](/anvandarguide/kalkyl/prisoptimering/). Prisoptimeringen visar alltid föreslagna byten innan något ändras, och du väljer själv vilka byten du vill genomföra.
+## Så använder du ersättningsregler
 
-Du skapar och hanterar regler från kalkylens meny:
+1. Öppna kalkylens meny.
+2. Klicka på **Hantera ersättningsregler**.
+3. Skapa en regel i **Byggare** eller klistra in en befintlig regel under **JSON**.
+4. Spara regeln.
+5. Kör [prisoptimering](/anvandarguide/kalkyl/prisoptimering/).
+6. Granska de föreslagna bytena i diffen.
+7. Godkänn de ändringar du vill genomföra.
 
-1. Klicka på **⋯** uppe till höger i kalkyltabellen.
-2. Välj **Hantera ersättningsregler…**.
+Regler är privata som standard. Slå på **Publik regel** om andra användare ska kunna använda regeln.
 
-Egna regler är privata som standard. Aktivera **Publik regel** om andra användare ska kunna använda regeln.
+## Byggare eller JSON
 
-## Så fungerar en ersättningsregel
+Du kan skapa samma ersättningsregel på två sätt.
 
-Varje ersättningsregel består av två delar:
+### Byggare
 
-* `search` anger vilka artiklar regeln ska leta efter i kalkylen.
-* `replace` anger vilka artiklar som får användas som ersättare.
+**Byggare** är det visuella sättet att skapa regler.
 
-När en artikel matchar `search` jämför prisoptimeringen de tillåtna alternativen i `replace`. Vilket alternativ som föreslås beror på regelns uppbyggnad och vilka alternativ som kan prissättas.
+Du kan bland annat:
+
+* söka efter artiklar i prislistan
+* lägga till flera artiklar som regeln ska leta efter
+* välja vilka ersättare som är tillåtna
+* ange en mängdfaktor för en ersättare
+* se fel direkt medan du bygger regeln
+* se hur många rader i kalkylen som regeln matchar
+
+### JSON
+
+Under **JSON** kan du klistra in eller kopiera en hel regeluppsättning.
+
+Flera regler kan ligga i samma `replacement_rules`-lista.
+
+När du växlar mellan **Byggare** och **JSON** konverteras innehållet automatiskt. Om JSON:en är ogiltig kan du inte växla förrän felen är rättade.
 
 ## Fyra vanliga sätt att använda regler
 
-| Jag vill…                          | Så bygger du regeln                                                                   |
-| ---------------------------------- | ------------------------------------------------------------------------------------- |
-| **Hitta billigaste alternativ**    | Lägg flera kandidater i `replace`, inklusive originalartikeln om den ska få behållas. |
-| **Standardisera**                  | Lägg flera artiklar i `search` och en enda kandidat i `replace`.                      |
-| **Ersätta en artikel**             | Lämna originalartikeln utanför `replace` och ange de tillåtna ersättarna.             |
-| **Alltid föreslå en viss artikel** | Ange exakt en kandidat i `replace`.                                                   |
+| Jag vill…                             | Så bygger du regeln                                                            |
+| ------------------------------------- | ------------------------------------------------------------------------------ |
+| **Hitta det billigaste alternativet** | Lägg flera kandidater i `replace`, inklusive originalet om det ska få behållas |
+| **Standardisera material**            | Lägg flera artiklar i `search` och en enda artikel i `replace`                 |
+| **Förbjuda en artikel**               | Lägg inte originalet i `replace`                                               |
+| **Tvinga en viss artikel**            | Lägg exakt en artikel i `replace`                                              |
 
-## Ett komplett exempel
+## Hitta det billigaste alternativet
+
+Använd flera kandidater i `replace` när prisoptimeringen ska välja det billigaste alternativet.
+
+Om originalartikeln också får behållas måste den finnas med i `replace`.
 
 ```json
 {
@@ -58,7 +81,11 @@ När en artikel matchar `search` jämför prisoptimeringen de tillåtna alternat
           ],
           "replace": [
             { "material_number": "781237237", "material_type": "SV-ENR" },
-            { "material_number": "781237266", "material_type": "SV-ENR", "quantity_factor": 3 }
+            {
+              "material_number": "781237266",
+              "material_type": "SV-ENR",
+              "quantity_factor": 3
+            }
           ]
         }
       ]
@@ -67,22 +94,20 @@ När en artikel matchar `search` jämför prisoptimeringen de tillåtna alternat
 }
 ```
 
-Regeln letar efter artikelnummer `781237237` och `781237266`. Om någon av artiklarna finns i kalkylen jämför prisoptimeringen de tillåtna alternativen i `replace`.
+Regeln letar efter de två artiklarna i `search`. Om någon av dem finns i kalkylen jämförs priset på alla kandidater i `replace`.
 
-Eftersom den andra artikeln har `quantity_factor: 3` räknas dess pris med en faktor på 3 vid jämförelsen.
+Prisoptimeringen föreslår det billigaste alternativet.
 
-## Fler exempel
+## Standardisera flera artiklar
 
-### Standardisera flera artiklar till en
-
-Använd flera artiklar i `search` och en enda kandidat i `replace` när flera artiklar ska ersättas med samma standardartikel.
+Använd flera artiklar i `search` och en enda artikel i `replace` när flera material alltid ska ersättas med samma standardartikel.
 
 ```json
 {
   "replacement_rules": [
     {
       "name": "Standardisera kopplingsdosa",
-      "description": "Alla typer av kopplingsdosor byts till standardmodell.",
+      "description": "Alla angivna kopplingsdosor byts till standardmodell.",
       "priority": 5,
       "replacements": [
         {
@@ -101,9 +126,13 @@ Använd flera artiklar i `search` och en enda kandidat i `replace` när flera ar
 }
 ```
 
-### Ersätta en artikel med ett tillåtet alternativ
+Alla artiklar i `search` ersätts med artikeln i `replace`.
 
-Om originalartikeln inte finns med i `replace` kan den inte väljas som alternativ. Prisoptimeringen kan då föreslå någon av de artiklar som finns i `replace`, förutsatt att minst en av dem kan prissättas.
+## Förbjuda en artikel
+
+Om originalartikeln inte finns med i `replace` kan prisoptimeringen inte behålla den.
+
+Regeln måste därför välja någon av de tillåtna ersättarna, förutsatt att minst en ersättare har ett tillgängligt pris.
 
 ```json
 {
@@ -128,16 +157,16 @@ Om originalartikeln inte finns med i `replace` kan den inte väljas som alternat
 }
 ```
 
-### Alltid föreslå ett visst material
+## Tvinga en viss artikel
 
-En enda kandidat i `replace` innebär att samma artikel alltid föreslås när regeln träffar, förutsatt att artikeln kan prissättas.
+Använd exakt en artikel i `replace` när en artikel alltid ska ersättas med ett bestämt alternativ.
 
 ```json
 {
   "replacement_rules": [
     {
       "name": "Tvinga skruv M4 rostfri",
-      "description": "Byter alltid till rostfri variant oavsett tidigare val.",
+      "description": "Byter alltid till rostfri variant.",
       "priority": 2,
       "replacements": [
         {
@@ -155,13 +184,13 @@ En enda kandidat i `replace` innebär att samma artikel alltid föreslås när r
 }
 ```
 
-Prisoptimeringen genomför inte bytet automatiskt. Du granskar och godkänner fortfarande förslaget innan artikeln ändras i kalkylen.
+Artikeln i `replace` används för alla träffar i `search`, förutsatt att artikeln har ett tillgängligt pris.
 
-## Mängdfaktor vid byte
+## Använd mängdfaktor vid byte
 
-En ersättningsartikel kan kräva en annan mängd än originalartikeln. Använd `quantity_factor` för att ange hur mängden ska räknas om.
+En ersättare kan behöva en annan mängd än originalartikeln.
 
-Faktorn används både när alternativen jämförs och när ett byte genomförs.
+Använd `quantity_factor` för att räkna om mängden.
 
 ```json
 {
@@ -177,7 +206,11 @@ Faktorn används både när alternativen jämförs och när ett byte genomförs.
           ],
           "replace": [
             { "material_number": "781237237", "material_type": "SV-ENR" },
-            { "material_number": "781237500", "material_type": "SV-ENR", "quantity_factor": 0.01 }
+            {
+              "material_number": "781237500",
+              "material_type": "SV-ENR",
+              "quantity_factor": 0.01
+            }
           ]
         }
       ]
@@ -186,20 +219,20 @@ Faktorn används både när alternativen jämförs och när ett byte genomförs.
 }
 ```
 
-### Exempel på prisjämförelse
+Mängdfaktorn påverkar både prisjämförelsen och mängden efter bytet.
 
-Om originalartikeln kostar `2 kr/st` och ersättaren kostar `120 kr` per förpackning jämförs kostnaden så här:
+Om originalartikeln kostar `2 kr/st` och ersättaren kostar `120 kr` med `quantity_factor: 0.01` jämförs:
 
-* Originalartikel: `2 × 1 = 2 kr`
-* Ersättare: `120 × 0,01 = 1,20 kr`
+* Original: `2 × 1 = 2 kr`
+* Ersättare: `120 × 0.01 = 1,20 kr`
 
-Ersättaren är billigare och kan därför föreslås som byte. När bytet genomförs multipliceras mängden i kalkylen med `0,01`.
+Ersättaren är billigare och mängden i kalkylen multipliceras med `0.01`.
 
-## Flera regler i samma fil
+## Använd flera regler
 
-Du kan lägga flera regler i samma JSON. Reglerna körs oberoende av varandra.
+Du kan lägga flera regler i samma JSON.
 
-Om flera regler träffar samma rad används regeln med lägst `priority`.
+Reglerna körs oberoende av varandra. Om flera regler matchar samma rad används den regel som har lägst `priority`.
 
 ```json
 {
@@ -238,11 +271,13 @@ Om flera regler träffar samma rad används regeln med lägst `priority`.
 }
 ```
 
-## Hantera överlappande regler
+## Hantera regler som överlappar
 
-Samma artikel kan förekomma i flera `search`-listor. Använd `priority` för att styra vilken regel som ska användas när flera regler träffar samma rad.
+Flera regler kan matcha samma material.
 
-Lägre nummer har högre prioritet.
+Använd `priority` för att bestämma vilken regel som ska användas.
+
+Lägst nummer har högst prioritet.
 
 ```json
 {
@@ -281,34 +316,39 @@ Lägre nummer har högre prioritet.
 }
 ```
 
-För artikelnummer `781237237` används `Projektspecifik skruv` eftersom regeln har `priority: 10`. Den generella regeln kan fortfarande användas för artikelnummer `781237266`.
+`Projektspecifik skruv` har `priority: 10` och används därför för artikelnummer `781237237`.
 
-## Fälten i korthet
+Den generella regeln har `priority: 20` och används fortfarande för `781237266`.
 
-| Fält              | Måste anges? | Vad det gör                                                                                         |
-| ----------------- | ------------ | --------------------------------------------------------------------------------------------------- |
-| `name`            | Ja           | Regelns namn. Visas i prisoptimeringen så att du ser vilken regel som föreslår bytet.               |
-| `description`     | Nej          | En beskrivning av regelns syfte.                                                                    |
-| `priority`        | Nej          | Avgör vilken regel som används om flera regler träffar samma rad. Lägre nummer har högre prioritet. |
-| `search`          | Ja           | Artiklarna som regeln letar efter. Flera poster fungerar som `OR`.                                  |
-| `replace`         | Ja           | De artiklar som får användas som ersättare. Ett alternativ väljs per träffad rad.                   |
-| `material_number` | Ja           | Artikelnummer. Används både i `search` och `replace`.                                               |
-| `material_type`   | Ja           | Materialtyp, till exempel `"SV-ENR"`. Måste matcha materialtypen på uppgiften.                      |
-| `quantity_factor` | Nej          | Räknar om mängden vid byte. Om fältet saknas används faktorn `1`.                                   |
+## Fälten i ersättningsregler
+
+| Fält              | Måste anges? | Beskrivning                                                                           |
+| ----------------- | ------------ | ------------------------------------------------------------------------------------- |
+| `name`            | Ja           | Regelns namn. Visas i diffen så att du ser vilken regel som föreslår bytet            |
+| `description`     | Nej          | En beskrivning av regeln                                                              |
+| `priority`        | Nej          | Avgör vilken regel som används om flera regler matchar samma rad. Lägst nummer vinner |
+| `search`          | Ja           | Artiklar som regeln letar efter. Flera artiklar fungerar som ett `OR`                 |
+| `replace`         | Ja           | Tillåtna ersättare. En artikel väljs för varje träff                                  |
+| `material_number` | Ja           | Artikelnummer i både `search` och `replace`                                           |
+| `material_type`   | Ja           | Materialtyp, till exempel `"SV-ENR"`. Måste matcha materialtypen på raden             |
+| `quantity_factor` | Nej          | Räknar om mängden vid byte. Saknas värdet används `1`                                 |
 
 ## Bra att veta
 
-* **Du godkänner alltid bytet själv.** Prisoptimeringen visar regel, gammalt och nytt artikelnummer, mängd, pris och kostnadsdifferens innan något ändras.
-* **Ett alternativ utan pris kan inte väljas.** Om ingen tillåten ersättare kan prissättas lämnas raden oförändrad och visas i varningslistan.
-* **Originalartikeln kan bara behållas om den finns i `replace`.** Lägg därför alltid till originalet i `replace` om det ska få vara kvar när det är billigast.
-* **`quantity_factor` påverkar både pris och mängd.** En faktor på `3` innebär att priset jämförs som `pris × 3` och att mängden multipliceras med `3` när bytet genomförs.
-* **En rad byts bara en gång per körning.** Om flera regler träffar samma rad används regeln med högst prioritet, alltså lägst `priority`.
-* **Regler kan inte kedjas i samma körning.** Ett artikelbyte leder inte till att nästa ersättningsregel körs på den nya artikeln.
-* **Du kan köra prisoptimeringen igen.** Om kalkylen redan är optimerad visas normalt inga nya byten om priser och regler är oförändrade.
-* **Materialinformationen uppdateras vid byte.** Namn, pris och leverantör hämtas på nytt. En eventuell produktlänk tas bort och en systemkommentar läggs till på uppgiften. Arbetstid påverkas inte.
+* **Du godkänner alltid själv.** Prisoptimeringen visar regel, gammal artikel, ny artikel, mängd, pris och kostnadsdifferens innan något ändras.
+* **Ersättare utan pris används inte.** Om ingen tillåten ersättare har ett pris lämnas raden oförändrad och visas i varningslistan.
+* **Originalartikeln måste finnas i `replace` om den får behållas.** Om originalet saknas kan prisoptimeringen bara välja bland ersättarna.
+* **`quantity_factor` påverkar både pris och mängd.** En faktor på `3` jämför ersättaren som `pris × 3` och multiplicerar mängden med `3` efter bytet.
+* **En rad byts bara en gång per körning.** Om flera regler matchar används regeln med lägst `priority`.
+* **Byten kan inte kedjas i samma körning.** Ett material som har ersatts används inte som utgångspunkt för ytterligare en ersättning under samma prisoptimering.
+* **Du kan köra prisoptimeringen igen.** En redan optimerad kalkyl ger ingen ny diff om priserna och reglerna är oförändrade.
+* **Materialinformationen uppdateras vid byte.** Namn, pris och leverantör hämtas för den nya artikeln. Produktlänken nollställs och en systemkommentar med regelns namn och tidigare artikelnummer läggs till på uppgiften.
+* **Arbetstid påverkas inte.** Ersättningsregler ändrar bara material.
 
 ## Systemregler
 
-Utöver egna ersättningsregler kan Kalkyldata innehålla systemregler. De fungerar på samma sätt som egna regler och används vid prisoptimering.
+Utöver dina egna regler kan Kalkyldata ha **systemregler** som underhålls centralt.
 
-Du granskar alltid de föreslagna bytena och väljer själv vilka rader som ska ändras.
+Systemregler fungerar på samma sätt som dina egna regler, men kan inte redigeras i Kalkyldata. Du kan fortfarande välja bort föreslagna byten rad för rad i diffen.
+
+Se [Bidra med ersättningsregler via GitHub](/avancerat/github-bidrag-ersattningsregler/).
