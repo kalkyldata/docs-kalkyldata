@@ -1,85 +1,130 @@
 ---
-
 layout: default
 title: "Prisoptimering"
 parent: "Kalkyl"
 grand_parent: "Användarguide"
 nav_order: 7
 permalink: /anvandarguide/kalkyl/prisoptimering/
-description: "Sök efter billigare tillåtna ersättningsartiklar i kalkylen och välj själv vilka artikelbyten du vill genomföra."
+description: "Byt ut material mot billigare tillåtna alternativ med ersättningsregler och godkänn förslagen innan något ändras."
 category: "guide"
 tags: ["prisoptimering", "ersättningsregler", "materialpriser", "kalkyl"]
 audience: "user"
 ---
-
 # Prisoptimering
+Prisoptimering jämför material i din kalkyl med de alternativ som är tillåtna enligt dina ersättningsregler. Du får förslag på byten och väljer själv vilka som ska genomföras.
 
-Prisoptimering hjälper dig att hitta billigare tillåtna ersättningsartiklar i kalkylen. Funktionen använder dina ersättningsregler och jämför priser på de artiklar som får ersätta varandra.
-
-Inget ändras automatiskt. Du granskar varje föreslaget byte och väljer själv vilka rader du vill ändra.
+Inget material ändras automatiskt.
 
 ## Så använder du prisoptimering
 
-1. Klicka på kalkylens meny **⋯** uppe till höger i kalkyltabellen.
-2. Välj **Optimera priser med regler…**.
-3. Vänta medan Kalkyldata hämtar ersättningsregler och jämför priser på tillåtna ersättningsartiklar.
-4. Granska de föreslagna bytena.
+1. Öppna kalkylens meny **⋯** uppe till höger i kalkyltabellen.
+2. Klicka **Optimera priser med regler…**.
+3. Vänta medan Kalkyldata hämtar regler och kontrollerar priser på tillåtna ersättare.
+4. Granska de föreslagna bytena i diffen.
 5. Avmarkera de byten du inte vill genomföra.
-6. Klicka på **Byt rader** för att genomföra de markerade bytena.
+6. Klicka **Byt rader** för att genomföra de markerade bytena.
 
-## Granska föreslagna byten
+Längst ned i diffen ser du den sammanlagda kostnadsförändringen för de rader du har markerat.
 
-Prisoptimeringen visar en jämförelse för varje rad där ett tillåtet och prissatt alternativ har hittats.
+## Så läser du förslagen
 
-| Kolumn        | Betydelse                                                                                                    |
-| ------------- | ------------------------------------------------------------------------------------------------------------ |
-| **Placering** | Visar var uppgiften finns i kalkylen och vilken ersättningsregel som föreslår bytet.                         |
-| **Byte**      | Visar vilket artikelnummer som byts ut och vilket artikelnummer som föreslås som ersättare.                  |
-| **Mängd**     | Visar mängden före och efter bytet. En ersättningsregel kan ange att mängden ska justeras när artikeln byts. |
-| **Pris**      | Visar nettopriset före och efter bytet.                                                                      |
-| **Differens** | Visar hur mycket materialkostnaden förändras för raden.                                                      |
+Varje rad i diffen visar ett föreslaget materialbyte.
 
-Längst ned visas den sammanlagda kostnadsförändringen för de rader du har markerat.
+| Kolumn        | Vad den visar                                                      |
+| ------------- | ------------------------------------------------------------------ |
+| **Placering** | Var uppgiften finns i kalkylen och vilken regel som föreslår bytet |
+| **Byte**      | Artikelnummer före och efter bytet                                 |
+| **Mängd**     | Mängd före och efter bytet                                         |
+| **Pris**      | Nettopris före och efter bytet                                     |
+| **Differens** | Kostnadsförändringen för raden                                     |
 
-{: .note }
+Gröna värden visar att bytet minskar materialkostnaden.
 
-> Grönt visar att bytet sänker kostnaden.
+### När mängden ändras
 
-## När inget alternativ kan prissättas
+En ersättare kan ha en annan förpackningsstorlek eller säljas i en annan enhet.
 
-En ersättningsregel kan innehålla flera tillåtna ersättningsartiklar. Om Kalkyldata inte hittar ett pris för någon av dem visas raden i varningslistan.
+Då kan ersättningsregeln använda en mängdfaktor som räknar om mängden.
 
-Raden ändras inte och du behöver inte göra något för att behålla den ursprungliga artikeln.
+Exempel:
 
-## Efter ett artikelbyte
+* En kalkylrad innehåller `3` lösa artiklar.
+* Ersättaren säljs i en förpackning där en förpackning motsvarar tre artiklar.
+* Regeln använder en mängdfaktor som räknar om mängden till rätt antal förpackningar.
 
-När du genomför ett byte uppdateras artikelnumret på den berörda uppgiften.
+Mängdfaktorn påverkar både prisjämförelsen och den nya mängden när du genomför bytet.
 
-Kalkyldata sparar också en systemkommentar med:
+## Rader som inte kan optimeras
 
-* vilken ersättningsregel som användes
-* tidigare artikelnummer
-* datum för bytet
+Ibland hittar prisoptimeringen en ersättningsregel men kan inte föreslå något byte.
 
-En eventuell produktlänk tas bort eftersom den hörde till den tidigare artikeln.
+Det kan till exempel bero på att ingen tillåten ersättare har ett tillgängligt pris.
 
-Arbetstid påverkas inte av prisoptimeringen. Antal och mängd ändras bara om ersättningsregeln uttryckligen anger att mängden ska justeras.
+Dessa rader visas i varningslistan högst upp i diffen och ändras inte.
+
+## Efter att du har genomfört byten
+
+När du genomför ett byte uppdateras materialinformationen för den nya artikeln.
+
+Kalkyldata:
+
+* hämtar nytt materialnamn
+* uppdaterar priset
+* uppdaterar leverantören
+* tar bort den tidigare produktlänken
+* lägger till en systemkommentar med regelns namn och tidigare artikelnummer
+
+Arbetstid påverkas inte av prisoptimeringen.
 
 ## Skapa egna ersättningsregler
 
-Du kan skapa och hantera egna ersättningsregler från kalkylens meny.
+Du kan skapa egna regler som bestämmer vilka material som får bytas och vilka ersättare som är tillåtna.
 
-1. Klicka på **⋯** uppe till höger i kalkyltabellen.
-2. Välj **Hantera ersättningsregler…**.
-3. Skapa eller ändra de regler som ska användas vid prisoptimering.
+1. Öppna kalkylens meny **⋯**.
+2. Klicka **Hantera ersättningsregler…**.
+3. Klicka **Ny regel**.
+4. Välj vilka artiklar regeln ska leta efter.
+5. Välj vilka artiklar som får användas som ersättare.
+6. Kontrollera att regeln fungerar och spara den.
 
-Läs mer om hur ersättningsregler är uppbyggda i [Ersättningsregler](/advanced/replacement-rules/).
+Du kan skapa regler visuellt i **Byggare** eller använda fliken **JSON** för att klistra in eller redigera en regeluppsättning.
+
+För en fullständig guide till hur ersättningsregler fungerar, se [Ersättningsregler](/avancerat/ersattningsregler/).
+
+## System- och publika regler
+
+Du kan även använda regler som delas av andra.
+
+### Systemregler
+
+Regler märkta **Systemregel** underhålls centralt och är tillgängliga för alla användare.
+
+Du kan:
+
+* visa hur regeln är byggd
+* använda regeln i prisoptimeringen
+* kopiera regeln till en egen regel
+
+Du kan inte redigera själva systemregeln i Kalkyldata.
+
+Vill du bidra med en ny systemregel eller föreslå en ändring kan du läsa [Bidra med ersättningsregler via GitHub](/avancerat/github-bidrag-ersattningsregler/).
+
+### Publika regler
+
+Publika regler är regler som andra användare har valt att dela.
+
+Du kan visa dem och använda dem som utgångspunkt för dina egna regler.
 
 ## Bra att veta
 
-* Prisoptimering byter aldrig artiklar automatiskt.
-* Du väljer själv vilka föreslagna byten som ska genomföras.
-* Endast artiklar som omfattas av en ersättningsregel kan bytas.
-* Ett alternativ måste kunna prissättas för att kunna föreslås som ersättare.
-* Prisoptimering påverkar inte arbetstid.
-* Originalartikeln behålls om du avmarkerar eller avstår från ett föreslaget byte.
+* **Du godkänner alltid själv.** Prisoptimeringen ändrar inget förrän du klickar **Byt rader**.
+* **Alla regler körs inte på alla rader.** En regel måste matcha materialet i uppgiften.
+* **Ersättare utan pris används inte.** Om ingen tillåten ersättare har ett pris lämnas raden oförändrad.
+* **En uppgift kan bara bytas en gång per körning.** Om flera regler matchar används den regel som har högst prioritet.
+* **Arbetstid påverkas inte.** Prisoptimeringen ändrar bara material.
+* **Du kan köra prisoptimeringen igen.** Nya regler eller ändrade priser kan ge nya förslag.
+
+## Relaterade guider
+
+* [Ersättningsregler](/avancerat/ersattningsregler/)
+* [Bidra med ersättningsregler via GitHub](/avancerat/github-bidrag-ersattningsregler/)
