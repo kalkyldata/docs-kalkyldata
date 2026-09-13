@@ -1,0 +1,5 @@
+{
+  "date": "2026-09-13",
+  "title": "Snabbare sök och nya spara-knappar",
+  "description": "### 🎉 Nya funktioner\n\n- **Spara-knapp i chatten och projektinfo:** Gör det möjligt att spara viktiga chattmeddelanden och projektinformation för snabb åtkomst senare.\n- **Ny användarguide:** En kort guide har lagts till som hjälper nya användare att snabbt komma igång och förstå huvudfunktionerna i Kalkyldata.\n\n### 🚀 Förbättringar\n\n- **Snabbare och mer relevant dokumentsökning:** Sökningen visar träffar snabbare och med bättre relevans så att du hittar rätt kalkyl eller dokument snabbare.\n- **Förbättrad semantisk sökning:** Uppdaterad sökmodell ger mer träffsäkra resultat för frågor formulerade i naturligt språk.\n\n### 🐛 Buggfixar\n\n- **Inga buggfixar den här veckan:** Inga användarrapporterade fel åtgärdades i denna leverans."
+}
