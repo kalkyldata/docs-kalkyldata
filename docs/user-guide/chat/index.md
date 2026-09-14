@@ -33,6 +33,7 @@ Snabbsök är ett uppslagsverk: snabbt, exakt och utan väntetid. AI-agenten är
 - **Verktygsindikering** — vad texten om pågående verktyg betyder medan du väntar på svar.
 - **Inline-knappar i chatten** — knapparna som öppnar kalkyl, rapport, projektinfo och kalkylartiklar.
 - **Projektinfo** — projekttyp, segment, beställare och avtal som ger AI-agenten rätt sammanhang.
+- **Projekthandlingar** — ladda upp underlag och beskrivningar och fråga AI-agenten om innehållet, med källhänvisning.
 
 ## Bra att veta
 
