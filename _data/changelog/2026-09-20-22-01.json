@@ -1,0 +1,5 @@
+{
+  "date": "2026-09-20",
+  "title": "Bättre hjälp i gränssnittet och stabilare guidad tur",
+  "description": "### 🎉 Nya funktioner\n\n- **Hjälpikoner (frågetecken):** Visas nu vid många element i gränssnittet så att du snabbt kan få korta förklaringar utan att behöva söka.\n\n### 🚀 Förbättringar\n\n- **Guidad tur och hjälppaneler:** Guidad turen och hjälprutor har förbättrats så att stegen visas korrekt och är enklare att följa.\n- **Stabilare panelbeteende:** Paneler och menyer öppnas och stängs mer tillförlitligt, vilket minskar avbrott när du arbetar.\n- **Små UI-justeringar:** Visuella justeringar gör knappar och instruktioner tydligare och lättare att använda.\n\n### 🐛 Buggfixar\n\n- **Highlight i ersättningsregler:** Löste ett problem där markeringen i ersättningsregler kunde visas fel, så du nu ser tydligt vad som ändras.\n- **Guidad tur och hjälpruta (fel):** Åtgärdade fel som kunde få guidad tur eller hjälprutor att fastna eller hoppa över steg."
+}
