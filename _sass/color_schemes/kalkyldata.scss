@@ -1,14 +1,41 @@
-$link-color: #2563eb;
-$btn-primary-color: #2563eb;
+//
+// Kalkyldata documentation color scheme
+// Temporary design tokens - replace with official style guide values
+//
 
-$body-background-color: #ffffff;
-$sidebar-color: #f7f8fa;
-$search-background-color: #ffffff;
+// Brand
+$kl-primary: #2563eb;
+$kl-primary-dark: #1d4ed8;
 
-$body-heading-color: #172033;
-$body-text-color: #374151;
+// Text
+$kl-text: #172033;
+$kl-text-muted: #64748b;
 
-$border-color: #e5e7eb;
+// Surfaces
+$kl-background: #ffffff;
+$kl-background-subtle: #f8fafc;
+$kl-surface: #ffffff;
 
-$nav-child-link-color: #4b5563;
-$nav-list-item-color: #374151;
+// Borders
+$kl-border: #e2e8f0;
+
+// Status
+$kl-success: #16a34a;
+$kl-warning: #d97706;
+$kl-danger: #dc2626;
+
+// Just the Docs
+$link-color: $kl-primary;
+$btn-primary-color: $kl-primary;
+
+$body-background-color: $kl-background;
+$sidebar-color: $kl-background-subtle;
+$search-background-color: $kl-surface;
+
+$body-heading-color: $kl-text;
+$body-text-color: $kl-text;
+
+$border-color: $kl-border;
+
+$nav-child-link-color: $kl-text-muted;
+$nav-list-item-color: $kl-text;
