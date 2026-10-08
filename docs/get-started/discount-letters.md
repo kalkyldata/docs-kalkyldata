@@ -22,6 +22,19 @@ Ett **rabattbrev** är den överenskommelse du har med en grossist om rabatt per
 4. Dra in filen, eller klicka för att välja den från datorn.
 5. Vänta tills statusen visar att filen är inläst.
 
+<figure class="kalkyl-overview">
+  <a
+    href="{{ '/assets/images/kalkyl-rabattbrev.png' | relative_url }}"
+    target="_blank"
+    rel="noopener"
+  >
+    <img
+      src="{{ '/assets/images/kalkyl-rabattbrev.png' | relative_url }}"
+      alt="Kalkyldata – rabattbrev"
+    >
+  </a>
+</figure>
+
 Statusmärket i panelen visar vilka leverantörer du redan har rabattbrev för.
 
 ## Vad som händer med priserna
