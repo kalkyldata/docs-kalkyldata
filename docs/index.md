@@ -14,10 +14,16 @@ Kalkyldata är ett **kalkylprogram för elinstallationer** och ett **offertverkt
 
 Kalkyldata samlar **kalkylering, materialpriser, arbetstid och offertunderlag** i samma arbetsyta. Det passar både mindre elinstallationer och större elentreprenader.
 <figure class="kalkyl-overview">
-  <img
-    src="{{ '/assets/images/kalkyl-overview.png' | relative_url }}"
-    alt="Översikt av Kalkyldata"
+  <a
+    href="{{ '/assets/images/kalkyl-overview.png' | relative_url }}"
+    target="_blank"
+    rel="noopener"
   >
+    <img
+      src="{{ '/assets/images/kalkyl-overview.png' | relative_url }}"
+      alt="Kalkyldata – översikt av kalkylvyn"
+    >
+  </a>
 </figure>
 
 ## Så fungerar Kalkyldata
