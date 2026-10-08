@@ -24,6 +24,19 @@ Inget material ändras automatiskt.
 5. Avmarkera de byten du inte vill genomföra.
 6. Klicka **Byt rader** för att genomföra de markerade bytena.
 
+<figure class="kalkyl-snabbsok">
+  <a
+    href="{{ '/assets/images/kalkyl-ersattning.png' | relative_url }}"
+    target="_blank"
+    rel="noopener"
+  >
+    <img
+      src="{{ '/assets/images/kalkyl-ersattning.png' | relative_url }}"
+      alt="Ersättning i Kalkyldata"
+    >
+  </a>
+</figure>
+
 Längst ned i diffen ser du den sammanlagda kostnadsförändringen för de rader du har markerat.
 
 ## Så läser du förslagen
