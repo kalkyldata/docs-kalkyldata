@@ -34,6 +34,7 @@ Snabbsök är ett uppslagsverk: snabbt, exakt och utan väntetid. AI-agenten är
 - **Inline-knappar i chatten** — knapparna som öppnar kalkyl, rapport, projektinfo och kalkylartiklar.
 - **Projektinfo** — projekttyp, segment, beställare och avtal som ger AI-agenten rätt sammanhang.
 - **Projekthandlingar** — ladda upp underlag och beskrivningar och fråga AI-agenten om innehållet, med källhänvisning.
+- **Mappträdet** — bläddra i mappar, hitta favoriter och egna artiklar och lägg till dem direkt.
 
 ## Bra att veta
 
