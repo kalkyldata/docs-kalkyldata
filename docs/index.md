@@ -13,6 +13,12 @@ audience: "user"
 Kalkyldata är ett **kalkylprogram för elinstallationer** och ett **offertverktyg för elektriker och elentreprenörer**. Du beskriver arbetet i chatten och AI-agenten föreslår kalkylartiklar med material och arbetstid. Därefter granskar och justerar du kalkylen innan du skapar en offert eller materiallista.
 
 Kalkyldata samlar **kalkylering, materialpriser, arbetstid och offertunderlag** i samma arbetsyta. Det passar både mindre elinstallationer och större elentreprenader.
+<figure class="kalkyl-overview">
+  <img
+    src="{{ '/assets/images/kalkyl-overview.png' | relative_url }}"
+    alt="Översikt av Kalkyldata"
+  >
+</figure>
 
 ## Så fungerar Kalkyldata
 
