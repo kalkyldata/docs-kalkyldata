@@ -15,6 +15,19 @@ audience: "user"
 
 Mappträdet låter dig bläddra bland publicerade kalkylartiklar som är sorterade i kategorier och mappar. Använd det när du vill hitta en kalkylartikel genom att bläddra i stället för att söka.
 
+<figure class="kalkyl-snabbsok">
+  <a
+    href="{{ '/assets/images/kalkyl-mapptrad.png' | relative_url }}"
+    target="_blank"
+    rel="noopener"
+  >
+    <img
+      src="{{ '/assets/images/kalkyl-mapptrad.png' | relative_url }}"
+      alt="Mappträd i Kalkyldata"
+    >
+  </a>
+</figure>
+
 ## Öppna mappträdet
 
 Du kan öppna mappträdet på flera sätt:
