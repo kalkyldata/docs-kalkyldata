@@ -25,6 +25,8 @@ Snabbsök hjälper dig att snabbt hitta kalkylartiklar direkt i chattrutan. Funk
 
 Du kan även välja vilken **del** kalkylartikeln ska läggas i eller öppna **Visa kort** för att granska innehållet innan du lägger till den.
 
+Matchar sökningen en mapp eller kategori visas **Öppna i mappträdet** överst i listan. Läs mer i [Mappträdet](/anvandarguide/chat/mapptradet/).
+
 ## Vad kan du söka efter?
 
 Snabbsök söker bland publicerade kalkylartiklar och hittar träffar utifrån bland annat:
