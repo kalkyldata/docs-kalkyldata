@@ -22,7 +22,7 @@ Ett **rabattbrev** är den överenskommelse du har med en grossist om rabatt per
 4. Dra in filen, eller klicka för att välja den från datorn.
 5. Vänta tills statusen visar att filen är inläst.
 
-<figure class="kalkyl-overview">
+<figure class="kalkyl-rabattbrev">
   <a
     href="{{ '/assets/images/kalkyl-rabattbrev.png' | relative_url }}"
     target="_blank"
@@ -30,7 +30,7 @@ Ett **rabattbrev** är den överenskommelse du har med en grossist om rabatt per
   >
     <img
       src="{{ '/assets/images/kalkyl-rabattbrev.png' | relative_url }}"
-      alt="Kalkyldata – rabattbrev"
+      alt="Exempel på rabattbrev i Kalkyldata"
     >
   </a>
 </figure>
