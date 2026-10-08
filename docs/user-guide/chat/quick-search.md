@@ -23,6 +23,19 @@ Snabbsök hjälper dig att snabbt hitta kalkylartiklar direkt i chattrutan. Funk
 4. Ange antal.
 5. Klicka **Lägg till** för att lägga till kalkylartikeln i kalkylen.
 
+<figure class="kalkyl-snabbsok">
+  <a
+    href="{{ '/assets/images/kalkyl-snabbsok.png' | relative_url }}"
+    target="_blank"
+    rel="noopener"
+  >
+    <img
+      src="{{ '/assets/images/kalkyl-snabbsok.png' | relative_url }}"
+      alt="Snabbsök i Kalkyldata"
+    >
+  </a>
+</figure>
+
 Du kan även välja vilken **del** kalkylartikeln ska läggas i eller öppna **Visa kort** för att granska innehållet innan du lägger till den.
 
 Matchar sökningen en mapp eller kategori visas **Öppna i mappträdet** överst i listan. Läs mer i [Mappträdet](/anvandarguide/chat/mapptradet/).
