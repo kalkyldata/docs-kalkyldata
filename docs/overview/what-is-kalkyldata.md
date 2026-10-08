@@ -34,6 +34,19 @@ Arbetsytan är uppdelad i tre områden. Du kan bygga hela kalkylen utan att läm
 | **Chatten** | I mitten | Beskriver jobbet för AI-agenten, granskar förslag och lägger till kalkylartiklar i kalkylen. Skrivrutan finns längst ned. |
 | **Kalkylpanelen** | Till höger | Visar kalkylen med delar, kalkylartiklar, uppgifter, material, arbetstid och priser. Minimera panelen när du vill ha mer plats för chatten. |
 
+<figure class="kalkyl-overview">
+  <a
+    href="{{ '/assets/images/kalkyl-vyer.png' | relative_url }}"
+    target="_blank"
+    rel="noopener"
+  >
+    <img
+      src="{{ '/assets/images/kalkyl-vyer.png' | relative_url }}"
+      alt="Kalkylvyer i Kalkyldata"
+    >
+  </a>
+</figure>
+
 På mobil visas ett område i taget. Växla mellan chatten och kalkylen med knapparna högst upp. Sidopanelen öppnas som en utfällbar meny.
 
 **Rapporter** och **Mina kalkylartiklar** öppnas som egna sidor. Använd **Rapporter** när du ska skapa offert,  materiallista eller annan utskrift. Använd **Mina kalkylartiklar** när du ska skapa eller redigera egna kalkylartiklar.
