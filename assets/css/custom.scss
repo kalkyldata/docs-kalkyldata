@@ -1,3 +1,18 @@
 // Kalkyldata custom stylesheet
 
 @import "custom/custom";
+
+.kalkyl-overview {
+  margin: 2rem 0 3rem;
+}
+
+.kalkyl-overview img {
+  display: block;
+  width: 100%;
+  max-width: 1400px;
+  height: auto;
+  margin: 0 auto;
+  border: 1px solid #d9dee5;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
