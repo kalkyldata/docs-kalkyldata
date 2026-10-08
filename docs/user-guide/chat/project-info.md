@@ -23,7 +23,8 @@ Projektinfo är den korta beskrivningen av projektet som AI-agenten läser innan
 4. Välj **Standardavtal** om ett avtal gäller.
 5. Fyll i **Kund** och **Ort**.
 6. Skriv en kort **Projektbeskrivning** med det som är speciellt för jobbet, till exempel `Renovering av 1970-talsvilla, befintlig elcentral byts`.
-7. Stäng panelen. Uppgifterna sparas direkt och följer med i varje fråga du ställer.
+7. Ladda upp kalkylrelaterade filer i **Projektets handlingar**.
+7. Stäng panelen. Uppgifterna sparas direkt och ger AI-agenten kontext.
 
 ## Fälten och vad de påverkar
 
@@ -37,6 +38,7 @@ Projektinfo är den korta beskrivningen av projektet som AI-agenten läser innan
 | Standardavtal | `AB 04`, `ABT 06`, `ABS 18`, `Hantverkarformuläret 17` med flera | Följer med till offerten och styr villkorstexten |
 | Kund och Ort | Fritext | Följer med till rapporten och ger agenten sammanhang |
 | Projektbeskrivning | Fritext | Det du inte får plats med i valen: förutsättningar, begränsningar, önskemål |
+| Projektets handlingar | Filer | Ladda upp förfrågningsunderlag, tekniska beskrivningar och andra projekthandlingar i Kalkyldata. AI-agenten kan sedan använda handlingarna som källa när den svarar på frågor, föreslår eller väljer kalkylartiklar och hjälper dig att bygga kalkylen.  |
 
 Fälten du inte fyller i lämnas tomma — agenten gissar inte.
 
