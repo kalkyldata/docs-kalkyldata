@@ -1,0 +1,5 @@
+{
+  "date": "2026-10-18",
+  "title": "Säkrare automatiska processer, tydligare exportval och bättre bildplacering",
+  "description": "### 🎉 Nya funktioner\n\n- **Inga nya funktioner den här veckan:** Inga större nya funktioner lanserades den här veckan.\n\n### 🚀 Förbättringar\n\n- **Tydligare exportval:** Dölj .json i exportknapparna så att det blir enklare att välja ett relevant filformat när du exporterar.\n- **Bättre bildplacering:** Bilden visas nu intill benämningen vilket gör listor och poster enklare att överblicka.\n- **Varning för gästanvändare (backup):** Visar en tydlig varning för gäster om begränsade backupmöjligheter så att det blir tydligt när information bör sparas på annat sätt.\n- **Förbättrad säkerhet för automatiska processer:** Säkerhetsförbättringar gör att automatiska åtgärder autentiseras bättre och fungerar mer tillförlitligt.\n\n### 🐛 Buggfixar\n\n- **Stabilare automatiska åtgärder:** Löste ett problem som ibland hindrade automatiska processer från att slutföras, vilket minskar risken för att export eller sparning misslyckas."
+}
