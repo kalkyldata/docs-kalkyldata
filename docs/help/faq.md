@@ -17,9 +17,26 @@ Här hittar du korta svar på vanliga frågor om Kalkyldata. Varje svar ger dig 
 
 ## Kalkyl och delar
 
+### Hur byter jag namn på en kalkyl?
+
+Öppna sidofältet till vänster, håll muspekaren över kalkylen i listan och klicka på pennikonen (Döp om kalkyl). Skriv det nya namnet och tryck Retur eller klicka på bocken. Namnet uppdateras direkt i både sidofältet och kalkylens sidhuvud.
+
 ### Sparas min kalkyl automatiskt?
 
 Ja. Kalkylen sparas löpande i din webbläsarsession och kopplas till chattråden. Du behöver inte klicka på någon spara-knapp.
+
+### Hur raderar jag en kalkyl?
+
+Öppna sidofältet till vänster (klicka på menyikonen längst upp till vänster om sidofältet är stängt). Håll muspekaren över kalkylen i listan och klicka på **papperskorgen** (*Radera kalkyl*). Bekräfta i dialogrutan som visas. Kalkylen och dess chatthistorik raderas permanent.
+
+### Hur flyttar eller kopierar jag rader mellan delar?
+
+I kalkyltabellen klickar du på menyn (**⋯**) längst till höger på kalkylartikeln. Där kan du välja att flytta artikeln till en annan del, duplicera artikeln eller radera den.
+
+### Vad händer om jag använder Kalkyldata som gäst utan att logga in?
+
+Som gäst kan du testa kalkylverktyget och chatten fritt. Kalkylen sparas enbart i din lokala webbläsarsession och försvinner om du rensar webbläsardata eller stänger fliken. Vill du spara dina projekt och komma åt dem från andra enheter skapar du ett kostnadsfritt konto. Du kan även ladda ner kalkylen som JSON via menyn **⋮** i kalkyltabellen innan du lämnar sidan.
+
 
 ### Vad är skillnaden mellan del, kalkylartikel och uppgift?
 
@@ -54,6 +71,14 @@ Se [Materialpriser](/anvandarguide/kalkyl/materialpriser/).
 Det kan bero på att raden saknar E-nummer eller att det saknas ett listpris för E-numret.
 
 Fyll i E-numret och gör en prisuppdatering.
+
+### Hur byter jag leverantör på en materialrad?
+
+I kalkyltabellen klickar du på grossistkoden i kolumnen **Lev** (till exempel *AH*, *EL*, *SE* eller *RE*). En meny fälls ut som visar alla tillgängliga grossister, deras nettopriser och dina rabatter för just det E-numret. Klicka på den leverantör du vill använda så uppdateras radens pris direkt.
+
+### Hur ser jag produktbilder och specifikationer för en artikel?
+
+Klicka på bildminiatyren till vänster om artikelnamnet i kalkyltabellen eller på artikelkortet i chatten. Då öppnas ett bildgalleri där du kan bläddra mellan bilder på ingående material, se E-nummer, benämningar och öppna tillverkarens originalbild i full upplösning.
 
 ### Hur uppdaterar jag priserna i en gammal kalkyl?
 
@@ -92,6 +117,11 @@ Kontrollera vilken del av rapportinställningarna du ändrar:
 * **Villkor** styr texter.
 
 Förhandsvisningen uppdateras direkt.
+
+### Hur exporterar jag en kalkyl till Excel eller JSON?
+
+- **JSON (fullständig säkerhetskopia):** Klicka på menyn **⋮** längst upp i kalkyltabellen och välj **Ladda ner som JSON (kdx/1)**. Filen kan senare importeras i en ny eller befintlig kalkyl.
+- **Offert / PDF:** Klicka på **Skapa rapport**, välj **Offert**, granska förhandsvisningen och välj **Skriv ut** → *Spara som PDF*.
 
 ### Varför är en sparad rapport oförändrad när jag ändrar kalkylen?
 
