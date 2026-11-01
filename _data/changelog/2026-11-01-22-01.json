@@ -1,0 +1,5 @@
+{
+  "date": "2026-11-01",
+  "title": "Ny Fas 0, tydligare planvy och visningsfixar",
+  "description": "### 🎉 Nya funktioner\n\n- **Fas 0 i planeringen:** Infört en tydlig första fas i planeringsflödet där du kan lägga in inledande uppgifter och se en logg över vad som gjorts.\n\n### 🚀 Förbättringar\n\n- **Tydligare planvy:** Uppdaterat hur planer visas så att innehåll och ordning blir enklare att förstå och hantera.\n- **Uppdaterad chattplan:** Förbättrat visningen av chattrelaterade planer så att nästa steg och ansvar framgår tydligare.\n\n### 🐛 Buggfixar\n\n- **Rättat returformat i Fas 0:** Löste ett problem som gjorde att information i Fas 0 kunde visas i fel format, så nu visas den korrekt och lättläst.\n- **Åtgärdat problem med A-testet:** Löste ett fel som gjorde att alternativet för A-test försvann oväntat, vilket minskar förvirring i planeringen."
+}
