@@ -19,6 +19,9 @@ defaults:
 
 plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag
+  
+google_site_verification: bXGu0H5t1rWnNeK_0u4lq14drzO4NDOANfb_N38qw88
        
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
