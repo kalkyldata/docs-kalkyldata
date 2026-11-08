@@ -1,0 +1,5 @@
+{
+  "date": "2026-11-08",
+  "title": "Nytt användarbibliotek, tydligare chattrespons och stabilare realtidsuppdateringar",
+  "description": "### 🎉 Nya funktioner\n- **Användarbibliotek:** Ett nytt verktyg som låter dig samla och återanvända egna kalkyler och mallar direkt i Kalkyldata.\n\n### 🚀 Förbättringar\n- **Bättre chatt- och textsvar:** Chattens textsvar och automatiska förslag är nu tydligare och mer konsekventa, vilket gör det enklare att få relevanta svar när du arbetar.\n\n### 🐛 Buggfixar\n- **Dubbla realtidsuppdateringar åtgärdade:** Vi har tagit bort ett problem som ibland gjorde att samma ändring visades två gånger i realtid, vilket minskar förvirring när flera personer arbetar samtidigt.\n- **Saknade eller försenade textsvar åtgärdade:** Ett fel som gjorde att vissa textmeddelanden inte levererades eller försenades är löst, så att meddelanden visas korrekt.\n- **Fel vid filhantering åtgärdat:** Ett problem som i vissa situationer gav felmeddelanden vid fil- eller mappåtgärder är löst, så att filoperationer nu fungerar stabilare."
+}
