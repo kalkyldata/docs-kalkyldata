@@ -61,7 +61,7 @@ Att dölja en kolumn påverkar bara visningen. Informationen finns fortfarande k
 
 På mobil visas de viktigaste kolumnerna från början för att ge bättre överblick.
 
-Se [Kolumnreferens](/referens/kolumner/) för en beskrivning av alla kolumner.
+Se [Kolumnreferens]({{ "/referens/kolumner/" | relative_url }}) för en beskrivning av alla kolumner.
 
 ## Bra att veta
 

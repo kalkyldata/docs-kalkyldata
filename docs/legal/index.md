@@ -18,22 +18,22 @@ Här hittar du information om vad som gäller när du använder Kalkyldata och h
 
 Läs om reglerna för hur du får använda Kalkyldata, vad som gäller för ditt konto och dina kalkyler samt ditt ansvar för informationen du lägger in i tjänsten.
 
-[**Användarvillkor**](/villkor/anvandarvillkor/)
+[**Användarvillkor**]({{ "/villkor/anvandarvillkor/" | relative_url }})
 
 ## Integritet och personuppgifter
 
 Läs om vilka personuppgifter Kalkyldata behandlar, varför de behandlas, hur länge de sparas och vilka rättigheter du har.
 
-[**Integritet och personuppgifter**](/villkor/integritet/)
+[**Integritet och personuppgifter**]({{ "/villkor/integritet/" | relative_url }})
 
 ## AI och databehandling
 
 Läs om hur AI-agenten använder information från din fråga och kalkyl, vilka AI-tjänster som används och vad som händer med informationen när du använder AI-funktionerna.
 
-[**AI och databehandling**](/villkor/ai-och-databehandling/)
+[**AI och databehandling**]({{ "/villkor/ai-och-databehandling/" | relative_url }})
 
 ## Cookies och lokal lagring
 
 Läs om cookies, `localStorage` och andra tekniker som används i webbläsaren för bland annat inloggning och produktanalys.
 
-[**Cookies och lokal lagring**](/villkor/cookies/)
+[**Cookies och lokal lagring**]({{ "/villkor/cookies/" | relative_url }})

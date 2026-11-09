@@ -39,7 +39,7 @@ Det finns huvudsakligen två riktningar:
 
 Om du använder ett integrationsverktyg som Make eller Zapier kan det ofta användas som mellanlager mellan Kalkyldata och ditt andra system. Du kan även ansluta ett eget API direkt.
 
-Formatet bygger på samma JSON-struktur som används i Kalkyldata. Se [JSON-formatet för en kalkylartikel](/avancerat/json-format/) och [Utbytesformatet kdx/1](/avancerat/kdx-format/).
+Formatet bygger på samma JSON-struktur som används i Kalkyldata. Se [JSON-formatet för en kalkylartikel]({{ "/avancerat/json-format/" | relative_url }}) och [Utbytesformatet kdx/1]({{ "/avancerat/kdx-format/" | relative_url }}).
 
 ## Format och versionering
 
@@ -66,7 +66,7 @@ Grundprinciperna är:
 
 ## Så begär du åtkomst
 
-Skicka en förfrågan via [Kontakta support](/hjalp/kontakt/) och beskriv:
+Skicka en förfrågan via [Kontakta support]({{ "/hjalp/kontakt/" | relative_url }}) och beskriv:
 
 1. **Vad du vill uppnå** — beskriv behovet med vanliga ord. Exempel: "Vi vill att en färdig offert automatiskt ska skickas till vårt affärssystem."
 2. **Vilket system** du vill koppla till Kalkyldata och om systemet har ett API eller kan ta emot webhooks.

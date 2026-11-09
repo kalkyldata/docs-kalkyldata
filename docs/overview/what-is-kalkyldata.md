@@ -60,6 +60,6 @@ På mobil visas ett område i taget. Växla mellan chatten och kalkylen med knap
 ## Bra att veta
 
 - AI-agenten kan föreslå kalkylartiklar och öppna vyer åt dig, men den lägger aldrig till något i kalkylen utan att du bekräftar.
-- Materialpriser hämtas från prislistor och de rabattbrev du laddar upp. Systemet jämför leverantörerna och väljer det billigaste nettopriset. Läs mer om [hur materialpriserna sätts](/anvandarguide/kalkyl/materialpriser/).
+- Materialpriser hämtas från prislistor och de rabattbrev du laddar upp. Systemet jämför leverantörerna och väljer det billigaste nettopriset. Läs mer om [hur materialpriserna sätts]({{ "/anvandarguide/kalkyl/materialpriser/" | relative_url }}).
 - Du kan skapa egna kalkylartiklar som mallar för återkommande arbeten. Välj om de ska vara **privata** (bara du kan använda dem) eller **publika** (andra användare kan hitta och använda dem).
 - Allt arbete sparas automatiskt löpande. Du kan stänga fönstret och fortsätta senare.

@@ -37,7 +37,7 @@ Använd AI-agenten när du vill att systemet ska föreslå lämpliga kalkylartik
 4. Klicka **Lägg till i kalkyl** på de kalkylartiklar du vill använda.
 5. Välj del och antal om alternativen visas.
 
-AI-agenten använder din fråga och informationen i [projektinfo](/anvandarguide/chat/projektinfo/) när den väljer kalkylartiklar.
+AI-agenten använder din fråga och informationen i [projektinfo]({{ "/anvandarguide/chat/projektinfo/" | relative_url }}) när den väljer kalkylartiklar.
 
 > AI-agenten lägger aldrig till något automatiskt. Du måste alltid bekräfta genom att klicka **Lägg till i kalkyl**.
 
@@ -71,7 +71,7 @@ Du kan bland annat ändra:
 
 Om en kalkylartikel innehåller **0,15 timmar** och **1 vägguttag** och du anger antalet till `4`, räknas både arbetstid och material fyra gånger.
 
-Fält som hämtas automatiskt från SV-ATL eller SV-ENR är låsta tills du byter till en manuell typ. Läs mer i [Så här sätts materialpriserna](/anvandarguide/kalkyl/materialpriser/).
+Fält som hämtas automatiskt från SV-ATL eller SV-ENR är låsta tills du byter till en manuell typ. Läs mer i [Så här sätts materialpriserna]({{ "/anvandarguide/kalkyl/materialpriser/" | relative_url }}).
 
 ## Kontrollera kalkylartikeln
 

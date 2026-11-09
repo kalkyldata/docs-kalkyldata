@@ -61,5 +61,5 @@ När AI-agenten är klar fylls bland annat **Kategori** och **Nyckelord** i. Des
 
 * En kalkylartikel utan uppgifter kan sparas som utkast, men innehåller inget som kan användas i en kalkyl. Lägg till minst en uppgift innan du publicerar artikeln.
 * AI-agenten går igenom kalkylartikeln när du publicerar den och fyller i information som behövs för sökning.
-* Standardartiklar från Kalkyldata går inte att redigera. Använd [Forka och anpassa](/anvandarguide/kalkylartiklar/forka/) om du vill skapa en egen version.
+* Standardartiklar från Kalkyldata går inte att redigera. Använd [Forka och anpassa]({{ "/anvandarguide/kalkylartiklar/forka/" | relative_url }}) om du vill skapa en egen version.
 * När du använder en kalkylartikel i en kalkyl får kalkylen en egen kopia av artikelns uppgifter. Senare ändringar i kalkylartikeln påverkar därför inte kalkyler som redan använder den.

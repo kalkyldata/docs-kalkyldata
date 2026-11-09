@@ -187,7 +187,7 @@ Du kan därefter välja en annan **Grossist** för den enskilda uppgiften.
 
 För **Övrigt material** anger du själv materialets benämning och pris.
 
-Läs mer om hur **Pris/st** sätts på [Så här sätts materialpriserna](/anvandarguide/kalkyl/materialpriser/).
+Läs mer om hur **Pris/st** sätts på [Så här sätts materialpriserna]({{ "/anvandarguide/kalkyl/materialpriser/" | relative_url }}).
 
 ## Hela beräkningsflödet
 

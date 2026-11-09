@@ -46,7 +46,7 @@ En **kalkylartikel** är en återanvändbar mall som innehåller en eller flera 
 
 En **uppgift** är det minsta arbetsmomentet i en kalkyl och kan innehålla arbetstid, material eller båda.
 
-Se [Grundkoncept](/kom-igang/grundkoncept/).
+Se [Grundkoncept]({{ "/kom-igang/grundkoncept/" | relative_url }}).
 
 ### Ändrar jag originalet när jag ändrar en kalkylartikel i kalkylen?
 
@@ -56,7 +56,7 @@ Nej. När du lägger till en kalkylartikel i en kalkyl används en kopia av dess
 
 Kalkyltabellen visar ett urval av kolumner som standard och anpassar sig efter skärmbredden. Du kan visa eller dölja kolumner i kolumnmenyn.
 
-Se [Kolumnreferens](/referens/kolumner/).
+Se [Kolumnreferens]({{ "/referens/kolumner/" | relative_url }}).
 
 ## Materialpriser
 
@@ -64,7 +64,7 @@ Se [Kolumnreferens](/referens/kolumner/).
 
 Materialpriser för artiklar med E-nummer hämtas från prislistor och justeras med de rabattbrev du har läst in. Om flera leverantörer har ett pris för artikeln jämför Kalkyldata nettopriserna och väljer det lägsta.
 
-Se [Materialpriser](/anvandarguide/kalkyl/materialpriser/).
+Se [Materialpriser]({{ "/anvandarguide/kalkyl/materialpriser/" | relative_url }}).
 
 ### Varför står det 0 kr på en materialrad?
 
@@ -98,7 +98,7 @@ Ett utkast visas inte i snabbsök. Egna utkast hittar du under **Mina kalkylarti
 
 Inte direkt. Du kan i stället **forka** kalkylartikeln. Då skapar du en egen kopia som du kan ändra utan att påverka originalet.
 
-Se [Forka en kalkylartikel](/anvandarguide/kalkylartiklar/forka/).
+Se [Forka en kalkylartikel]({{ "/anvandarguide/kalkylartiklar/forka/" | relative_url }}).
 
 ### Vem ser mina kalkylartiklar?
 
@@ -133,7 +133,7 @@ Skapa en ny rapport om du vill att de senaste ändringarna i kalkylen ska komma 
 
 Öppna rapporten och skriv ut den. Välj sedan **Spara som PDF** i utskriftsdialogen.
 
-Se [Utskrift och PDF](/anvandarguide/rapporter/utskrift/).
+Se [Utskrift och PDF]({{ "/anvandarguide/rapporter/utskrift/" | relative_url }}).
 
 ## Chatten och AI-agenten
 
@@ -143,7 +143,7 @@ Se [Utskrift och PDF](/anvandarguide/rapporter/utskrift/).
 
 **AI-agenten** tolkar det du beskriver, föreslår kalkylartiklar och kan hjälpa dig att styra gränssnittet.
 
-Se [Snabbstart](/oversikt/snabbstart/).
+Se [Snabbstart]({{ "/oversikt/snabbstart/" | relative_url }}).
 
 ### Varför blir det tyst efter att verktygen visats?
 

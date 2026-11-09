@@ -46,8 +46,8 @@ Placera filen i den mapp som bäst beskriver **arbetet**, inte det enskilda mate
 ## Så går ett bidrag till
 
 1. Skapa en egen gren eller en fork av repot.
-2. Lägg till eller ändra JSON-filen enligt [JSON-formatet för en kalkylartikel](/avancerat/json-format/).
-3. Kontrollera JSON-filen enligt [Validera och felsök din JSON](/avancerat/validera-json/).
+2. Lägg till eller ändra JSON-filen enligt [JSON-formatet för en kalkylartikel]({{ "/avancerat/json-format/" | relative_url }}).
+3. Kontrollera JSON-filen enligt [Validera och felsök din JSON]({{ "/avancerat/validera-json/" | relative_url }}).
 4. Öppna en pull request och beskriv kort vad kalkylartikeln avser och vilket underlag som används för arbetstiderna.
 5. Efter granskning och merge läser det automatiska flödet in ändringen.
 6. Kalkylartikeln går igenom den automatiska behandlingen och publiceras i katalogen.
@@ -95,7 +95,7 @@ Tänk särskilt på:
 
 ## Innan du öppnar en pull request
 
-Kontrollera JSON-filen med [Validera och felsök din JSON](/avancerat/validera-json/).
+Kontrollera JSON-filen med [Validera och felsök din JSON]({{ "/avancerat/validera-json/" | relative_url }}).
 
 Kontrollera särskilt att:
 

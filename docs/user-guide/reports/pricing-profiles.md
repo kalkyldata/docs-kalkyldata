@@ -83,4 +83,4 @@ Du kan till exempel ha en offertprofil utan moms och en fakturaprofil med moms. 
 
 * En notruta överst i rapporten visar vilken prisstrategi som används. Du kan stänga av den under **Visning**.
 * Du kan sätta ett eget pris på en enskild rad utan att ändra prisprofilen.
-* Vilka priser som finns i kalkylen från början beskrivs i [Så här sätts materialpriserna](/anvandarguide/kalkyl/materialpriser/).
+* Vilka priser som finns i kalkylen från början beskrivs i [Så här sätts materialpriserna]({{ "/anvandarguide/kalkyl/materialpriser/" | relative_url }}).

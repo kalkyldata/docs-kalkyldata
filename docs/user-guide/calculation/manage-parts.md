@@ -61,7 +61,7 @@ När du skapar en rapport kan delarna användas som rubriker och gruppera inneh�
 - En kalkylartikel kan innehålla flera uppgifter.
 - Du kan lägga till en tom kalkylartikel direkt från en del genom att klicka **Lägg till kalkylartikel**.
 - När du tar bort en del tas även dess kalkylartiklar bort.
-- Delar används för att strukturera kalkylen men påverkar inte automatiskt AI-agentens tolkning av nya frågor. Beskriv därför viktiga projektförutsättningar i [projektinfo](/anvandarguide/chat/projektinfo/) eller direkt i chatten.
+- Delar används för att strukturera kalkylen men påverkar inte automatiskt AI-agentens tolkning av nya frågor. Beskriv därför viktiga projektförutsättningar i [projektinfo]({{ "/anvandarguide/chat/projektinfo/" | relative_url }}) eller direkt i chatten.
 
 ## När använder du en del istället för en kategori?
 

@@ -128,7 +128,7 @@ En **uppgift** beskriver ett arbetsmoment och kan innehålla arbetstid, material
 
 När du ändrar **Grossist** för ett **SV-ENR**-material hämtas pris och benämning från den valda grossisten. Du kan göra ändringen direkt i kalkyltabellen eller i kalkylartikelkortet i chatten.
 
-Läs mer om hur priset i **Pris/st** sätts på [Så här sätts materialpriserna](/anvandarguide/kalkyl/materialpriser/).
+Läs mer om hur priset i **Pris/st** sätts på [Så här sätts materialpriserna]({{ "/anvandarguide/kalkyl/materialpriser/" | relative_url }}).
 
 ## Bra att veta
 
@@ -137,4 +137,4 @@ Läs mer om hur priset i **Pris/st** sätts på [Så här sätts materialprisern
 * Kolumnerna för kalkylartiklar används både i kalkyltabellen och i kalkylartikelkorten i chatten.
 * På mobil visas ett begränsat antal kolumner för att göra innehållet lättare att läsa.
 * Kolumnvalet påverkar kalkyltabellen men styr inte vilka kolumner som visas i en rapport.
-* Använd [Sök och filtrera i kalkylen](/anvandarguide/kalkyl/sok-och-filtrera/) när du vill hitta en viss rad eller filtrera kalkylens innehåll.
+* Använd [Sök och filtrera i kalkylen]({{ "/anvandarguide/kalkyl/sok-och-filtrera/" | relative_url }}) när du vill hitta en viss rad eller filtrera kalkylens innehåll.

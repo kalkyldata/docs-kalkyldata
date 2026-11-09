@@ -59,4 +59,4 @@ Detta är användbart när du laddat upp ett nytt rabattbrev efter att kalkylen 
 
 - Ladda upp ett nytt rabattbrev när avtalet ändras. Det senaste ersätter det tidigare för samma leverantör.
 - Rabattbreven gäller bara ditt konto. De delas inte med andra användare.
-- En djupare genomgång finns i [Så sätts materialpriserna](/anvandarguide/kalkyl/materialpriser/).
+- En djupare genomgång finns i [Så sätts materialpriserna]({{ "/anvandarguide/kalkyl/materialpriser/" | relative_url }}).

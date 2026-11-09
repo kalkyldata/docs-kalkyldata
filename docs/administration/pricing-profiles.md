@@ -16,7 +16,7 @@ En **prisprofil** samlar de prisregler du vill använda när du skapar en rappor
 
 När du skapar en rapport väljer du en prisprofil. Kalkyldata använder då profilens inställningar när priserna beräknas.
 
-Vill du förstå hur de olika prisreglerna påverkar priset, läs [Prisstrategier och profiler](/anvandarguide/rapporter/prisstrategier-och-profiler/).
+Vill du förstå hur de olika prisreglerna påverkar priset, läs [Prisstrategier och profiler]({{ "/anvandarguide/rapporter/prisstrategier-och-profiler/" | relative_url }}).
 
 ## Så öppnar du prisprofilerna
 
@@ -72,4 +72,4 @@ En prisprofil kan även innehålla inställningar för hur rapporten ska visas, 
 
 Om ett materialpris saknas för den valda priskällan använder Kalkyldata kalkylpriset och visar en varning i valideringspanelen.
 
-Läs mer i [Validering och felsökning av rapporter](/anvandarguide/rapporter/validering/).
+Läs mer i [Validering och felsökning av rapporter]({{ "/anvandarguide/rapporter/validering/" | relative_url }}).

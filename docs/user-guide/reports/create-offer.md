@@ -74,4 +74,4 @@ Du kan även använda kortkommandot `Ctrl+S` på Windows/Linux eller `⌘+S` på
 
 * Ett utkast sparas automatiskt. Om du lämnar sidan med osparade ändringar får du en fråga först.
 * Rapporten innehåller en ögonblicksbild av priserna. Uppdaterade materialpriser i kalkylen visas först i en ny rapport.
-* Varningar och fel visas i valideringspanelen. Läs [Validering och felsökning](/anvandarguide/rapporter/validering/).
+* Varningar och fel visas i valideringspanelen. Läs [Validering och felsökning]({{ "/anvandarguide/rapporter/validering/" | relative_url }}).

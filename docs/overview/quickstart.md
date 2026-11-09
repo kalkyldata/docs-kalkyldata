@@ -54,7 +54,7 @@ Kort sagt: **snabbsök är ditt uppslagsverk, AI-agenten är din kollega.** Snab
 ## Nästa steg
 
 - Gruppera arbetet i **delar** som `Källare` eller `Plan 2` för att få struktur i offerten.
-- Ladda upp dina **rabattbrev** så att materialpriserna blir korrekta. Läs mer om [hur materialpriserna sätts](/anvandarguide/kalkyl/materialpriser/).
+- Ladda upp dina **rabattbrev** så att materialpriserna blir korrekta. Läs mer om [hur materialpriserna sätts]({{ "/anvandarguide/kalkyl/materialpriser/" | relative_url }}).
 - Stjärnmarkera kalkylartiklar du använder ofta, så prioriteras de i snabbsök.
 - Skapa egna **kalkylartiklar** för arbetsmoment du återkommer till.
 

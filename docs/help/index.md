@@ -16,9 +16,9 @@ Här hittar du hjälp när något inte fungerar som du förväntar dig i Kalkyld
 
 ## Sidor i den här delen
 
-* [Vanliga frågor](/hjalp/vanliga-fragor/) — korta svar på vanliga frågor om kalkyler, priser, rapporter och AI-agenten.
-* [Felmeddelanden och åtgärder](/hjalp/felmeddelanden/) — förklaringar av fel och varningar och vad du kan göra åt dem.
-* [Kontakta support](/hjalp/kontakt/) — information om hur du skickar in ett supportärende.
+* [Vanliga frågor]({{ "/hjalp/vanliga-fragor/" | relative_url }}) — korta svar på vanliga frågor om kalkyler, priser, rapporter och AI-agenten.
+* [Felmeddelanden och åtgärder]({{ "/hjalp/felmeddelanden/" | relative_url }}) — förklaringar av fel och varningar och vad du kan göra åt dem.
+* [Kontakta support]({{ "/hjalp/kontakt/" | relative_url }}) — information om hur du skickar in ett supportärende.
 
 ## Börja här
 
@@ -26,8 +26,8 @@ Om något inte fungerar som förväntat:
 
 1. **Fråga AI-agenten.** Beskriv vad som har hänt och vad du försöker göra. AI-agenten kan hjälpa dig att förstå funktioner, föreslå lösningar och guida dig i Kalkyldata.
 2. **Läs de vanliga frågorna.** Där hittar du korta svar på vanliga frågor om kalkyler, priser, rapporter och AI-agenten.
-3. **Kontrollera felmeddelandet.** Om Kalkyldata visar en varning eller ett fel kan du hitta en förklaring under [Felmeddelanden och åtgärder](/hjalp/felmeddelanden/).
-4. **Kontakta supporten.** Om AI-agenten och dokumentationen inte löser problemet kan du [kontakta supporten](/hjalp/kontakt/).
+3. **Kontrollera felmeddelandet.** Om Kalkyldata visar en varning eller ett fel kan du hitta en förklaring under [Felmeddelanden och åtgärder]({{ "/hjalp/felmeddelanden/" | relative_url }}).
+4. **Kontakta supporten.** Om AI-agenten och dokumentationen inte löser problemet kan du [kontakta supporten]({{ "/hjalp/kontakt/" | relative_url }}).
 
 {: .note }
 
