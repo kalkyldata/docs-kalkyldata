@@ -83,7 +83,7 @@ Skriv inte `tsk_id`. Det genereras vid import.
 
 ## Fält i JSON mot kolumner i appen
 
-Tabellen nedan visar vilket JSON-fält som motsvarar vilken kolumnrubrik i kalkyltabellen. Använd den när du vill gå mellan filen och tabellvyn. Kolumner som saknar JSON-fält är beräknade och finns aldrig i filen. En fullständig beskrivning av varje kolumn finns i [Kolumnreferensen]({{ "/referens/kolumner/" | relative_url }}).
+Tabellen nedan visar vilket JSON-fält som motsvarar vilken kolumnrubrik i kalkyltabellen. Använd den när du vill gå mellan filen och tabellvyn. Kolumner som saknar JSON-fält är beräknade och finns aldrig i filen. En fullständig beskrivning av varje kolumn finns i [Kolumnreferensen]({{ "/anvandarguide/referens/kolumnreferens/" | relative_url }}).
 
 ### Kalkylartikel
 

@@ -17,9 +17,8 @@ En **rapport** presenterar kalkylen som ett kund- eller arbetsdokument. Du välj
 
 ## Sidor i den här delen
 
-* [Skapa en offert]({{ "/anvandarguide/rapporter/skapa-offert/" | relative_url }}) — skapa en offert eller materiallista från kalkylen.
+* [Skapa en offert]({{ "/anvandarguide/rapporter/skapa-offert/" | relative_url }}) — skapa en offert eller materiallista från kalkylen och öppna inställningarna för **Kund & villkor**.
 * [Prisstrategier och profiler]({{ "/anvandarguide/rapporter/prisstrategier-och-profiler/" | relative_url }}) — förstå hur timpris, påslag, moms, ROT och materialpriser styrs.
-* [Villkor, sidhuvud och sidfot]({{ "/anvandarguide/rapporter/villkor-sidhuvud-sidfot/" | relative_url }}) — ange kunduppgifter, giltighetstid, standardavtal och egna texter.
 * [Utskrift och PDF]({{ "/anvandarguide/rapporter/utskrift-och-pdf/" | relative_url }}) — ställ in pappersformat, sidbrytningar och förhandsgranskning.
 * [Validering och felsökning]({{ "/anvandarguide/rapporter/validering/" | relative_url }}) — förstå varningar och åtgärda fel innan rapporten används.
 

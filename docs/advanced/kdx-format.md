@@ -153,4 +153,4 @@ För den praktiska användningen behöver du normalt inte skapa eller redigera `
 
 Kalkyldata skapar formatet automatiskt när du exporterar kalkyldata och tolkar formatet när du importerar.
 
-Se [Import och export av kalkyldata]({{ "/anvandarguide/kalkyl/import-och-export/" | relative_url }}) för steg-för-steg-instruktioner.
+Se [Import och export av kalkyldata]({{ "/anvandarguide/kalkyl/import-export/" | relative_url }}) för steg-för-steg-instruktioner.

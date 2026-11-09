@@ -16,13 +16,13 @@ En kalkyl i Kalkyldata är uppbyggd av **delar**, **kalkylartiklar** och **uppgi
 
 ## Sidor i den här delen
 
-* [Skapa och hantera delar]({{ "/anvandarguide/kalkyl/skapa-och-hantera-delar/" | relative_url }}) — organisera kalkylen efter plats, område eller etapp.
+* [Skapa och hantera delar]({{ "/anvandarguide/kalkyl/delar/" | relative_url }}) — organisera kalkylen efter plats, område eller etapp.
 * [Lägg till kalkylartiklar]({{ "/anvandarguide/kalkyl/lagg-till-kalkylartiklar/" | relative_url }}) — lägg till kalkylartiklar från snabbsök, AI-agenten eller kalkylpanelen.
 * [Så sätts materialpriserna]({{ "/anvandarguide/kalkyl/materialpriser/" | relative_url }}) — förstå hur listpriser, rabattbrev och leverantörsval påverkar materialpriserna.
 * [Sök och filtrera i kalkylen]({{ "/anvandarguide/kalkyl/sok-och-filtrera/" | relative_url }}) — hitta innehåll i kalkylen och anpassa tabellens visning.
-* [Import och export av kalkyldata]({{ "/anvandarguide/kalkyl/import-och-export/" | relative_url }}) — återanvänd uppgifter, kalkylartiklar, delar eller hela kalkyler.
+* [Import och export av kalkyldata]({{ "/anvandarguide/kalkyl/import-export/" | relative_url }}) — återanvänd uppgifter, kalkylartiklar, delar eller hela kalkyler.
 * [Prisoptimering]({{ "/anvandarguide/kalkyl/prisoptimering/" | relative_url }}) — hitta och byt till billigare tillåtna ersättningsartiklar med ersättningsregler.
-* [Kommentarer och arbetsflöde]({{ "/anvandarguide/kalkyl/kommentarer-och-arbetsflode/" | relative_url }}) — granska kalkylen och följ upp sådant som behöver kontrolleras.
+* [Kommentarer och arbetsflöde]({{ "/anvandarguide/kalkyl/kommentarer/" | relative_url }}) — granska kalkylen och följ upp sådant som behöver kontrolleras.
 
 ## Kalkylens nivåer
 
@@ -39,4 +39,4 @@ Arbetstid och materialkostnader summeras från uppgifterna till kalkylartikeln, 
 * Ändringar i kalkyltabellen sparas löpande.
 * Sökning, filter, sortering och dolda kolumner ändrar bara hur kalkylen visas för dig. Kalkylens innehåll påverkas inte.
 * Kontrollera priser och arbetstider innan du använder kalkylen som underlag för en offert.
-* Läs mer om innehållet i kalkyltabellen i [Kolumnreferens]({{ "/referens/kolumner/" | relative_url }}).
+* Läs mer om innehållet i kalkyltabellen i [Kolumnreferens]({{ "/anvandarguide/referens/kolumnreferens/" | relative_url }}).

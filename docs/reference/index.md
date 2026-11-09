@@ -19,7 +19,7 @@ Vill du veta hur du utför en uppgift, till exempel skapar en del eller bygger e
 
 ## Sidor i den här delen
 
-* [Kolumnreferens]({{ "/referens/kolumner/" | relative_url }}) — alla kolumner i kalkyltabellen per nivå, vad de innehåller och vilka som visas som standard.
+* [Kolumnreferens]({{ "/anvandarguide/referens/kolumnreferens/" | relative_url }}) — alla kolumner i kalkyltabellen per nivå, vad de innehåller och vilka som visas som standard.
 * [Terminologi]({{ "/referens/terminologi/" | relative_url }}) — förklaringar av begrepp som projekt, del, kalkylartikel, uppgift, priser och rapporter.
 * [Söksyntax]({{ "/referens/soksyntax/" | relative_url }}) — syntax för sökningar, till exempel citattecken, uteslutning med minustecken och fältfilter som `nr:` och `kat:`.
 * [Beräkningsregler]({{ "/referens/berakningsregler/" | relative_url }}) — hur arbetstid, materialkostnad, summor, påslag och moms räknas fram.
