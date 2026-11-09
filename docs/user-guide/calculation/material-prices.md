@@ -1,3 +1,15 @@
+---
+layout: default
+title: "Materialpriser"
+parent: "Kalkyl"
+nav_order: 7
+permalink: /anvandarguide/kalkyl/materialpriser/
+description: "Lägg till kalkylartiklar med snabbsök, från AI-agentens förslag eller direkt i kalkylpanelen."
+category: "guide"
+tags: ["materialpriser", "snabbsök", "ai-agenten", "kalkyl"]
+audience: "user"
+---
+
 # Så här sätts materialpriserna
 
 Materialpriserna i Kalkyldata kommer från en kombination av branschprislistor, benämnt GNP eller grossistnettopris, och dina egna rabattbrev. Systemet gör jämförelsen åt dig och väljer det billigaste priset automatiskt.
