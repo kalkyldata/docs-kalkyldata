@@ -2,7 +2,8 @@ title: Kalkyldata Docs
 description: Dokumentation för Kalkyldata
 theme: just-the-docs
 
-
+url: "https://kalkyldata.github.io"
+baseurl: "/docs-kalkyldata"
 
 nav_sort: case_insensitive
 nav_external_links_new_tab: true
