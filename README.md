@@ -101,6 +101,16 @@ http://localhost:4000
 
 Den genererade webbplatsen hamnar i katalogen `_site`.
 
+Kontrollera interna Markdown-länkar och dubbla permalänkar efter ett bygge:
+
+```bash
+python3 .github/scripts/check-doc-links.py
+```
+
+Använd Jekylls `relative_url`-filter för interna länkar, till exempel
+`[Materialpriser]({{ "/anvandarguide/kalkyl/materialpriser/" | relative_url }})`.
+Filtret lägger till webbplatsens `baseurl`.
+
 ## Publicering
 
 Dokumentationen publiceras automatiskt via **GitHub Actions** till GitHub Pages.

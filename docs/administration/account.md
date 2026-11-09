@@ -61,7 +61,7 @@ Längst ned på profilsidan kan du ta bort ditt konto. Du får bekräfta i en di
 
 När du tar bort kontot raderas även dina kalkyler, rapporter, egna kalkylartiklar och rabattbrev. Exportera det du vill spara innan du tar bort kontot.
 
-Läs mer om [import och export av kalkyldata]({{ "/anvandarguide/kalkyl/import-och-export/" | relative_url }}).
+Läs mer om [import och export av kalkyldata]({{ "/anvandarguide/kalkyl/import-export/" | relative_url }}).
 
 ## Bra att veta
 

@@ -46,7 +46,7 @@ En **kalkylartikel** är en återanvändbar mall som innehåller en eller flera 
 
 En **uppgift** är det minsta arbetsmomentet i en kalkyl och kan innehålla arbetstid, material eller båda.
 
-Se [Grundkoncept]({{ "/kom-igang/grundkoncept/" | relative_url }}).
+Se [Grundbegrepp]({{ "/kom-igang/grundbegrepp/" | relative_url }}).
 
 ### Ändrar jag originalet när jag ändrar en kalkylartikel i kalkylen?
 
@@ -56,7 +56,7 @@ Nej. När du lägger till en kalkylartikel i en kalkyl används en kopia av dess
 
 Kalkyltabellen visar ett urval av kolumner som standard och anpassar sig efter skärmbredden. Du kan visa eller dölja kolumner i kolumnmenyn.
 
-Se [Kolumnreferens]({{ "/referens/kolumner/" | relative_url }}).
+Se [Kolumnreferens]({{ "/anvandarguide/referens/kolumnreferens/" | relative_url }}).
 
 ## Materialpriser
 
@@ -133,7 +133,7 @@ Skapa en ny rapport om du vill att de senaste ändringarna i kalkylen ska komma 
 
 Öppna rapporten och skriv ut den. Välj sedan **Spara som PDF** i utskriftsdialogen.
 
-Se [Utskrift och PDF]({{ "/anvandarguide/rapporter/utskrift/" | relative_url }}).
+Se [Utskrift och PDF]({{ "/anvandarguide/rapporter/utskrift-och-pdf/" | relative_url }}).
 
 ## Chatten och AI-agenten
 
