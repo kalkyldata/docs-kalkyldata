@@ -20,7 +20,7 @@ Prisoptimeringen visar alltid en diff innan något ändras. Du väljer själv vi
 2. Klicka på **Hantera ersättningsregler**.
 3. Skapa en regel i **Byggare** eller klistra in en befintlig regel under **JSON**.
 4. Spara regeln.
-5. Kör [prisoptimering](/anvandarguide/kalkyl/prisoptimering/).
+5. Kör [prisoptimering]({{ "/anvandarguide/kalkyl/prisoptimering/" | relative_url }}).
 6. Granska de föreslagna bytena i diffen.
 7. Godkänn de ändringar du vill genomföra.
 
@@ -351,4 +351,4 @@ Utöver dina egna regler kan Kalkyldata ha **systemregler** som underhålls cent
 
 Systemregler fungerar på samma sätt som dina egna regler, men kan inte redigeras i Kalkyldata. Du kan fortfarande välja bort föreslagna byten rad för rad i diffen.
 
-Se [Bidra med ersättningsregler via GitHub](/avancerat/github-bidrag-ersattningsregler/).
+Se [Bidra med ersättningsregler via GitHub]({{ "/avancerat/github-bidrag-ersattningsregler/" | relative_url }}).

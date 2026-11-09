@@ -47,7 +47,7 @@ Vill du bidra med en kalkylartikel till Kalkyldatas gemensamma artikelbibliotek 
 
 Ett automatiskt flöde läser in filen och kompletterar kalkylartikeln med metadata som behövs för sökning och publicering. Efter granskning och publicering kan alla användare hitta artikeln i snabbsök och AI-agenten kan föreslå den.
 
-Läs mer på [Bidra till artikelbiblioteket via GitHub](/avancerat/github-bidrag/).
+Läs mer på [Bidra till artikelbiblioteket via GitHub]({{ "/avancerat/github-bidrag/" | relative_url }}).
 
 ## Det du skriver och det systemet fyller i
 
@@ -103,10 +103,10 @@ Det finns två olika JSON-format i Kalkyldata som har olika syften.
 
 **`kdx/1`** används för import och export av befintlig kalkyldata mellan kalkyler och systemets olika nivåer.
 
-Blanda därför inte ihop formaten. Läs [JSON-formatet för en kalkylartikel](/avancerat/json-format/) när du bygger en artikel och [Utbytesformatet kdx/1](/avancerat/kdx-format/) när du arbetar med import och export av kalkyldata.
+Blanda därför inte ihop formaten. Läs [JSON-formatet för en kalkylartikel]({{ "/avancerat/json-format/" | relative_url }}) när du bygger en artikel och [Utbytesformatet kdx/1]({{ "/avancerat/kdx-format/" | relative_url }}) när du arbetar med import och export av kalkyldata.
 
 ## Nästa steg
 
-Om du vill börja skriva en egen kalkylartikel går du vidare till [JSON-formatet för en kalkylartikel](/avancerat/json-format/).
+Om du vill börja skriva en egen kalkylartikel går du vidare till [JSON-formatet för en kalkylartikel]({{ "/avancerat/json-format/" | relative_url }}).
 
 Där finns en komplett fältreferens med exempel på hur arbete, material, tidsuppslag och prisuppslag definieras.

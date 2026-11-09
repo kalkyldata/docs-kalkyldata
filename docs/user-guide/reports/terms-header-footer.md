@@ -64,4 +64,4 @@ Om du behöver använda ett annat pris kan du ange det med en radjustering i rap
 * Valideringsanmärkningar blockerar inte utskrift eller sparande av rapporten.
 * **Radjusteringar** gäller bara rapporten och ändrar inte kalkylen.
 * Kontrollera alltid varningar som kan påverka priset innan du skickar en offert.
-* Läs mer om hur priserna beräknas i [Prisstrategier och profiler](/anvandarguide/rapporter/prisstrategier-och-profiler/).
+* Läs mer om hur priserna beräknas i [Prisstrategier och profiler]({{ "/anvandarguide/rapporter/prisstrategier-och-profiler/" | relative_url }}).

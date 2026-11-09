@@ -110,5 +110,5 @@ AI-agenten använder relevanta delar av handlingarna som underlag när den svara
 
 ## Relaterat
 
-* [Projektinfo](/anvandarguide/chat/projektinfo/)
-* [Skriv effektiva frågor](/anvandarguide/chat/effektiva-fragor/)
+* [Projektinfo]({{ "/anvandarguide/chat/projektinfo/" | relative_url }})
+* [Skriv effektiva frågor]({{ "/anvandarguide/chat/effektiva-fragor/" | relative_url }})

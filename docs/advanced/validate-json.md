@@ -48,7 +48,7 @@ Importera artikeln till en testkalkyl och kontrollera resultatet i kalkyltabelle
 | Priset känns högt | Kontrollera prisunderlag och rabattbrev för aktuell leverantör. |
 | Ett streck visas i prisfältet | Inget pris kunde hämtas eller användas för raden. |
 
-Läs mer om hur priserna sätts i [Materialpriser](/anvandarguide/kalkyl/materialpriser/).
+Läs mer om hur priserna sätts i [Materialpriser]({{ "/anvandarguide/kalkyl/materialpriser/" | relative_url }}).
 
 ## Vanliga symptom och orsaker
 

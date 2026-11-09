@@ -36,7 +36,7 @@ Varje materialartikel identifieras med sitt **E-nummer**. När en uppgift använ
 
 När Kalkyldata hittar samma artikel hos flera grossister beräknas nettopriset utifrån dina rabattbrev och de tillgängliga prisuppgifterna. Kalkyldata kan därefter välja den grossist som ger det lägsta nettopriset.
 
-Läs mer om [hur materialpriserna sätts](/anvandarguide/kalkyl/materialpriser/) och [hur du hanterar rabattbrev](/administration/rabattbrev/).
+Läs mer om [hur materialpriserna sätts]({{ "/anvandarguide/kalkyl/materialpriser/" | relative_url }}) och [hur du hanterar rabattbrev]({{ "/administration/rabattbrev/" | relative_url }}).
 
 ### Om ett pris saknas
 
@@ -99,4 +99,4 @@ Det innebär att du kan bygga kalkylartiklar som både använder aktuella uppgif
 - Behöver du ange en egen arbetstid använder du **Övrig tid**.
 - Behöver du ange ett material utan prisuppslag använder du **Övrigt material**.
 
-Läs mer om hur värdena används i kalkylen i [Beräkningsregler](/referens/berakningsregler/).
+Läs mer om hur värdena används i kalkylen i [Beräkningsregler]({{ "/referens/berakningsregler/" | relative_url }}).

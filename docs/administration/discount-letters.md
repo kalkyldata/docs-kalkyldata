@@ -16,7 +16,7 @@ Ett **rabattbrev** innehåller dina avtalade rabatter hos en grossist. Kalkyldat
 
 Här ser du hur du hanterar rabattbrev när avtal ändras eller när du lägger till en ny leverantör.
 
-Laddar du upp rabattbrev för första gången, se [Ladda upp rabattbrev](/kom-igang/rabattbrev/).
+Laddar du upp rabattbrev för första gången, se [Ladda upp rabattbrev]({{ "/kom-igang/rabattbrev/" | relative_url }}).
 
 ## Så ser du vilka rabattbrev du har
 
@@ -73,7 +73,7 @@ Listpriset kombineras med rabattuppgifterna i dina rabattbrev och Kalkyldata kan
 
 Du kan fortfarande välja en annan leverantör manuellt på en enskild rad när du vill styra var materialet ska köpas.
 
-Läs mer om hur priset väljs i [Så sätts materialpriserna](/anvandarguide/kalkyl/materialpriser/).
+Läs mer om hur priset väljs i [Så sätts materialpriserna]({{ "/anvandarguide/kalkyl/materialpriser/" | relative_url }}).
 
 ## Bra att veta
 

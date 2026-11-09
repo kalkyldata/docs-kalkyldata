@@ -59,4 +59,4 @@ Importen kontrollerar filens format och innehåll innan kalkyldata läggs till.
 
 Ladda om sidan och försök igen. Om problemet kvarstår kan du prova i ett nytt webbläsarfönster.
 
-Om felet fortfarande finns kvar, skicka en felrapport enligt [Kontakta support](/hjalp/kontakt/). Ta gärna med felmeddelandet och vad du gjorde när felet uppstod.
+Om felet fortfarande finns kvar, skicka en felrapport enligt [Kontakta support]({{ "/hjalp/kontakt/" | relative_url }}). Ta gärna med felmeddelandet och vad du gjorde när felet uppstod.

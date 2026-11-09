@@ -31,7 +31,7 @@ Precis som med andra ersättningsregler granskar och godkänner du alltid föres
 ## Så bidrar du med en regel
 
 1. Skapa och testa regeln i Kalkyldata under **Ersättningsregler**.
-2. Kör [prisoptimering](/anvandarguide/kalkyl/prisoptimering/) på en relevant kalkyl och kontrollera resultatet.
+2. Kör [prisoptimering]({{ "/anvandarguide/kalkyl/prisoptimering/" | relative_url }}) på en relevant kalkyl och kontrollera resultatet.
 3. Kontrollera att artiklarna och ersättarna fungerar som avsett.
 4. Växla till fliken **JSON** och kopiera hela regeluppsättningen.
 5. Skapa en JSON-fil i regel-repot under rätt kategori.
@@ -108,5 +108,5 @@ En tydlig beskrivning gör det enklare att granska regeln och förstå syftet me
 
 ## Relaterade guider
 
-* [Ersättningsregler](/avancerat/ersattningsregler/)
-* [Prisoptimering](/anvandarguide/kalkyl/prisoptimering/)
+* [Ersättningsregler]({{ "/avancerat/ersattningsregler/" | relative_url }})
+* [Prisoptimering]({{ "/anvandarguide/kalkyl/prisoptimering/" | relative_url }})

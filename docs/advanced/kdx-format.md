@@ -143,7 +143,7 @@ Det är lätt att blanda ihop formaten eftersom båda använder JSON.
 | Interna ID:n | Skapas vid import | Tas bort vid export och skapas på nytt vid import |
 | Typisk användning | Artikelbibliotek, egna artiklar och GitHub | Flytta eller säkerhetskopiera kalkyldata |
 
-Om du bygger en kalkylartikel som ska återanvändas i artikelbiblioteket ska du alltså utgå från [JSON-formatet för en kalkylartikel](/avancerat/json-format/).
+Om du bygger en kalkylartikel som ska återanvändas i artikelbiblioteket ska du alltså utgå från [JSON-formatet för en kalkylartikel]({{ "/avancerat/json-format/" | relative_url }}).
 
 Om du vill exportera eller importera befintlig kalkyldata använder du `kdx/1`.
 
@@ -153,4 +153,4 @@ För den praktiska användningen behöver du normalt inte skapa eller redigera `
 
 Kalkyldata skapar formatet automatiskt när du exporterar kalkyldata och tolkar formatet när du importerar.
 
-Se [Import och export av kalkyldata](/anvandarguide/kalkyl/import-och-export/) för steg-för-steg-instruktioner.
+Se [Import och export av kalkyldata]({{ "/anvandarguide/kalkyl/import-och-export/" | relative_url }}) för steg-för-steg-instruktioner.

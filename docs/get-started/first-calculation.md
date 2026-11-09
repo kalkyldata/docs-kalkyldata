@@ -47,6 +47,6 @@ Snabbsök är inte tillgängligt i det allra första meddelandet, eftersom du d�
 ## Bra att veta
 
 - AI-agenten föreslår, men lägger aldrig till något i kalkylen utan att du klickar **Lägg till**.
-- Materialpriserna blir korrekta först när du laddat upp dina rabattbrev. Läs mer om [hur materialpriserna sätts](/anvandarguide/kalkyl/materialpriser/).
+- Materialpriserna blir korrekta först när du laddat upp dina rabattbrev. Läs mer om [hur materialpriserna sätts]({{ "/anvandarguide/kalkyl/materialpriser/" | relative_url }}).
 - Stjärnmarkera kalkylartiklar du använder ofta, så prioriteras de i snabbsök nästa gång.
 - Varje kalkyl är en egen konversation. Du hittar tidigare kalkyler i sidopanelen till vänster.

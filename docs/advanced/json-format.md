@@ -46,7 +46,7 @@ Bara `itm_name` är obligatoriskt. Allt annat har standardvärden, men en kalkyl
 | `itm_keywords` | lista med text | `[]` | Sökord. Träffas av snabbsök, så lägg in synonymer och vanliga stavningar. |
 | `itm_quantity` | tal | `1` | Multiplikator för hela kalkylartikeln. Antal `3` tredubblar tid och materialkostnad. |
 | `itm_image` | text | `""` | Bildadress. |
-| `itm_comments` | lista med objekt | `[]` | Noteringar. Se [Kommentarer och noteringar i JSON](/avancerat/json-kommentarer/). |
+| `itm_comments` | lista med objekt | `[]` | Noteringar. Se [Kommentarer och noteringar i JSON]({{ "/avancerat/json-kommentarer/" | relative_url }}). |
 | `itm_tasks` | lista med objekt | `[]` | Uppgifterna som utgör arbetet. |
 
 Skriv inte `itm_id`. Kalkyldata genererar ett nytt id vid import.
@@ -83,7 +83,7 @@ Skriv inte `tsk_id`. Det genereras vid import.
 
 ## Fält i JSON mot kolumner i appen
 
-Tabellen nedan visar vilket JSON-fält som motsvarar vilken kolumnrubrik i kalkyltabellen. Använd den när du vill gå mellan filen och tabellvyn. Kolumner som saknar JSON-fält är beräknade och finns aldrig i filen. En fullständig beskrivning av varje kolumn finns i [Kolumnreferensen](/referens/kolumner/).
+Tabellen nedan visar vilket JSON-fält som motsvarar vilken kolumnrubrik i kalkyltabellen. Använd den när du vill gå mellan filen och tabellvyn. Kolumner som saknar JSON-fält är beräknade och finns aldrig i filen. En fullständig beskrivning av varje kolumn finns i [Kolumnreferensen]({{ "/referens/kolumner/" | relative_url }}).
 
 ### Kalkylartikel
 

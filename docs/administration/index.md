@@ -16,9 +16,9 @@ Under **Administration** hittar du inställningar som du använder när du arbet
 
 ## Sidor i den här delen
 
-* [Konto och inställningar](/administration/konto/) — hantera namn, företag, lösenord, nyhetsbrev och konto.
-* [Hantera prisprofiler](/administration/prisprofiler/) — skapa, kopiera, redigera och ta bort prisprofiler som styr priserna i rapporter.
-* [Hantera rabattbrev](/administration/rabattbrev/) — hantera dina avtalsrabatter och se vilka leverantörer du har rabattbrev för.
+* [Konto och inställningar]({{ "/administration/konto/" | relative_url }}) — hantera namn, företag, lösenord, nyhetsbrev och konto.
+* [Hantera prisprofiler]({{ "/administration/prisprofiler/" | relative_url }}) — skapa, kopiera, redigera och ta bort prisprofiler som styr priserna i rapporter.
+* [Hantera rabattbrev]({{ "/administration/rabattbrev/" | relative_url }}) — hantera dina avtalsrabatter och se vilka leverantörer du har rabattbrev för.
 
 ## Var hittar du inställningarna
 

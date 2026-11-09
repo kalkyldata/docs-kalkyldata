@@ -102,7 +102,7 @@ Du kan skapa egna regler som bestämmer vilka material som får bytas och vilka 
 
 Du kan skapa regler visuellt i **Byggare** eller använda fliken **JSON** för att klistra in eller redigera en regeluppsättning.
 
-För en fullständig guide till hur ersättningsregler fungerar, se [Ersättningsregler](/avancerat/ersattningsregler/).
+För en fullständig guide till hur ersättningsregler fungerar, se [Ersättningsregler]({{ "/avancerat/ersattningsregler/" | relative_url }}).
 
 ## System- och publika regler
 
@@ -120,7 +120,7 @@ Du kan:
 
 Du kan inte redigera själva systemregeln i Kalkyldata.
 
-Vill du bidra med en ny systemregel eller föreslå en ändring kan du läsa [Bidra med ersättningsregler via GitHub](/avancerat/github-bidrag-ersattningsregler/).
+Vill du bidra med en ny systemregel eller föreslå en ändring kan du läsa [Bidra med ersättningsregler via GitHub]({{ "/avancerat/github-bidrag-ersattningsregler/" | relative_url }}).
 
 ### Publika regler
 
@@ -139,5 +139,5 @@ Du kan visa dem och använda dem som utgångspunkt för dina egna regler.
 
 ## Relaterade guider
 
-* [Ersättningsregler](/avancerat/ersattningsregler/)
-* [Bidra med ersättningsregler via GitHub](/avancerat/github-bidrag-ersattningsregler/)
+* [Ersättningsregler]({{ "/avancerat/ersattningsregler/" | relative_url }})
+* [Bidra med ersättningsregler via GitHub]({{ "/avancerat/github-bidrag-ersattningsregler/" | relative_url }})

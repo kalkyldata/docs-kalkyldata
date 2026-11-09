@@ -20,10 +20,10 @@ Du kan använda Kalkyldatas standardartiklar, skapa egna kalkylartiklar eller fo
 
 ## Sidor i den här delen
 
-* [Skapa egna kalkylartiklar](/anvandarguide/kalkylartiklar/skapa/) — skapa en kalkylartikel från grunden, från befintliga uppgifter eller från JSON.
-* [Forka och anpassa](/anvandarguide/kalkylartiklar/forka/) — kopiera en befintlig kalkylartikel och skapa en egen version.
-* [Favoriter](/anvandarguide/kalkylartiklar/favoriter/) — markera kalkylartiklar du använder ofta så att de visas högre upp bland förslagen.
-* [Publicera och dela](/anvandarguide/kalkylartiklar/publicera-och-dela/) — välj om en egen kalkylartikel ska vara privat eller publik och lär dig redigera en publicerad artikel.
+* [Skapa egna kalkylartiklar]({{ "/anvandarguide/kalkylartiklar/skapa/" | relative_url }}) — skapa en kalkylartikel från grunden, från befintliga uppgifter eller från JSON.
+* [Forka och anpassa]({{ "/anvandarguide/kalkylartiklar/forka/" | relative_url }}) — kopiera en befintlig kalkylartikel och skapa en egen version.
+* [Favoriter]({{ "/anvandarguide/kalkylartiklar/favoriter/" | relative_url }}) — markera kalkylartiklar du använder ofta så att de visas högre upp bland förslagen.
+* [Publicera och dela]({{ "/anvandarguide/kalkylartiklar/publicera-och-dela/" | relative_url }}) — välj om en egen kalkylartikel ska vara privat eller publik och lär dig redigera en publicerad artikel.
 
 ## Tre typer av kalkylartiklar
 

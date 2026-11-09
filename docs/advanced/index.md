@@ -16,15 +16,15 @@ Den här delen är för dig som vill arbeta direkt med Kalkyldatas dataformat, s
 
 ## Sidor i den här delen
 
-* [Bygga kalkylartiklar med JSON](/avancerat/json-oversikt/) — när JSON är användbart och hur du skapar kalkylartiklar från JSON.
-* [JSON-formatet för en kalkylartikel](/avancerat/json-format/) — fält för kalkylartiklar och uppgifter med exempel.
-* [Kommentarer och noteringar i JSON](/avancerat/json-kommentarer/) — hur `itm_comments` och `tsk_comments` används.
-* [Utbytesformatet kdx/1](/avancerat/kdx-format/) — formatet som används vid import och export av kalkyldata.
-* [Bidra till artikelbiblioteket via GitHub](/avancerat/github-bidrag/) — mappstruktur, filnamn och hur kalkylartiklar blir sökbara.
-* [Validera och felsök din JSON](/avancerat/validera-json/) — kontrollpunkter och vanliga fel.
-* [Ersättningsregler](/avancerat/ersattningsregler/) — skapa regler som styr vilka materialartiklar som får ersätta varandra vid prisoptimering.
-* [Bidra med ersättningsregler via GitHub](/avancerat/github-bidrag-ersattningsregler/) — så blir en regel en gemensam systemregel, och varför systemregler är skrivskyddade.
-* [API och integrationer](/avancerat/api/) — koppla Kalkyldata till andra system via webhooks. API tillhandahålls efter förfrågan.
+* [Bygga kalkylartiklar med JSON]({{ "/avancerat/json-oversikt/" | relative_url }}) — när JSON är användbart och hur du skapar kalkylartiklar från JSON.
+* [JSON-formatet för en kalkylartikel]({{ "/avancerat/json-format/" | relative_url }}) — fält för kalkylartiklar och uppgifter med exempel.
+* [Kommentarer och noteringar i JSON]({{ "/avancerat/json-kommentarer/" | relative_url }}) — hur `itm_comments` och `tsk_comments` används.
+* [Utbytesformatet kdx/1]({{ "/avancerat/kdx-format/" | relative_url }}) — formatet som används vid import och export av kalkyldata.
+* [Bidra till artikelbiblioteket via GitHub]({{ "/avancerat/github-bidrag/" | relative_url }}) — mappstruktur, filnamn och hur kalkylartiklar blir sökbara.
+* [Validera och felsök din JSON]({{ "/avancerat/validera-json/" | relative_url }}) — kontrollpunkter och vanliga fel.
+* [Ersättningsregler]({{ "/avancerat/ersattningsregler/" | relative_url }}) — skapa regler som styr vilka materialartiklar som får ersätta varandra vid prisoptimering.
+* [Bidra med ersättningsregler via GitHub]({{ "/avancerat/github-bidrag-ersattningsregler/" | relative_url }}) — så blir en regel en gemensam systemregel, och varför systemregler är skrivskyddade.
+* [API och integrationer]({{ "/avancerat/api/" | relative_url }}) — koppla Kalkyldata till andra system via webhooks. API tillhandahålls efter förfrågan.
 
 ## Två JSON-format
 
