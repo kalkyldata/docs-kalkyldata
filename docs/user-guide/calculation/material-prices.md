@@ -1,6 +1,6 @@
 # Så här sätts materialpriserna
 
-Materialpriserna i Kalkyldata kommer från en kombination av branschprislistor och dina egna rabattbrev. Systemet gör jämförelsen åt dig och väljer det billigaste priset automatiskt.
+Materialpriserna i Kalkyldata kommer från en kombination av branschprislistor, benämnt GNP eller grossistnettopris, och dina egna rabattbrev. Systemet gör jämförelsen åt dig och väljer det billigaste priset automatiskt.
 
 ## När hämtas priser?
 
