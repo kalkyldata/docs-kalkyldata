@@ -4,9 +4,9 @@ title: "Materialpriser"
 parent: "Kalkyl"
 nav_order: 7
 permalink: /anvandarguide/kalkyl/materialpriser/
-description: "Lägg till kalkylartiklar med snabbsök, från AI-agentens förslag eller direkt i kalkylpanelen."
+description: "Så sätts materialpriserna i Kalkyldata: listpriser från grossister jämförs med dina rabattbrev och det lägsta nettopriset väljs."
 category: "guide"
-tags: ["materialpriser", "snabbsök", "ai-agenten", "kalkyl"]
+tags: ["materialpriser", "rabattbrev", "grossistpriser", "kalkyl"]
 audience: "user"
 ---
 
