@@ -18,7 +18,7 @@ Du kan rapportera problem direkt från Kalkyldata eller kontakta supporten via e
 
 Använd felrapporten när något i Kalkyldata inte fungerar som det ska.
 
-1. Klicka på **Rapportera problem""-knappen längst ner till höger i gränssnittet.
+1. Klicka på **Rapportera problem**-knappen längst ner till höger i gränssnittet.
 2. Beskriv vad du gjorde.
 3. Beskriv vad du förväntade dig skulle hända.
 4. Beskriv vad som hände i stället.
