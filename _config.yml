@@ -1,6 +1,8 @@
 title: Kalkyldata Docs
 description: Dokumentation för Kalkyldata
 theme: just-the-docs
+lang: sv
+locale: sv_SE
 
 url: "https://kalkyldata.github.io"
 baseurl: "/docs-kalkyldata"
@@ -11,6 +13,10 @@ nav_external_links_new_tab: true
 color_scheme: kalkyldata
  
 defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/kalkyl-overview.png
   - scope:
       path: "docs"
       type: "pages"
