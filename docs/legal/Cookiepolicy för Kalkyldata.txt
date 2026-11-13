@@ -28,9 +28,9 @@ Du kan besöka och prova Kalkyldata utan att skapa ett konto eller logga in.
 
 För anonyma besökare och gästanvändare använder vi inte analys- eller marknadsföringscookies eller motsvarande tekniker för spårning.
 
-Eventuell lokal lagring begränsas till sådan information som är nödvändig för att tillhandahålla de funktioner som du själv väljer att använda.
+Eventuell lagring av information i din webbläsare (till exempel cookies eller lokal lagring) begränsas till sådan information som är nödvändig för att tillhandahålla en tjänst som du uttryckligen har begärt.
 
-Sådan nödvändig lagring omfattas av undantaget från samtyckeskravet i 9 kap. 28 § lagen om elektronisk kommunikation (LEK).
+Sådan lagring är nödvändig för att tillhandahålla en tjänst som du uttryckligen har begärt och omfattas därför av undantaget från samtyckeskravet i 9 kap. 28 § andra stycket lagen (2022:482) om elektronisk kommunikation (LEK).
 
 Du behöver därför inte lämna något separat cookiesamtycke för att besöka eller använda Kalkyldata som gäst.
 
