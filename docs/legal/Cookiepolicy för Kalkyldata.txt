@@ -1,6 +1,6 @@
 # Cookiepolicy för Kalkyldata
 
-**Senast uppdaterad:** 2026-08-31
+**Senast uppdaterad:** 2026-11-13
 
 Den här cookiepolicyn beskriver hur Kalkyldata använder cookies och liknande tekniker när du använder tjänsten.
 
@@ -22,35 +22,41 @@ Cookies kan exempelvis användas för att:
 
 Kalkyldata använder även vissa tekniker som inte är cookies i teknisk mening men som fungerar på ett liknande sätt genom att information lagras lokalt i din webbläsare.
 
-## 2. Hur Kalkyldata använder cookies och liknande tekniker
+## 2. Anonyma besökare och gästanvändare
+
+Du kan besöka och prova Kalkyldata utan att skapa ett konto eller logga in.
+
+För anonyma besökare och gästanvändare använder vi inte analys- eller marknadsföringscookies eller motsvarande tekniker för spårning.
+
+Eventuell lokal lagring begränsas till sådan information som är nödvändig för att tillhandahålla de funktioner som du själv väljer att använda.
+
+Sådan nödvändig lagring omfattas av undantaget från samtyckeskravet i 9 kap. 28 § lagen om elektronisk kommunikation (LEK).
+
+Du behöver därför inte lämna något separat cookiesamtycke för att besöka eller använda Kalkyldata som gäst.
+
+## 3. Hur Kalkyldata använder cookies och liknande tekniker
 
 ### Inloggning
 
-Kalkyldata är en webbaserad applikation och använder för närvarande `localStorage` i webbläsaren för att hantera din inloggningssession.
+När du loggar in och använder Kalkyldata används nödvändig sessions- och funktionslagring i webbläsaren för att tjänsten ska fungera korrekt.
 
-Det innebär att din session kan finnas kvar lokalt i webbläsaren så att du kan fortsätta använda Kalkyldata utan att behöva logga in på nytt varje gång.
+Detta omfattar bland annat hantering av inloggning, kontoinformation, inställningar och information som behövs för att kalkylen ska fungera.
 
-Kalkyldata använder för närvarande inte cookies för denna funktion.
+Genom att godkänna Kalkyldatas användarvillkor accepterar du den nödvändiga sessions- och funktionslagring som krävs för att tillhandahålla tjänsten.
 
-## 3. Produktanalys
+## 4. Produktanalys
 
-Kalkyldata använder **PostHog** för produktanalys.
+Kalkyldata använder PostHog för produktanalys bland inloggade användare i syfte att förstå hur tjänsten används och förbättra funktionerna.
 
-PostHog används för att förstå hur Kalkyldata används och för att kunna förbättra tjänsten. Det kan exempelvis hjälpa oss att förstå vilka funktioner som används, identifiera problem och se hur användare navigerar i tjänsten.
+Produktanalys används inte för anonyma besökare eller gästanvändare och används inte för marknadsföringsspårning.
 
-I den nuvarande konfigurationen använder PostHog `localStorage` för att lagra information som behövs för analysen, bland annat ett sessions-ID.
-
-PostHog används för produktanalys och inte för marknadsföringsannonser.
-
-Kalkyldata använder för närvarande inga Meta- eller Google-pixlar för marknadsföringsspårning.
-
-## 4. Tredjepartscookies
+## 5. Tredjepartscookies
 
 Kalkyldata använder för närvarande **inga tredjepartscookies**.
 
 Det innebär att tjänsten i nuläget inte använder exempelvis Meta- eller Google-cookies för att spåra användare för marknadsföringsändamål.
 
-## 5. Framtida marknadsföring och analys
+## 6. Framtida marknadsföring och analys
 
 Kalkyldata kan i framtiden komma att använda tjänster från exempelvis **Meta** och **Google** för marknadsföring, annonsering, konverteringsmätning eller analys.
 
@@ -65,7 +71,7 @@ Om sådana tekniker införs kommer denna cookiepolicy att uppdateras med informa
 
 När samtycke krävs kommer Kalkyldata att inhämta detta innan tekniken används.
 
-## 6. Hantera cookies och lokal lagring
+## 7. Hantera cookies och lokal lagring
 
 Du kan normalt hantera cookies och lokal lagring genom inställningarna i din webbläsare.
 
@@ -73,7 +79,7 @@ Om du blockerar eller raderar lokal lagring kan vissa funktioner i Kalkyldata p�
 
 Inställningarna och möjligheterna varierar mellan olika webbläsare.
 
-## 7. Ändringar av cookiepolicyn
+## 8. Ändringar av cookiepolicyn
 
 Kalkyldata kan uppdatera denna cookiepolicy när tjänsten eller de tekniker som används förändras.
 
@@ -81,7 +87,7 @@ Den aktuella versionen finns alltid tillgänglig på Kalkyldatas webbplats.
 
 Om vi börjar använda nya cookies eller liknande tekniker som kräver information eller samtycke kommer detta att hanteras enligt de regler som gäller vid tidpunkten för införandet.
 
-## 8. Kontakt
+## 9. Kontakt
 
 Om du har frågor om Kalkyldatas användning av cookies eller liknande tekniker kan du kontakta:
 
