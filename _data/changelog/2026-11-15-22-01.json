@@ -1,0 +1,5 @@
+{
+  "date": "2026-11-15",
+  "title": "Ny gästlänk i chatt, Tavily och snabbare prisförslag",
+  "description": "### 🎉 Nya funktioner\n\n- **Gästlänk i chatt:** Du kan nu skapa en länk som låter externa deltagare ansluta till en chatt utan konto.\n- **Stöd för Tavily:** Ett nytt alternativ som heter Tavily har lagts till i verktyget och är tillgängligt för användning i dina arbetsflöden.\n\n### 🚀 Förbättringar\n\n- **Snabbsök för prisförslag:** Snabbsök-funktionen för prisförslag visar nu förslag snabbare och med bättre träffsäkerhet.\n- **Förslagsfokus och tangentbordsnavigering:** Förslagslistor hanterar fokus bättre, vilket gör det enklare att navigera och välja förslag med tangentbordet.\n- **Uppdaterad välkomsttext:** Välkomsttexten är omformulerad för att vara tydligare och hjälpa nya användare snabbare komma igång.\n\n### 🐛 Buggfixar\n\n- **Bakgrundsrendering:** Åtgärdat ett fel som gjorde att bakgrunden inte visades korrekt i vissa vyer.\n- **Chattruta och ikoner:** Fixat visuella problem i chattrutan och ikoner som kunde påverka läsbarhet och layout.\n- **Spårningskakor:** Verifierat att inga spårningskakor aktiveras utan användarens samtycke.\n"
+}
