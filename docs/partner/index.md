@@ -5,7 +5,7 @@ nav_order: 10
 permalink: /partner/
 description: "Datatjänster, master grossistkatalog (Ahlsell, Rexel, Sonepar, Solar), produktbilds-CDN, ackordstidslistan (ATL), kalkylrecept och MCP-server för affärssystem och AI-agenter."
 category: "partner"
-tags: ["partner", "b2b", "api", "mcp", "grossistpriser", "grossistprisfil" "gnp", "ackordstidslista", "atl", "kdx", "e-nummer", "produktbilder", "gtin", "mpn", "ahlsell", "rexel", "sonepar", "solar"]
+tags: ["partner", "b2b", "api", "mcp", "grossistpriser", "grossistprisfil", "gnp", "ackordstidslista", "atl", "kdx", "e-nummer", "produktbilder", "gtin", "mpn", "ahlsell", "rexel", "sonepar", "solar"]
 audience: "advanced"
 has_children: true
 ---
