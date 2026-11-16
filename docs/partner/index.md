@@ -41,7 +41,7 @@ Vår masterprislista samlar och normaliserar materialdata från Sveriges fyra le
 
 ### Vad grossist-API:et löser för externa system
 
-- **Flergrossistjämförelse:** Ett anrop mot ett E-nummer eller MPN returnerar omedelbart pris, rabattgrupp och lagerstatusindikator hos samtliga fyra grossister samtidigt.
+- **Flergrossistjämförelse:** Ett anrop mot ett E-nummer/MPN eller GTIN returnerar omedelbart pris, rabattgrupp och lagerstatusindikator hos samtliga fyra grossister samtidigt.
 - **Automatisk nettoprissättning:** API:et kan applicera kundens egna rabattbrev mot grossisternas rabattkoder för att i realtid beräkna lägsta faktiska nettopris.
 - **Katalogtvätt och validering:** Identifiera felaktiga eller utgångna E-nummer och få automatiska förslag på moderna ersättningsartiklar.
 - **Streckkods- och tillverkaruppslag:** Hitta rätt E-nummer via GTIN eller tillverkarens modellnummer vid scanning på bygget eller från externa materialdatablad.
@@ -61,7 +61,7 @@ Kalkyldata tillhandahåller ett **bild-API och globalt CDN** som mappar produktb
 
 ### Användningsfall för bildtjänsten
 
-- **Säljande offerter i affärssystem:** Bygglet, Next, Fortnox eller Visma kan enkelt berika sina materiallistor och offertbilagor med riktiga produktbilder utan att lagra bildfiler själva.
+- **Säljande offerter i affärssystem:** Mjukvara för offerttjänster eller verkssamhetssystem kan enkelt berika sina materiallistor och offertbilagor med riktiga produktbilder utan att lagra bildfiler själva.
 - **Inköps- och beställningsstöd:** Installatörer och montörer kan visuellt verifiera att rätt apparat, kåpa eller färg beställs.
 - **E-handelsintegration:** Mindre grossister eller specialbutiker kan visa officiella produktbilder på tusentals E-nummer direkt.
 
