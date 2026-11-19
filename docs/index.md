@@ -42,6 +42,8 @@ Kalkyldata är utvecklat för kalkylering av **elinstallationer och elentreprena
 
 Materialpriser för standardartiklar hämtas från prislistor och kan beräknas utifrån dina **rabattbrev**. Kalkyldata jämför nettopriser mellan leverantörer och använder det billigaste tillgängliga nettopriset.
 
+Normtider för standardartiklar baseras på **Elektrikernas Ackordstidslista** (ATL). Kalkyldata använder listans tidsvärden för att beräkna normerad arbetstid för olika installationsmoment.
+
 Du kan också skapa egna **kalkylartiklar** för återkommande arbeten och använda dem som mallar i framtida kalkyler.
 
 ## För elektriker, kalkylatorer och elentreprenörer
